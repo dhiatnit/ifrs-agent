@@ -8,15 +8,7 @@
 
 **2** This standard shall be applied in accounting for property, plant and equipment except when another standard requires or permits a different accounting treatment.
 
-3 | This Standard does not apply to: (a) property, plant and equipment classified as held for sale in accordance with IFRS 5 Non-current Assets Held for Sale and Discontinued Operations . (b) biological assets related to agricultural activity other than bearer plants (see IAS 41 Agriculture ). This Standard applies to bearer plants but it does not apply to the produce on bearer plants. (c) the recognition and measurement of exploration and evaluation assets (see IFRS 6 Exploration for and Evaluation of Mineral Resources ). (d) mineral rights and mineral reserves such as oil, natural gas and similar non-regenerative resources. However, this standard applies to property, plant and equipment used to develop or maintain the assets described in (b)-(d). | (a) | property, plant and equipment classified as held for sale in accordance with IFRS 5 Non-current Assets Held for Sale and Discontinued Operations . | (b) | biological assets related to agricultural activity other than bearer plants (see IAS 41 Agriculture ). This Standard applies to bearer plants but it does not apply to the produce on bearer plants. | (c) | the recognition and measurement of exploration and evaluation assets (see IFRS 6 Exploration for and Evaluation of Mineral Resources ). | (d) | mineral rights and mineral reserves such as oil, natural gas and similar non-regenerative resources.
-
-**(a)** property, plant and equipment classified as held for sale in accordance with IFRS 5 Non-current Assets Held for Sale and Discontinued Operations .
-
-**(b)** biological assets related to agricultural activity other than bearer plants (see IAS 41 Agriculture ). This Standard applies to bearer plants but it does not apply to the produce on bearer plants.
-
-**(c)** the recognition and measurement of exploration and evaluation assets (see IFRS 6 Exploration for and Evaluation of Mineral Resources ).
-
-**(d)** mineral rights and mineral reserves such as oil, natural gas and similar non-regenerative resources.
+**3** This Standard does not apply to: (a) property, plant and equipment classified as held for sale in accordance with IFRS 5 Non-current Assets Held for Sale and Discontinued Operations . (b) biological assets related to agricultural activity other than bearer plants (see IAS 41 Agriculture ). This Standard applies to bearer plants but it does not apply to the produce on bearer plants. (c) the recognition and measurement of exploration and evaluation assets (see IFRS 6 Exploration for and Evaluation of Mineral Resources ). (d) mineral rights and mineral reserves such as oil, natural gas and similar non-regenerative resources. However, this standard applies to property, plant and equipment used to develop or maintain the assets described in (b)-(d).
 
 **4** [Deleted]
 
@@ -24,29 +16,11 @@
 
 ## DEFINITIONS
 
-6 | The following terms are used in this Standard with the meanings specified: A bearer plant is a living plant that: (a) is used in the production or supply of agricultural produce; (b) is expected to bear produce for more than one period; and (c) has a remote likelihood of being sold as agricultural produce, except for incidental scrap sales. (Paragraphs 5A–5B of IAS 41 elaborate on this definition of a bearer plant.) Carrying amount is the amount at which an asset is recognised after deducting any accumulated depreciation and accumulated impairment losses. Cost is the amount of cash or cash equivalents paid or the fair value of the other consideration given to acquire an asset at the time of its acquisition or construction or, where applicable, the amount attributed to that asset when initially recognised in accordance with the specific requirements of other IFRSs , e.g. IFRS 2 Share - based Payment . Depreciable amount is the cost of an asset, or other amount substituted for cost, less its residual value. Depreciation is the systematic allocation of the depreciable amount of an asset over its useful life. Entity - specific value is the present value of the cash flows an entity expects to arise from the continuing use of an asset and from its disposal at the end of its useful life or expects to incur when settling a liability. Fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. (See IFRS 13 Fair Value Measurement .) An impairment loss is the amount by which the carrying amount of an asset exceeds its recoverable amount. Property, plant and equipment are tangible items that: (a) are held for use in the production or supply of goods or services, for rental to others, or for administrative purposes; and (b) are expected to be used during more than one period. Recoverable amount is the higher of an asset's fair value less costs of disposal and its value in use. The residual value of an asset is the estimated amount that an entity would currently obtain from disposal of the asset, after deducting the estimated costs of disposal, if the asset were already of the age and in the condition expected at the end of its useful life. Useful life is: (a) the period over which an asset is expected to be available for use by an entity; or (b) the number of production or similar units expected to be obtained from the asset by an entity. | (a) | is used in the production or supply of agricultural produce; | (b) | is expected to bear produce for more than one period; and | (c) | has a remote likelihood of being sold as agricultural produce, except for incidental scrap sales. | (a) | are held for use in the production or supply of goods or services, for rental to others, or for administrative purposes; and | (b) | are expected to be used during more than one period. | (a) | the period over which an asset is expected to be available for use by an entity; or | (b) | the number of production or similar units expected to be obtained from the asset by an entity.
-
-**(a)** is used in the production or supply of agricultural produce;
-
-**(b)** is expected to bear produce for more than one period; and
-
-**(c)** has a remote likelihood of being sold as agricultural produce, except for incidental scrap sales.
-
-**(a)** are held for use in the production or supply of goods or services, for rental to others, or for administrative purposes; and
-
-**(b)** are expected to be used during more than one period.
-
-**(a)** the period over which an asset is expected to be available for use by an entity; or
-
-**(b)** the number of production or similar units expected to be obtained from the asset by an entity.
+**6** The following terms are used in this Standard with the meanings specified: A bearer plant is a living plant that: (a) is used in the production or supply of agricultural produce; (b) is expected to bear produce for more than one period; and (c) has a remote likelihood of being sold as agricultural produce, except for incidental scrap sales. (Paragraphs 5A–5B of IAS 41 elaborate on this definition of a bearer plant.) Carrying amount is the amount at which an asset is recognised after deducting any accumulated depreciation and accumulated impairment losses. Cost is the amount of cash or cash equivalents paid or the fair value of the other consideration given to acquire an asset at the time of its acquisition or construction or, where applicable, the amount attributed to that asset when initially recognised in accordance with the specific requirements of other IFRSs , e.g. IFRS 2 Share - based Payment . Depreciable amount is the cost of an asset, or other amount substituted for cost, less its residual value. Depreciation is the systematic allocation of the depreciable amount of an asset over its useful life. Entity - specific value is the present value of the cash flows an entity expects to arise from the continuing use of an asset and from its disposal at the end of its useful life or expects to incur when settling a liability. Fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. (See IFRS 13 Fair Value Measurement .) An impairment loss is the amount by which the carrying amount of an asset exceeds its recoverable amount. Property, plant and equipment are tangible items that: (a) are held for use in the production or supply of goods or services, for rental to others, or for administrative purposes; and (b) are expected to be used during more than one period. Recoverable amount is the higher of an asset's fair value less costs of disposal and its value in use. The residual value of an asset is the estimated amount that an entity would currently obtain from disposal of the asset, after deducting the estimated costs of disposal, if the asset were already of the age and in the condition expected at the end of its useful life. Useful life is: (a) the period over which an asset is expected to be available for use by an entity; or (b) the number of production or similar units expected to be obtained from the asset by an entity.
 
 ## RECOGNITION
 
-7 | The cost of an item of property, plant and equipment shall be recognised as an asset if, and only if: (a) it is probable that future economic benefits associated with the item will flow to the entity; and (b) the cost of the item can be measured reliably. | (a) | it is probable that future economic benefits associated with the item will flow to the entity; and | (b) | the cost of the item can be measured reliably.
-
-**(a)** it is probable that future economic benefits associated with the item will flow to the entity; and
-
-**(b)** the cost of the item can be measured reliably.
+**7** The cost of an item of property, plant and equipment shall be recognised as an asset if, and only if: (a) it is probable that future economic benefits associated with the item will flow to the entity; and (b) the cost of the item can be measured reliably.
 
 **8** Items such as spare parts, stand-by equipment and servicing equipment are recognised in accordance with this IFRS when they meet the definition of property, plant and equipment. Otherwise, such items are classified as inventory.
 
@@ -72,47 +46,15 @@
 
 ## Elements of cost
 
-16 | The cost of an item of property, plant and equipment comprises: (a) its purchase price, including import duties and non-refundable purchase taxes, after deducting trade discounts and rebates; (b) any costs directly attributable to bringing the asset to the location and condition necessary for it to be capable of operating in the manner intended by management; (c) the initial estimate of the costs of dismantling and removing the item and restoring the site on which it is located, the obligation for which an entity incurs either when the item is acquired or as a consequence of having used the item during a particular period for purposes other than to produce inventories during that period. | (a) | its purchase price, including import duties and non-refundable purchase taxes, after deducting trade discounts and rebates; | (b) | any costs directly attributable to bringing the asset to the location and condition necessary for it to be capable of operating in the manner intended by management; | (c) | the initial estimate of the costs of dismantling and removing the item and restoring the site on which it is located, the obligation for which an entity incurs either when the item is acquired or as a consequence of having used the item during a particular period for purposes other than to produce inventories during that period.
+**16** The cost of an item of property, plant and equipment comprises: (a) its purchase price, including import duties and non-refundable purchase taxes, after deducting trade discounts and rebates; (b) any costs directly attributable to bringing the asset to the location and condition necessary for it to be capable of operating in the manner intended by management; (c) the initial estimate of the costs of dismantling and removing the item and restoring the site on which it is located, the obligation for which an entity incurs either when the item is acquired or as a consequence of having used the item during a particular period for purposes other than to produce inventories during that period.
 
-**(a)** its purchase price, including import duties and non-refundable purchase taxes, after deducting trade discounts and rebates;
-
-**(b)** any costs directly attributable to bringing the asset to the location and condition necessary for it to be capable of operating in the manner intended by management;
-
-**(c)** the initial estimate of the costs of dismantling and removing the item and restoring the site on which it is located, the obligation for which an entity incurs either when the item is acquired or as a consequence of having used the item during a particular period for purposes other than to produce inventories during that period.
-
-17 | Examples of directly attributable costs are: (a) costs of employee benefits (as defined in IAS 19 Employee benefits ) arising directly from the construction or acquisition of the item of property, plant and equipment; (b) costs of site preparation; (c) initial delivery and handling costs; (d) installation and assembly costs; (e) costs of testing whether the asset is functioning properly (ie assessing whether the technical and physical performance of the asset is such that it is capable of being used in the production or supply of goods or services, for rental to others, or for administrative purposes); and (f) professional fees. | (a) | costs of employee benefits (as defined in IAS 19 Employee benefits ) arising directly from the construction or acquisition of the item of property, plant and equipment; | (b) | costs of site preparation; | (c) | initial delivery and handling costs; | (d) | installation and assembly costs; | (e) | costs of testing whether the asset is functioning properly (ie assessing whether the technical and physical performance of the asset is such that it is capable of being used in the production or supply of goods or services, for rental to others, or for administrative purposes); and | (f) | professional fees.
-
-**(a)** costs of employee benefits (as defined in IAS 19 Employee benefits ) arising directly from the construction or acquisition of the item of property, plant and equipment;
-
-**(b)** costs of site preparation;
-
-**(c)** initial delivery and handling costs;
-
-**(d)** installation and assembly costs;
-
-**(e)** costs of testing whether the asset is functioning properly (ie assessing whether the technical and physical performance of the asset is such that it is capable of being used in the production or supply of goods or services, for rental to others, or for administrative purposes); and
-
-**(f)** professional fees.
+**17** Examples of directly attributable costs are: (a) costs of employee benefits (as defined in IAS 19 Employee benefits ) arising directly from the construction or acquisition of the item of property, plant and equipment; (b) costs of site preparation; (c) initial delivery and handling costs; (d) installation and assembly costs; (e) costs of testing whether the asset is functioning properly (ie assessing whether the technical and physical performance of the asset is such that it is capable of being used in the production or supply of goods or services, for rental to others, or for administrative purposes); and (f) professional fees.
 
 **18** An entity applies IAS 2 Inventories to the costs of obligations for dismantling, removing and restoring the site on which an item is located that are incurred during a particular period as a consequence of having used the item to produce inventories during that period. The obligations for costs accounted for in accordance with IAS 2 or IAS 16 are recognised and measured in accordance with IAS 37 Provisions, Contingent Liabilities and Contingent Assets .
 
-19 | Examples of costs that are not costs of an item of property, plant and equipment are: (a) costs of opening a new facility; (b) costs of introducing a new product or service (including costs of advertising and promotional activities); (c) costs of conducting business in a new location or with a new class of customer (including costs of staff training); and (d) administration and other general overhead costs. | (a) | costs of opening a new facility; | (b) | costs of introducing a new product or service (including costs of advertising and promotional activities); | (c) | costs of conducting business in a new location or with a new class of customer (including costs of staff training); and | (d) | administration and other general overhead costs.
+**19** Examples of costs that are not costs of an item of property, plant and equipment are: (a) costs of opening a new facility; (b) costs of introducing a new product or service (including costs of advertising and promotional activities); (c) costs of conducting business in a new location or with a new class of customer (including costs of staff training); and (d) administration and other general overhead costs.
 
-**(a)** costs of opening a new facility;
-
-**(b)** costs of introducing a new product or service (including costs of advertising and promotional activities);
-
-**(c)** costs of conducting business in a new location or with a new class of customer (including costs of staff training); and
-
-**(d)** administration and other general overhead costs.
-
-20 | Recognition of costs in the carrying amount of an item of property, plant and equipment ceases when the item is in the location and condition necessary for it to be capable of operating in the manner intended by management. Therefore, costs incurred in using or redeploying an item are not included in the carrying amount of that item. For example, the following costs are not included in the carrying amount of an item of property, plant and equipment: (a) costs incurred while an item capable of operating in the manner intended by management has yet to be brought into use or is operated at less than full capacity; (b) initial operating losses, such as those incurred while demand for the item's output builds up; and (c) costs of relocating or reorganising part or all of an entity's operations. | (a) | costs incurred while an item capable of operating in the manner intended by management has yet to be brought into use or is operated at less than full capacity; | (b) | initial operating losses, such as those incurred while demand for the item's output builds up; and | (c) | costs of relocating or reorganising part or all of an entity's operations.
-
-**(a)** costs incurred while an item capable of operating in the manner intended by management has yet to be brought into use or is operated at less than full capacity;
-
-**(b)** initial operating losses, such as those incurred while demand for the item's output builds up; and
-
-**(c)** costs of relocating or reorganising part or all of an entity's operations.
+**20** Recognition of costs in the carrying amount of an item of property, plant and equipment ceases when the item is in the location and condition necessary for it to be capable of operating in the manner intended by management. Therefore, costs incurred in using or redeploying an item are not included in the carrying amount of that item. For example, the following costs are not included in the carrying amount of an item of property, plant and equipment: (a) costs incurred while an item capable of operating in the manner intended by management has yet to be brought into use or is operated at less than full capacity; (b) initial operating losses, such as those incurred while demand for the item's output builds up; and (c) costs of relocating or reorganising part or all of an entity's operations.
 
 **20A** Items may be produced while bringing an item of property, plant and equipment to the location and condition necessary for it to be capable of operating in the manner intended by management (such as samples produced when testing whether the asset is functioning properly). An entity recognises the proceeds from selling any such items, and the cost of those items, in profit or loss in accordance with applicable Standards. The entity measures the cost of those items applying the measurement requirements of IAS 2.
 
@@ -128,13 +70,7 @@
 
 **24** One or more items of property, plant and equipment may be acquired in exchange for a non-monetary asset or assets, or a combination of monetary and non-monetary assets. The following discussion refers simply to an exchange of one non-monetary asset for another, but it also applies to all exchanges described in the preceding sentence. The cost of such an item of property, plant and equipment is measured at fair value unless (a) the exchange transaction lacks commercial substance or (b) the fair value of neither the asset received nor the asset given up is reliably measurable. The acquired item is measured in this way even if an entity cannot immediately derecognise the asset given up. If the acquired item is not measured at fair value, its cost is measured at the carrying amount of the asset given up.
 
-25 | An entity determines whether an exchange transaction has commercial substance by considering the extent to which its future cash flows are expected to change as a result of the transaction. An exchange transaction has commercial substance if: (a) the configuration (risk, timing and amount) of the cash flows of the asset received differs from the configuration of the cash flows of the asset transferred; or (b) the entity-specific value of the portion of the entity's operations affected by the transaction changes as a result of the exchange; and (c) the difference in (a) or (b) is significant relative to the fair value of the assets exchanged. For the purpose of determining whether an exchange transaction has commercial substance, the entity-specific value of the portion of the entity's operations affected by the transaction shall reflect post-tax cash flows. The result of these analyses may be clear without an entity having to perform detailed calculations. | (a) | the configuration (risk, timing and amount) of the cash flows of the asset received differs from the configuration of the cash flows of the asset transferred; or | (b) | the entity-specific value of the portion of the entity's operations affected by the transaction changes as a result of the exchange; and | (c) | the difference in (a) or (b) is significant relative to the fair value of the assets exchanged.
-
-**(a)** the configuration (risk, timing and amount) of the cash flows of the asset received differs from the configuration of the cash flows of the asset transferred; or
-
-**(b)** the entity-specific value of the portion of the entity's operations affected by the transaction changes as a result of the exchange; and
-
-**(c)** the difference in (a) or (b) is significant relative to the fair value of the assets exchanged.
+**25** An entity determines whether an exchange transaction has commercial substance by considering the extent to which its future cash flows are expected to change as a result of the transaction. An exchange transaction has commercial substance if: (a) the configuration (risk, timing and amount) of the cash flows of the asset received differs from the configuration of the cash flows of the asset transferred; or (b) the entity-specific value of the portion of the entity's operations affected by the transaction changes as a result of the exchange; and (c) the difference in (a) or (b) is significant relative to the fair value of the assets exchanged. For the purpose of determining whether an exchange transaction has commercial substance, the entity-specific value of the portion of the entity's operations affected by the transaction shall reflect post-tax cash flows. The result of these analyses may be clear without an entity having to perform detailed calculations.
 
 **26** The fair value of an asset is reliably measurable if (a) the variability in the range of reasonable fair value measurements is not significant for that asset or (b) the probabilities of the various estimates within the range can be reasonably assessed and used when measuring fair value. If an entity is able to measure reliably the fair value of either the asset received or the asset given up, then the fair value of the asset given up is used to measure the cost of the asset received unless the fair value of the asset received is more clearly evident.
 
@@ -164,33 +100,11 @@
 
 **34** The frequency of revaluations depends upon the changes in fair values of the items of property, plant and equipment being revalued. When the fair value of a revalued asset differs materially from its carrying amount, a further revaluation is required. Some items of property, plant and equipment experience significant and volatile changes in fair value, thus necessitating annual revaluation. Such frequent revaluations are unnecessary for items of property, plant and equipment with only insignificant changes in fair value. Instead, it may be necessary to revalue the item only every three or five years.
 
-35 | When an item of property, plant and equipment is revalued, the carrying amount of that asset is adjusted to the revalued amount. At the date of the revaluation, the asset is treated in one of the following ways: (a) the gross carrying amount is adjusted in a manner that is consistent with the revaluation of the carrying amount of the asset. For example, the gross carrying amount may be restated by reference to observable market data or it may be restated proportionately to the change in the carrying amount. The accumulated depreciation at the date of the revaluation is adjusted to equal the difference between the gross carrying amount and the carrying amount of the asset after taking into account accumulated impairment losses; or (b) the accumulated depreciation is eliminated against the gross carrying amount of the asset. The amount of the adjustment of accumulated depreciation forms part of the increase or decrease in carrying amount that is accounted for in accordance with paragraphs 39 and 40. | (a) | the gross carrying amount is adjusted in a manner that is consistent with the revaluation of the carrying amount of the asset. For example, the gross carrying amount may be restated by reference to observable market data or it may be restated proportionately to the change in the carrying amount. The accumulated depreciation at the date of the revaluation is adjusted to equal the difference between the gross carrying amount and the carrying amount of the asset after taking into account accumulated impairment losses; or | (b) | the accumulated depreciation is eliminated against the gross carrying amount of the asset.
-
-**(a)** the gross carrying amount is adjusted in a manner that is consistent with the revaluation of the carrying amount of the asset. For example, the gross carrying amount may be restated by reference to observable market data or it may be restated proportionately to the change in the carrying amount. The accumulated depreciation at the date of the revaluation is adjusted to equal the difference between the gross carrying amount and the carrying amount of the asset after taking into account accumulated impairment losses; or
-
-**(b)** the accumulated depreciation is eliminated against the gross carrying amount of the asset.
+**35** When an item of property, plant and equipment is revalued, the carrying amount of that asset is adjusted to the revalued amount. At the date of the revaluation, the asset is treated in one of the following ways: (a) the gross carrying amount is adjusted in a manner that is consistent with the revaluation of the carrying amount of the asset. For example, the gross carrying amount may be restated by reference to observable market data or it may be restated proportionately to the change in the carrying amount. The accumulated depreciation at the date of the revaluation is adjusted to equal the difference between the gross carrying amount and the carrying amount of the asset after taking into account accumulated impairment losses; or (b) the accumulated depreciation is eliminated against the gross carrying amount of the asset. The amount of the adjustment of accumulated depreciation forms part of the increase or decrease in carrying amount that is accounted for in accordance with paragraphs 39 and 40.
 
 **36** If an item of property, plant and equipment is revalued, the entire class of property, plant and equipment to which that asset belongs shall be revalued.
 
-37 | A class of property, plant and equipment is a grouping of assets of a similar nature and use in an entity's operations. The following are examples of separate classes: (a) land; (b) land and buildings; (c) machinery; (d) ships; (e) aircraft; (f) motor vehicles; (g) furniture and fixtures; (h) office equipment; and (i) bearer plants. | (a) | land; | (b) | land and buildings; | (c) | machinery; | (d) | ships; | (e) | aircraft; | (f) | motor vehicles; | (g) | furniture and fixtures; | (h) | office equipment; and | (i) | bearer plants.
-
-**(a)** land;
-
-**(b)** land and buildings;
-
-**(c)** machinery;
-
-**(d)** ships;
-
-**(e)** aircraft;
-
-**(f)** motor vehicles;
-
-**(g)** furniture and fixtures;
-
-**(h)** office equipment; and
-
-**(i)** bearer plants.
+**37** A class of property, plant and equipment is a grouping of assets of a similar nature and use in an entity's operations. The following are examples of separate classes: (a) land; (b) land and buildings; (c) machinery; (d) ships; (e) aircraft; (f) motor vehicles; (g) furniture and fixtures; (h) office equipment; and (i) bearer plants.
 
 **38** The items within a class of property, plant and equipment are revalued simultaneously to avoid selective revaluation of assets and the reporting of amounts in the financial statements that are a mixture of costs and values as at different dates. However, a class of assets may be revalued on a rolling basis provided revaluation of the class of assets is completed within a short period and provided the revaluations are kept up to date.
 
@@ -232,15 +146,7 @@
 
 **55** Depreciation of an asset begins when it is available for use, i.e. when it is in the location and condition necessary for it to be capable of operating in the manner intended by management. Depreciation of an asset ceases at the earlier of the date that the asset is classified as held for sale (or included in a disposal group that is classified as held for sale) in accordance with IFRS 5 and the date that the asset is derecognised. Therefore, depreciation does not cease when the asset becomes idle or is retired from active use unless the asset is fully depreciated. However, under usage methods of depreciation the depreciation charge can be zero while there is no production.
 
-56 | The future economic benefits embodied in an asset are consumed by an entity principally through its use. However, other factors, such as technical or commercial obsolescence and wear and tear while an asset remains idle, often result in the diminution of the economic benefits that might have been obtained from the asset. Consequently, all the following factors are considered in determining the useful life of an asset: (a) expected usage of the asset. Usage is assessed by reference to the asset's expected capacity or physical output; (b) expected physical wear and tear, which depends on operational factors such as the number of shifts for which the asset is to be used and the repair and maintenance programme, and the care and maintenance of the asset while idle; (c) technical or commercial obsolescence arising from changes or improvements in production, or from a change in the market demand for the product or service output of the asset. Expected future reductions in the selling price of an item that was produced using an asset could indicate the expectation of technical or commercial obsolescence of the asset, which, in turn, might reflect a reduction of the future economic benefits embodied in the asset. (d) legal or similar limits on the use of the asset, such as the expiry dates of related leases. | (a) | expected usage of the asset. Usage is assessed by reference to the asset's expected capacity or physical output; | (b) | expected physical wear and tear, which depends on operational factors such as the number of shifts for which the asset is to be used and the repair and maintenance programme, and the care and maintenance of the asset while idle; | (c) | technical or commercial obsolescence arising from changes or improvements in production, or from a change in the market demand for the product or service output of the asset. Expected future reductions in the selling price of an item that was produced using an asset could indicate the expectation of technical or commercial obsolescence of the asset, which, in turn, might reflect a reduction of the future economic benefits embodied in the asset. | (d) | legal or similar limits on the use of the asset, such as the expiry dates of related leases.
-
-**(a)** expected usage of the asset. Usage is assessed by reference to the asset's expected capacity or physical output;
-
-**(b)** expected physical wear and tear, which depends on operational factors such as the number of shifts for which the asset is to be used and the repair and maintenance programme, and the care and maintenance of the asset while idle;
-
-**(c)** technical or commercial obsolescence arising from changes or improvements in production, or from a change in the market demand for the product or service output of the asset. Expected future reductions in the selling price of an item that was produced using an asset could indicate the expectation of technical or commercial obsolescence of the asset, which, in turn, might reflect a reduction of the future economic benefits embodied in the asset.
-
-**(d)** legal or similar limits on the use of the asset, such as the expiry dates of related leases.
+**56** The future economic benefits embodied in an asset are consumed by an entity principally through its use. However, other factors, such as technical or commercial obsolescence and wear and tear while an asset remains idle, often result in the diminution of the economic benefits that might have been obtained from the asset. Consequently, all the following factors are considered in determining the useful life of an asset: (a) expected usage of the asset. Usage is assessed by reference to the asset's expected capacity or physical output; (b) expected physical wear and tear, which depends on operational factors such as the number of shifts for which the asset is to be used and the repair and maintenance programme, and the care and maintenance of the asset while idle; (c) technical or commercial obsolescence arising from changes or improvements in production, or from a change in the market demand for the product or service output of the asset. Expected future reductions in the selling price of an item that was produced using an asset could indicate the expectation of technical or commercial obsolescence of the asset, which, in turn, might reflect a reduction of the future economic benefits embodied in the asset. (d) legal or similar limits on the use of the asset, such as the expiry dates of related leases.
 
 **57** The useful life of an asset is defined in terms of the asset's expected utility to the entity. The asset management policy of the entity may involve the disposal of assets after a specified time or after consumption of a specified proportion of the future economic benefits embodied in the asset. Therefore, the useful life of an asset may be shorter than its economic life. The estimation of the useful life of the asset is a matter of judgement based on the experience of the entity with similar assets.
 
@@ -268,23 +174,11 @@
 
 **65** Compensation from third parties for items of property, plant and equipment that were impaired, lost or given up shall be included in profit or loss when the compensation becomes receivable.
 
-66 | Impairments or losses of items of property, plant and equipment, related claims for or payments of compensation from third parties and any subsequent purchase or construction of replacement assets are separate economic events and are accounted for separately as follows: (a) impairments of items of property, plant and equipment are recognised in accordance with IAS 36; (b) derecognition of items of property, plant and equipment retired or disposed of is determined in accordance with this standard; (c) compensation from third parties for items of property, plant and equipment that were impaired, lost or given up is included in determining profit or loss when it becomes receivable; and (d) the cost of items of property, plant and equipment restored, purchased or constructed as replacements is determined in accordance with this standard. | (a) | impairments of items of property, plant and equipment are recognised in accordance with IAS 36; | (b) | derecognition of items of property, plant and equipment retired or disposed of is determined in accordance with this standard; | (c) | compensation from third parties for items of property, plant and equipment that were impaired, lost or given up is included in determining profit or loss when it becomes receivable; and | (d) | the cost of items of property, plant and equipment restored, purchased or constructed as replacements is determined in accordance with this standard.
-
-**(a)** impairments of items of property, plant and equipment are recognised in accordance with IAS 36;
-
-**(b)** derecognition of items of property, plant and equipment retired or disposed of is determined in accordance with this standard;
-
-**(c)** compensation from third parties for items of property, plant and equipment that were impaired, lost or given up is included in determining profit or loss when it becomes receivable; and
-
-**(d)** the cost of items of property, plant and equipment restored, purchased or constructed as replacements is determined in accordance with this standard.
+**66** Impairments or losses of items of property, plant and equipment, related claims for or payments of compensation from third parties and any subsequent purchase or construction of replacement assets are separate economic events and are accounted for separately as follows: (a) impairments of items of property, plant and equipment are recognised in accordance with IAS 36; (b) derecognition of items of property, plant and equipment retired or disposed of is determined in accordance with this standard; (c) compensation from third parties for items of property, plant and equipment that were impaired, lost or given up is included in determining profit or loss when it becomes receivable; and (d) the cost of items of property, plant and equipment restored, purchased or constructed as replacements is determined in accordance with this standard.
 
 ## DERECOGNITION
 
-67 | The carrying amount of an item of property, plant and equipment shall be derecognised: (a) on disposal; or (b) when no future economic benefits are expected from its use or disposal. | (a) | on disposal; or | (b) | when no future economic benefits are expected from its use or disposal.
-
-**(a)** on disposal; or
-
-**(b)** when no future economic benefits are expected from its use or disposal.
+**67** The carrying amount of an item of property, plant and equipment shall be derecognised: (a) on disposal; or (b) when no future economic benefits are expected from its use or disposal.
 
 **68** The gain or loss arising from the derecognition of an item of property, plant and equipment shall be included in profit or loss when the item is derecognised (unless IFRS 16 Leases requires otherwise on a sale and leaseback). Gains shall not be classified as revenue.
 
@@ -300,91 +194,21 @@
 
 ## DISCLOSURE
 
-73 | The financial statements shall disclose, for each class of property, plant and equipment: (a) the measurement bases used for determining the gross carrying amount; (b) the depreciation methods used; (c) the useful lives or the depreciation rates used; (d) the gross carrying amount and the accumulated depreciation (aggregated with accumulated impairment losses) at the beginning and end of the period; and (e) a reconciliation of the carrying amount at the beginning and end of the period showing: (i) additions; (ii) assets classified as held for sale or included in a disposal group classified as held for sale in accordance with IFRS 5 and other disposals; (iii) acquisitions through business combinations; (iv) increases or decreases resulting from revaluations under paragraphs 31, 39 and 40 and from impairment losses recognised or reversed in other comprehensive income in accordance with IAS 36; (v) impairment losses recognised in profit or loss in accordance with IAS 36; (vi) impairment losses reversed in profit or loss in accordance with IAS 36; (vii) depreciation; (viii) the net exchange differences arising on the translation of the financial statements from the functional currency into a different presentation currency, including the translation of a foreign operation into the presentation currency of the reporting entity; and (ix) other changes. | (a) | the measurement bases used for determining the gross carrying amount; | (b) | the depreciation methods used; | (c) | the useful lives or the depreciation rates used; | (d) | the gross carrying amount and the accumulated depreciation (aggregated with accumulated impairment losses) at the beginning and end of the period; and | (e) | a reconciliation of the carrying amount at the beginning and end of the period showing: (i) additions; (ii) assets classified as held for sale or included in a disposal group classified as held for sale in accordance with IFRS 5 and other disposals; (iii) acquisitions through business combinations; (iv) increases or decreases resulting from revaluations under paragraphs 31, 39 and 40 and from impairment losses recognised or reversed in other comprehensive income in accordance with IAS 36; (v) impairment losses recognised in profit or loss in accordance with IAS 36; (vi) impairment losses reversed in profit or loss in accordance with IAS 36; (vii) depreciation; (viii) the net exchange differences arising on the translation of the financial statements from the functional currency into a different presentation currency, including the translation of a foreign operation into the presentation currency of the reporting entity; and (ix) other changes. | (i) | additions; | (ii) | assets classified as held for sale or included in a disposal group classified as held for sale in accordance with IFRS 5 and other disposals; | (iii) | acquisitions through business combinations; | (iv) | increases or decreases resulting from revaluations under paragraphs 31, 39 and 40 and from impairment losses recognised or reversed in other comprehensive income in accordance with IAS 36; | (v) | impairment losses recognised in profit or loss in accordance with IAS 36; | (vi) | impairment losses reversed in profit or loss in accordance with IAS 36; | (vii) | depreciation; | (viii) | the net exchange differences arising on the translation of the financial statements from the functional currency into a different presentation currency, including the translation of a foreign operation into the presentation currency of the reporting entity; and | (ix) | other changes.
+**73** The financial statements shall disclose, for each class of property, plant and equipment: (a) the measurement bases used for determining the gross carrying amount; (b) the depreciation methods used; (c) the useful lives or the depreciation rates used; (d) the gross carrying amount and the accumulated depreciation (aggregated with accumulated impairment losses) at the beginning and end of the period; and (e) a reconciliation of the carrying amount at the beginning and end of the period showing: (i) additions; (ii) assets classified as held for sale or included in a disposal group classified as held for sale in accordance with IFRS 5 and other disposals; (iii) acquisitions through business combinations; (iv) increases or decreases resulting from revaluations under paragraphs 31, 39 and 40 and from impairment losses recognised or reversed in other comprehensive income in accordance with IAS 36; (v) impairment losses recognised in profit or loss in accordance with IAS 36; (vi) impairment losses reversed in profit or loss in accordance with IAS 36; (vii) depreciation; (viii) the net exchange differences arising on the translation of the financial statements from the functional currency into a different presentation currency, including the translation of a foreign operation into the presentation currency of the reporting entity; and (ix) other changes.
 
-**(a)** the measurement bases used for determining the gross carrying amount;
+**74** The financial statements shall also disclose: (a) the existence and amounts of restrictions on title, and property, plant and equipment pledged as security for liabilities; (b) the amount of expenditures recognised in the carrying amount of an item of property, plant and equipment in the course of its construction; and (c) the amount of contractual commitments for the acquisition of property, plant and equipment.
 
-**(b)** the depreciation methods used;
+**74A** If not presented separately in the statement of comprehensive income, the financial statements shall also disclose: (a) the amount of compensation from third parties for items of property, plant and equipment that were impaired, lost or given up that is included in profit or loss; and (b) the amounts of proceeds and cost included in profit or loss in accordance with paragraph 20A that relate to items produced that are not an output of the entity’s ordinary activities, and which line item(s) in the statement of comprehensive income include(s) such proceeds and cost.
 
-**(c)** the useful lives or the depreciation rates used;
+**75** Selection of the depreciation method and estimation of the useful life of assets are matters of judgement. Therefore, disclosure of the methods adopted and the estimated useful lives or depreciation rates provides users of financial statements with information that allows them to review the policies selected by management and enables comparisons to be made with other entities. For similar reasons, it is necessary to disclose: (a) depreciation, whether recognised in profit or loss or as a part of the cost of other assets, during a period; and (b) accumulated depreciation at the end of the period.
 
-**(d)** the gross carrying amount and the accumulated depreciation (aggregated with accumulated impairment losses) at the beginning and end of the period; and
+**76** In accordance with IAS 8 an entity discloses the nature and effect of a change in an accounting estimate that has an effect in the current period or is expected to have an effect in subsequent periods. For property, plant and equipment, such disclosure may arise from changes in estimates with respect to: (a) residual values; (b) the estimated costs of dismantling, removing or restoring items of property, plant and equipment; (c) useful lives; and (d) depreciation methods.
 
-(e) | a reconciliation of the carrying amount at the beginning and end of the period showing: (i) additions; (ii) assets classified as held for sale or included in a disposal group classified as held for sale in accordance with IFRS 5 and other disposals; (iii) acquisitions through business combinations; (iv) increases or decreases resulting from revaluations under paragraphs 31, 39 and 40 and from impairment losses recognised or reversed in other comprehensive income in accordance with IAS 36; (v) impairment losses recognised in profit or loss in accordance with IAS 36; (vi) impairment losses reversed in profit or loss in accordance with IAS 36; (vii) depreciation; (viii) the net exchange differences arising on the translation of the financial statements from the functional currency into a different presentation currency, including the translation of a foreign operation into the presentation currency of the reporting entity; and (ix) other changes. | (i) | additions; | (ii) | assets classified as held for sale or included in a disposal group classified as held for sale in accordance with IFRS 5 and other disposals; | (iii) | acquisitions through business combinations; | (iv) | increases or decreases resulting from revaluations under paragraphs 31, 39 and 40 and from impairment losses recognised or reversed in other comprehensive income in accordance with IAS 36; | (v) | impairment losses recognised in profit or loss in accordance with IAS 36; | (vi) | impairment losses reversed in profit or loss in accordance with IAS 36; | (vii) | depreciation; | (viii) | the net exchange differences arising on the translation of the financial statements from the functional currency into a different presentation currency, including the translation of a foreign operation into the presentation currency of the reporting entity; and | (ix) | other changes.
-
-**(i)** additions;
-
-**(ii)** assets classified as held for sale or included in a disposal group classified as held for sale in accordance with IFRS 5 and other disposals;
-
-**(iii)** acquisitions through business combinations;
-
-**(iv)** increases or decreases resulting from revaluations under paragraphs 31, 39 and 40 and from impairment losses recognised or reversed in other comprehensive income in accordance with IAS 36;
-
-**(v)** impairment losses recognised in profit or loss in accordance with IAS 36;
-
-**(vi)** impairment losses reversed in profit or loss in accordance with IAS 36;
-
-**(vii)** depreciation;
-
-**(viii)** the net exchange differences arising on the translation of the financial statements from the functional currency into a different presentation currency, including the translation of a foreign operation into the presentation currency of the reporting entity; and
-
-**(ix)** other changes.
-
-74 | The financial statements shall also disclose: (a) the existence and amounts of restrictions on title, and property, plant and equipment pledged as security for liabilities; (b) the amount of expenditures recognised in the carrying amount of an item of property, plant and equipment in the course of its construction; and (c) the amount of contractual commitments for the acquisition of property, plant and equipment. | (a) | the existence and amounts of restrictions on title, and property, plant and equipment pledged as security for liabilities; | (b) | the amount of expenditures recognised in the carrying amount of an item of property, plant and equipment in the course of its construction; and | (c) | the amount of contractual commitments for the acquisition of property, plant and equipment.
-
-**(a)** the existence and amounts of restrictions on title, and property, plant and equipment pledged as security for liabilities;
-
-**(b)** the amount of expenditures recognised in the carrying amount of an item of property, plant and equipment in the course of its construction; and
-
-**(c)** the amount of contractual commitments for the acquisition of property, plant and equipment.
-
-74A | If not presented separately in the statement of comprehensive income, the financial statements shall also disclose: (a) the amount of compensation from third parties for items of property, plant and equipment that were impaired, lost or given up that is included in profit or loss; and (b) the amounts of proceeds and cost included in profit or loss in accordance with paragraph 20A that relate to items produced that are not an output of the entity’s ordinary activities, and which line item(s) in the statement of comprehensive income include(s) such proceeds and cost. | (a) | the amount of compensation from third parties for items of property, plant and equipment that were impaired, lost or given up that is included in profit or loss; and | (b) | the amounts of proceeds and cost included in profit or loss in accordance with paragraph 20A that relate to items produced that are not an output of the entity’s ordinary activities, and which line item(s) in the statement of comprehensive income include(s) such proceeds and cost.
-
-**(a)** the amount of compensation from third parties for items of property, plant and equipment that were impaired, lost or given up that is included in profit or loss; and
-
-**(b)** the amounts of proceeds and cost included in profit or loss in accordance with paragraph 20A that relate to items produced that are not an output of the entity’s ordinary activities, and which line item(s) in the statement of comprehensive income include(s) such proceeds and cost.
-
-75 | Selection of the depreciation method and estimation of the useful life of assets are matters of judgement. Therefore, disclosure of the methods adopted and the estimated useful lives or depreciation rates provides users of financial statements with information that allows them to review the policies selected by management and enables comparisons to be made with other entities. For similar reasons, it is necessary to disclose: (a) depreciation, whether recognised in profit or loss or as a part of the cost of other assets, during a period; and (b) accumulated depreciation at the end of the period. | (a) | depreciation, whether recognised in profit or loss or as a part of the cost of other assets, during a period; and | (b) | accumulated depreciation at the end of the period.
-
-**(a)** depreciation, whether recognised in profit or loss or as a part of the cost of other assets, during a period; and
-
-**(b)** accumulated depreciation at the end of the period.
-
-76 | In accordance with IAS 8 an entity discloses the nature and effect of a change in an accounting estimate that has an effect in the current period or is expected to have an effect in subsequent periods. For property, plant and equipment, such disclosure may arise from changes in estimates with respect to: (a) residual values; (b) the estimated costs of dismantling, removing or restoring items of property, plant and equipment; (c) useful lives; and (d) depreciation methods. | (a) | residual values; | (b) | the estimated costs of dismantling, removing or restoring items of property, plant and equipment; | (c) | useful lives; and | (d) | depreciation methods.
-
-**(a)** residual values;
-
-**(b)** the estimated costs of dismantling, removing or restoring items of property, plant and equipment;
-
-**(c)** useful lives; and
-
-**(d)** depreciation methods.
-
-77 | If items of property, plant and equipment are stated at revalued amounts, the following shall be disclosed in addition to the disclosures required by IFRS 13: (a) the effective date of the revaluation; (b) whether an independent valuer was involved; (c) [deleted] (d) [deleted] (e) for each revalued class of property, plant and equipment, the carrying amount that would have been recognised had the assets been carried under the cost model; and (f) the revaluation surplus, indicating the change for the period and any restrictions on the distribution of the balance to shareholders. | (a) | the effective date of the revaluation; | (b) | whether an independent valuer was involved; | (c) | [deleted] | (d) | [deleted] | (e) | for each revalued class of property, plant and equipment, the carrying amount that would have been recognised had the assets been carried under the cost model; and | (f) | the revaluation surplus, indicating the change for the period and any restrictions on the distribution of the balance to shareholders.
-
-**(a)** the effective date of the revaluation;
-
-**(b)** whether an independent valuer was involved;
-
-**(c)** [deleted]
-
-**(d)** [deleted]
-
-**(e)** for each revalued class of property, plant and equipment, the carrying amount that would have been recognised had the assets been carried under the cost model; and
-
-**(f)** the revaluation surplus, indicating the change for the period and any restrictions on the distribution of the balance to shareholders.
+**77** If items of property, plant and equipment are stated at revalued amounts, the following shall be disclosed in addition to the disclosures required by IFRS 13: (a) the effective date of the revaluation; (b) whether an independent valuer was involved; (c) [deleted] (d) [deleted] (e) for each revalued class of property, plant and equipment, the carrying amount that would have been recognised had the assets been carried under the cost model; and (f) the revaluation surplus, indicating the change for the period and any restrictions on the distribution of the balance to shareholders.
 
 **78** In accordance with IAS 36 an entity discloses information on impaired property, plant and equipment in addition to the information required by paragraph 73(e)(iv)-(vi).
 
-79 | Users of financial statements may also find the following information relevant to their needs: (a) the carrying amount of temporarily idle property, plant and equipment; (b) the gross carrying amount of any fully depreciated property, plant and equipment that is still in use; (c) the carrying amount of property, plant and equipment retired from active use and not classified as held for sale in accordance with IFRS 5; and (d) when the cost model is used, the fair value of property, plant and equipment when this is materially different from the carrying amount. Therefore, entities are encouraged to disclose these amounts. | (a) | the carrying amount of temporarily idle property, plant and equipment; | (b) | the gross carrying amount of any fully depreciated property, plant and equipment that is still in use; | (c) | the carrying amount of property, plant and equipment retired from active use and not classified as held for sale in accordance with IFRS 5; and | (d) | when the cost model is used, the fair value of property, plant and equipment when this is materially different from the carrying amount.
-
-**(a)** the carrying amount of temporarily idle property, plant and equipment;
-
-**(b)** the gross carrying amount of any fully depreciated property, plant and equipment that is still in use;
-
-**(c)** the carrying amount of property, plant and equipment retired from active use and not classified as held for sale in accordance with IFRS 5; and
-
-**(d)** when the cost model is used, the fair value of property, plant and equipment when this is materially different from the carrying amount.
+**79** Users of financial statements may also find the following information relevant to their needs: (a) the carrying amount of temporarily idle property, plant and equipment; (b) the gross carrying amount of any fully depreciated property, plant and equipment that is still in use; (c) the carrying amount of property, plant and equipment retired from active use and not classified as held for sale in accordance with IFRS 5; and (d) when the cost model is used, the fair value of property, plant and equipment when this is materially different from the carrying amount. Therefore, entities are encouraged to disclose these amounts.
 
 ## TRANSITIONAL PROVISIONS
 
@@ -434,10 +258,4 @@
 
 **82** This standard supersedes IAS 16 Property, Plant and Equipment (revised in 1998).
 
-83 | This standard supersedes the following interpretations: (a) SIC-6 Costs of Modifying Existing Software ; (b) SIC-14 Property, Plant and Equipment — Compensation for the Impairment or Loss of Items ; and (c) SIC-23 Property, Plant and Equipment — Major Inspection or Overhaul Costs . | (a) | SIC-6 Costs of Modifying Existing Software ; | (b) | SIC-14 Property, Plant and Equipment — Compensation for the Impairment or Loss of Items ; and | (c) | SIC-23 Property, Plant and Equipment — Major Inspection or Overhaul Costs .
-
-**(a)** SIC-6 Costs of Modifying Existing Software ;
-
-**(b)** SIC-14 Property, Plant and Equipment — Compensation for the Impairment or Loss of Items ; and
-
-**(c)** SIC-23 Property, Plant and Equipment — Major Inspection or Overhaul Costs .
+**83** This standard supersedes the following interpretations: (a) SIC-6 Costs of Modifying Existing Software ; (b) SIC-14 Property, Plant and Equipment — Compensation for the Impairment or Loss of Items ; and (c) SIC-23 Property, Plant and Equipment — Major Inspection or Overhaul Costs .

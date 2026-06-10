@@ -6,19 +6,9 @@
 
 ## SCOPE
 
-2 | This Standard applies to all inventories, except: (a) [deleted] (b) financial instruments (see IAS 32 Financial Instruments: Presentation and IFRS 9 Financial Instruments ); and (c) biological assets related to agricultural activity and agricultural produce at the point of harvest (see IAS 41 Agriculture ). | (a) | [deleted] | (b) | financial instruments (see IAS 32 Financial Instruments: Presentation and IFRS 9 Financial Instruments ); and | (c) | biological assets related to agricultural activity and agricultural produce at the point of harvest (see IAS 41 Agriculture ).
+**2** This Standard applies to all inventories, except: (a) [deleted] (b) financial instruments (see IAS 32 Financial Instruments: Presentation and IFRS 9 Financial Instruments ); and (c) biological assets related to agricultural activity and agricultural produce at the point of harvest (see IAS 41 Agriculture ).
 
-**(a)** [deleted]
-
-**(b)** financial instruments (see IAS 32 Financial Instruments: Presentation and IFRS 9 Financial Instruments ); and
-
-**(c)** biological assets related to agricultural activity and agricultural produce at the point of harvest (see IAS 41 Agriculture ).
-
-3 | This standard does not apply to the measurement of inventories held by: (a) producers of agricultural and forest products, agricultural produce after harvest, and minerals and mineral products, to the extent that they are measured at net realisable value in accordance with well - established practices in those industries. When such inventories are measured at net realisable value, changes in that value are recognised in profit or loss in the period of the change ; (b) commodity broker - traders who measure their inventories at fair value less costs to sell. When such inventories are measured at fair value less costs to sell, changes in fair value less costs to sell are recognised in profit or loss in the period of the change. | (a) | producers of agricultural and forest products, agricultural produce after harvest, and minerals and mineral products, to the extent that they are measured at net realisable value in accordance with well - established practices in those industries. When such inventories are measured at net realisable value, changes in that value are recognised in profit or loss in the period of the change ; | (b) | commodity broker - traders who measure their inventories at fair value less costs to sell. When such inventories are measured at fair value less costs to sell, changes in fair value less costs to sell are recognised in profit or loss in the period of the change.
-
-**(a)** producers of agricultural and forest products, agricultural produce after harvest, and minerals and mineral products, to the extent that they are measured at net realisable value in accordance with well - established practices in those industries. When such inventories are measured at net realisable value, changes in that value are recognised in profit or loss in the period of the change ;
-
-**(b)** commodity broker - traders who measure their inventories at fair value less costs to sell. When such inventories are measured at fair value less costs to sell, changes in fair value less costs to sell are recognised in profit or loss in the period of the change.
+**3** This standard does not apply to the measurement of inventories held by: (a) producers of agricultural and forest products, agricultural produce after harvest, and minerals and mineral products, to the extent that they are measured at net realisable value in accordance with well - established practices in those industries. When such inventories are measured at net realisable value, changes in that value are recognised in profit or loss in the period of the change ; (b) commodity broker - traders who measure their inventories at fair value less costs to sell. When such inventories are measured at fair value less costs to sell, changes in fair value less costs to sell are recognised in profit or loss in the period of the change.
 
 **4** The inventories referred to in paragraph 3(a) are measured at net realisable value at certain stages of production. This occurs, for example, when agricultural crops have been harvested or minerals have been extracted and sale is assured under a forward contract or a government guarantee, or when an active market exists and there is a negligible risk of failure to sell. These inventories are excluded from only the measurement requirements of this standard.
 
@@ -26,19 +16,7 @@
 
 ## DEFINITIONS
 
-6 | The following terms are used in this standard with the meanings specified: Inventories are assets: (a) held for sale in the ordinary course of business; (b) in the process of production for such sale; or (c) in the form of materials or supplies to be consumed in the production process or in the rendering of services. Net realisable value is the estimated selling price in the ordinary course of business less the estimated costs of completion and the estimated costs necessary to make the sale. Fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. (See IFRS 13 Fair Value Measurement .) | Inventories are assets: (a) held for sale in the ordinary course of business; (b) in the process of production for such sale; or (c) in the form of materials or supplies to be consumed in the production process or in the rendering of services. | (a) | held for sale in the ordinary course of business; | (b) | in the process of production for such sale; or | (c) | in the form of materials or supplies to be consumed in the production process or in the rendering of services. | Net realisable value is the estimated selling price in the ordinary course of business less the estimated costs of completion and the estimated costs necessary to make the sale. | Fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. (See IFRS 13 Fair Value Measurement .)
-
-Inventories are assets: (a) held for sale in the ordinary course of business; (b) in the process of production for such sale; or (c) in the form of materials or supplies to be consumed in the production process or in the rendering of services. | (a) | held for sale in the ordinary course of business; | (b) | in the process of production for such sale; or | (c) | in the form of materials or supplies to be consumed in the production process or in the rendering of services.
-
-**(a)** held for sale in the ordinary course of business;
-
-**(b)** in the process of production for such sale; or
-
-**(c)** in the form of materials or supplies to be consumed in the production process or in the rendering of services.
-
-Net realisable value is the estimated selling price in the ordinary course of business less the estimated costs of completion and the estimated costs necessary to make the sale.
-
-Fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. (See IFRS 13 Fair Value Measurement .)
+**6** The following terms are used in this standard with the meanings specified: Inventories are assets: (a) held for sale in the ordinary course of business; (b) in the process of production for such sale; or (c) in the form of materials or supplies to be consumed in the production process or in the rendering of services. Net realisable value is the estimated selling price in the ordinary course of business less the estimated costs of completion and the estimated costs necessary to make the sale. Fair value is the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. (See IFRS 13 Fair Value Measurement .)
 
 **7** Net realisable value refers to the net amount that an entity expects to realise from the sale of inventory in the ordinary course of business. Fair value reflects the price at which an orderly transaction to sell the same inventory in the principal (or most advantageous) market for that inventory would take place between market participants at the measurement date. The former is an entity-specific value; the latter is not. Net realisable value for inventories may not equal fair value less costs to sell.
 
@@ -68,15 +46,7 @@ Fair value is the price that would be received to sell an asset or paid to trans
 
 **15** Other costs are included in the cost of inventories only to the extent that they are incurred in bringing the inventories to their present location and condition. For example, it may be appropriate to include non-production overheads or the costs of designing products for specific customers in the cost of inventories.
 
-16 | Examples of costs excluded from the cost of inventories and recognised as expenses in the period in which they are incurred are: (a) abnormal amounts of wasted materials, labour or other production costs; (b) storage costs, unless those costs are necessary in the production process before a further production stage; (c) administrative overheads that do not contribute to bringing inventories to their present location and condition; and (d) selling costs. | (a) | abnormal amounts of wasted materials, labour or other production costs; | (b) | storage costs, unless those costs are necessary in the production process before a further production stage; | (c) | administrative overheads that do not contribute to bringing inventories to their present location and condition; and | (d) | selling costs.
-
-**(a)** abnormal amounts of wasted materials, labour or other production costs;
-
-**(b)** storage costs, unless those costs are necessary in the production process before a further production stage;
-
-**(c)** administrative overheads that do not contribute to bringing inventories to their present location and condition; and
-
-**(d)** selling costs.
+**16** Examples of costs excluded from the cost of inventories and recognised as expenses in the period in which they are incurred are: (a) abnormal amounts of wasted materials, labour or other production costs; (b) storage costs, unless those costs are necessary in the production process before a further production stage; (c) administrative overheads that do not contribute to bringing inventories to their present location and condition; and (d) selling costs.
 
 **17** IAS 23 Borrowing costs identifies limited circumstances where borrowing costs are included in the cost of inventories.
 
@@ -128,23 +98,7 @@ Fair value is the price that would be received to sell an asset or paid to trans
 
 ## DISCLOSURE
 
-36 | The financial statements shall disclose: (a) the accounting policies adopted in measuring inventories, including the cost formula used; (b) the total carrying amount of inventories and the carrying amount in classifications appropriate to the entity; (c) the carrying amount of inventories carried at fair value less costs to sell; (d) the amount of inventories recognised as an expense during the period; (e) the amount of any write - down of inventories recognised as an expense in the period in accordance with paragraph 34 ; (f) the amount of any reversal of any write - down that is recognised as a reduction in the amount of inventories recognised as expense in the period in accordance with paragraph 34 ; (g) the circumstances or events that led to the reversal of a write - down of inventories in accordance with paragraph 34; and (h) the carrying amount of inventories pledged as security for liabilities. | (a) | the accounting policies adopted in measuring inventories, including the cost formula used; | (b) | the total carrying amount of inventories and the carrying amount in classifications appropriate to the entity; | (c) | the carrying amount of inventories carried at fair value less costs to sell; | (d) | the amount of inventories recognised as an expense during the period; | (e) | the amount of any write - down of inventories recognised as an expense in the period in accordance with paragraph 34 ; | (f) | the amount of any reversal of any write - down that is recognised as a reduction in the amount of inventories recognised as expense in the period in accordance with paragraph 34 ; | (g) | the circumstances or events that led to the reversal of a write - down of inventories in accordance with paragraph 34; and | (h) | the carrying amount of inventories pledged as security for liabilities.
-
-**(a)** the accounting policies adopted in measuring inventories, including the cost formula used;
-
-**(b)** the total carrying amount of inventories and the carrying amount in classifications appropriate to the entity;
-
-**(c)** the carrying amount of inventories carried at fair value less costs to sell;
-
-**(d)** the amount of inventories recognised as an expense during the period;
-
-**(e)** the amount of any write - down of inventories recognised as an expense in the period in accordance with paragraph 34 ;
-
-**(f)** the amount of any reversal of any write - down that is recognised as a reduction in the amount of inventories recognised as expense in the period in accordance with paragraph 34 ;
-
-**(g)** the circumstances or events that led to the reversal of a write - down of inventories in accordance with paragraph 34; and
-
-**(h)** the carrying amount of inventories pledged as security for liabilities.
+**36** The financial statements shall disclose: (a) the accounting policies adopted in measuring inventories, including the cost formula used; (b) the total carrying amount of inventories and the carrying amount in classifications appropriate to the entity; (c) the carrying amount of inventories carried at fair value less costs to sell; (d) the amount of inventories recognised as an expense during the period; (e) the amount of any write - down of inventories recognised as an expense in the period in accordance with paragraph 34 ; (f) the amount of any reversal of any write - down that is recognised as a reduction in the amount of inventories recognised as expense in the period in accordance with paragraph 34 ; (g) the circumstances or events that led to the reversal of a write - down of inventories in accordance with paragraph 34; and (h) the carrying amount of inventories pledged as security for liabilities.
 
 **37** Information about the carrying amounts held in different classifications of inventories and the extent of the changes in these assets is useful to financial statement users. Common classifications of inventories are merchandise, production supplies, materials, work in progress and finished goods.
 

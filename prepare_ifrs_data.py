@@ -41,18 +41,33 @@ def clean(text):
     return re.sub(r"\s+", " ", text or "").strip()
 
 
+MARKER_RE = re.compile(r"[0-9]+[A-Z]?\.?|\([a-z]+\)|\([ivxl]+\)|[A-Z][0-9]*\.?")
+
+
 def table_to_markdown(table):
-    """Render an OJ table. Numbered-paragraph tables become '**n** text'
-    lines; anything else becomes a plain ' | '-joined row dump."""
+    """Render an OJ table. Numbered-paragraph rows become '**n** text'
+    lines; anything else becomes a plain ' | '-joined row dump.
+
+    Sub-lists like (a)/(b)/(c) are nested tables INSIDE a paragraph's
+    cell. We only walk this table's own rows and own cells; the nested
+    content is captured once via get_text on the containing cell."""
     lines = []
     for tr in table.find_all("tr"):
-        cells = [clean(td.get_text(" ")) for td in tr.find_all(["td", "th"])]
+        # skip rows that belong to a nested table — their text is already
+        # included by get_text() on the outer cell that contains them
+        if tr.find_parent("table") is not table:
+            continue
+        cells = [clean(td.get_text(" ")) for td in tr.find_all(["td", "th"], recursive=False)]
         cells = [c for c in cells if c]
         if not cells:
             continue
         # typical paragraph row: ['2', 'This Standard applies to ...']
-        if len(cells) == 2 and re.fullmatch(r"[0-9]+[A-Z]?|\([a-z]+\)|[A-Z][0-9]*", cells[0]):
-            lines.append(f"**{cells[0]}** {cells[1]}")
+        # or with sub-marker: ['(a)', 'held for sale ...']
+        if (len(cells) >= 2
+                and all(MARKER_RE.fullmatch(c) for c in cells[:-1])
+                and not MARKER_RE.fullmatch(cells[-1])):
+            marker = " ".join(cells[:-1])
+            lines.append(f"**{marker}** {cells[-1]}")
         else:
             lines.append(" | ".join(cells))
     return "\n\n".join(lines)
