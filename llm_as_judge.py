@@ -17,7 +17,7 @@ from langchain.prompts import ChatPromptTemplate
 load_dotenv()
 
 # Configurazione modello (stessa del bot)
-MODEL_NAME_LLM = "gemini-2.0-flash"
+MODEL_NAME_LLM = "gemini-flash-latest"  # was gemini-2.0-flash: free tier now has limit 0 for it (2026-06)
 
 def load_evaluation_data(json_file: str) -> List[Dict[str, Any]]:
     """Carica i dati di valutazione dal file JSON."""

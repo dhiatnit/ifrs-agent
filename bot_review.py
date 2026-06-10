@@ -17,10 +17,10 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 # === CONFIG ===
 MARKDOWN_DIR = "output_crawler"
 VECTORSTORE_PATH = "index"
-MODEL_NAME_LLM = "gemini-2.0-flash"
+MODEL_NAME_LLM = "gemini-flash-latest"  # was gemini-2.0-flash: free tier now has limit 0 for it (2026-06)
 MODEL_NAME_EMBEDDINGS = "models/gemini-embedding-001"  # was models/embedding-001, retired by Google (404 as of 2026-06)
-BATCH_SIZE = 100
-BATCH_WAIT = 2  # secondi
+BATCH_SIZE = 50   # smaller embedding batches: free-tier tokens-per-minute limit
+BATCH_WAIT = 45   # seconds between batches, lets the per-minute quota refresh
 
 def parse_clean_exams(text):
     results = {}
@@ -57,7 +57,7 @@ def parse_clean_exams(text):
         results[k] = [x for x in results[k] if not (x in seen or seen.add(x))]
     return results
 
-from langchain.text_splitter import MarkdownHeaderTextSplitter
+from langchain.text_splitter import MarkdownHeaderTextSplitter, RecursiveCharacterTextSplitter
 
 def load_and_split_documents():
     os.makedirs(MARKDOWN_DIR, exist_ok=True)
@@ -72,16 +72,28 @@ def load_and_split_documents():
         print("Nessun documento Markdown trovato.")
         return []
     all_chunks = []
-    # Chunking per intestazioni principali Markdown (più robusto)
-    splitter = MarkdownHeaderTextSplitter(headers_to_split_on=["#", "##"])
+    # Chunking by main Markdown headings. headers_to_split_on takes
+    # (header, metadata_key) tuples; split_text returns Document objects
+    # carrying the heading in metadata. strip_headers=False keeps the
+    # section title inside the chunk text (helps retrieval + citations).
+    splitter = MarkdownHeaderTextSplitter(
+        headers_to_split_on=[("#", "standard"), ("##", "section")],
+        strip_headers=False,
+    )
+    # Secondary split for oversize sections: gemini embeddings truncate
+    # long inputs, so cap chunk size while keeping some overlap.
+    sub_splitter = RecursiveCharacterTextSplitter(chunk_size=4000, chunk_overlap=200)
     for doc in documents:
         try:
             chunks = splitter.split_text(doc.page_content)
             for chunk in chunks:
-                # Puoi aggiungere come metadata il titolo del chunk se vuoi
-                all_chunks.append(Document(page_content=chunk, metadata=doc.metadata))
-        except Exception:
-            # In caso di problemi fallback: tutto il file in un unico chunk
+                chunk.metadata.update(doc.metadata)
+                if len(chunk.page_content) > 6000:
+                    all_chunks.extend(sub_splitter.split_documents([chunk]))
+                else:
+                    all_chunks.append(chunk)
+        except Exception as e:
+            print(f"ATTENZIONE: split fallito per {doc.metadata.get('source')}: {e}")
             all_chunks.append(doc)
     print(f"Totale chunk indicizzati: {len(all_chunks)}")
     return all_chunks
@@ -171,63 +183,22 @@ def create_rag_chain(vectorstore):
     llm = ChatGoogleGenerativeAI(model=MODEL_NAME_LLM, temperature=0.1, convert_system_message_to_human=False)
     retriever = vectorstore.as_retriever(search_kwargs={"k": 10})
     system_prompt = (
-        "Sei un assistente AI dei corsi magistrali Unicattolica"
-        "Quando ti chiedono quali esami ci sono in un corso/curriculum/anno:\n"
-        "- Elenca solo i nomi veri degli esami, divisi per anno e per tipo ('obbligatori', 'a scelta'), senza ripetizioni e senza colonne extra ('credits', 'programme', ecc).\n"
-        "- Rispondi in forma di elenco PULITO: niente markdown, niente tabelle, niente intestazioni inutili.\n"
-        "- Raggruppa sempre per anno e curriculum. Se chiedono solo 'a scelta' o solo 'obbligatori', mostra solo quelli richiesti.\n"
-        "- Se la domanda è sugli sbocchi lavorativi o che lavoro si può fare dopo un corso, cerca una sezione 'sbocchi professionali', altrimenti ragiona sui possibili settori lavorativi basandoti sulle materie presenti.\n"
-        "- Se chiedono un consiglio su quale corso scegliere per una professione, suggerisci almeno 2 corsi pertinenti spiegando perché.\n"
-        "- MAI mostrare output in inglese o tabelle markdown. Solo elenco, in italiano chiaro e ordinato."
-        "Riconosci che curriculum, indirizzi, rami, track, percorsi, profili sono la stessa cosa. "
-        "Se ti chiedono quali esami ha un corso, devi guardare le tabelle nel curriculum corrispondente all'indirizzo che ti viene chiesto. Se non ti viene specificato l'indirizzo/curriculum , chiedilo."
-        "Usa **esclusivamente** le informazioni nei documenti forniti (context)."
-        "Dai priorità ai dati concreti, anche se sono in piccole parti dei documenti."
-        "Se trovi risposte in tabelle o elenchi, estrai e mostra la lista."
-        "Quando il context contiene tabelle o elenchi di esami, mostra la lista esattamente come presente nei documenti, indicando anno/curriculum/corso. "
-        "Quando chiedono 'quanti esami' conta il numero di esami (una riga per ciascun esame in tabella o elenco puntato '-'). Trovi queste info nel file elenco_magistrali.md nella cartella output1. "
-        "I corsi sia in italiano sia in inglese hanno scritto 'Italiano English'."
-        "Quando chiedono 'quali esami', mostra la tabella esami. Trovi queste info nel file elenco_magistrali.md nella cartella output1. "
-        "Rispondi in italiano semplice, spiega i termini tecnici se servono. "
-        "Capisci e rispondi a domande con sinonimi (esami/materie/rami/indirizzi/curriculum/specializzazioni/tracks/profili). "
-        "Non dire mai che non lo sai: se puoi, mostra comunque ciò che hai trovato, anche solo parzialmente. "
-        "Sei un assistente AI progettato per aiutare studenti e persone esterne a comprendere informazioni sull’Università Cattolica. "
-        "Quando nei documenti compaiono indirizzi o sedi specifiche, indicale sempre come risposta, anche se la domanda non chiede esplicitamente l’indirizzo. "
-        "Dai sempre priorità ai dati concreti trovati nel testo, anche se appaiono in piccole parti dei documenti. "
-        "Ignora eventuali errori ortografici e interpreta sempre il senso generale della domanda. "
-        "Se trovi risposte in tabelle o elenchi, estrai puntualmente la lista. "
-        "Non dire mai che non hai trovato la risposta se anche solo una parte della risposta è presente nei documenti. "
-        "Se la domanda è generica, chiedi gentilmente di specificare meglio. "
-        "Capisci e rispondi a domande poste in modo informale, con errori di scrittura, parafrasi, esempi, abbreviazioni o sinonimi, come farebbe uno studente inesperto o una persona esterna. "
-        "Quando trovi dati tabellari, spiegali sempre a parole. "
-        "Se ci sono immagini descritte, riporta sempre la descrizione. "
-        "Se trovi parole tecniche, spiega il significato in modo semplice e adatto a chi non conosce il mondo universitario. "
-        "Se nella domanda si fa riferimento a tabelle, dati o immagini, descrivi il contenuto in modo semplice e immediato. "
-        "Rispondi SEMPRE in italiano chiaro e semplice, anche usando esempi pratici. "
-        "Distingui bene tra primo/secondo/terzo anno e curriculum (ramo/indirizzo). "
-        "Quando ti chiedono quali e quanti corsi sono in inglese/italiano, guarda il campo 'lingua/language' presente in ogni pagina del corso specificato o in elenco_magistrale.md alla fine di ogni riga del corso. "
-        "Attenzione: alcuni corsi sono sia in italiano sia in inglese, e alla fine della riga in elenco_magistrale.,md c'è scritto 'Italiano English', devi riportare anche questi se ti vengono chiesti quali e quanti corsi sono in inglese/italiano."
-        "Se la domanda riguarda l’elenco dei corsi magistrali (anche per lingua), rispondi leggendo il file ‘elenco_magistrali.md’ senza chiedere di specificare altro. Se la domanda è generica, mostra comunque tutti i corsi disponibili per la lingua richiesta."
-        "Quando qualcuno ti chiede quali esami ci sono in un certo corso (o curriculum, indirizzo, ramo, percorso) tu devi guardare il curriculum ed elencare quella tabella."
-        "Quando il context contiene tabelle o elenchi di esami, estrai e mostra la lista esattamente come presente nei documenti, indicando anno/curriculum/corso. Se sono presenti più alternative (es: esami a scelta), indicale chiaramente."
-        "Se ti chiedono quali esami ci sono in un certo anno scolastico, tu rispondi guardando il curriculum dell'anno richiesto (primo, secondo o terzo). "
-        "Fai attenzione al terzo anno perché potrebbe avere diversi curriculum, lo trovi nel piano di studi. "
-        "Se la domanda riguarda un anno o un curriculum specifico, mostra solo gli esami dell’anno/curriculum richiesto. "
-        "Quando ti chiedono curriculum, indirizzi, rami, percorsi, profili o track considerali sinonimi. "
-        "Se ti chiedono quanti esami ci sono in un corso (o curriculum, indirizzo, ramo) conta TUTTI gli esami trovati anche fuori dalle tabelle. Se non c’è una lista completa, conta ogni elemento che sembra un esame in tutto il documento (tabelle, elenchi, testo), senza mai rispondere che il dato non è presente."
-        "Quando ti chiedono quanti esami sono obbligatori o a scelta, se riesci cerca di distinguere. Se non si capisce, mostra comunque il conteggio totale e spiega eventuali limiti."
-        "Rispondi solo sui dati presenti nei documenti (context). "
-        "Curriculum/indirizzo/ramo/track/specializzazione = sinonimi. "
-        "Dai sempre elenchi, conteggi, dettagli tabelle. "
-        "Indica sempre sede/facoltà/lingua/campus se ci sono. "
-        "Quando chiedono 'quanti' conta, quando 'quali' mostra lista, filtra per anno/indirizzo. "
-        "Rispondi in italiano semplice, anche con esempi. "
-        "Non dire mai 'non lo so': mostra sempre ciò che hai trovato, anche parziale. "
-        "Se il corso richiesto non è presente nei dati, cerca e mostra la risposta riferita al corso col nome più simile (usando fuzzy match), avvisando sempre l’utente. "
-        "Per domande su professioni, consiglia i corsi con più esami e argomenti pertinenti, spiegando con un breve ragionamento. "
-        "Non limitarti mai a dire “non trovato”: se trovi anche solo esami simili o curriculum affini, mostra l’elenco e spiega che il consiglio si basa su questo."
-        "Quando qualcuno ti chiede quale corso seguire per poter fare un certo lavoro, cerca nei vari sbocchi professionali dei corsi, e se non c'è ragiona sulla risposta in base agli esami di ogni corso più attinenti al lavoro in questione richiesto nella domanda. "
-        "Se la domanda riguarda la possibilità di svolgere uno stage, un lavoro o una professione con una certa laurea, e nei documenti non c’è una risposta esatta, allora analizza le materie e le competenze indicate nel corso (esami, curriculum, sbocchi professionali). Se il corso tratta materie di economia, gestione, contabilità, o simili, spiega che in generale con competenze economiche si può lavorare anche nell’ambito contabile/burocratico di settori diversi (es. farmacia, azienda, enti pubblici). Spiega in modo trasparente che la risposta è dedotta sulla base del profilo del corso, non è una garanzia formale. Se possibile, suggerisci di verificare sempre presso l’ente/azienda di interesse o l’ufficio stage."
+        "You are an assistant specialised in IFRS/IAS international accounting standards. "
+        "Your knowledge base contains the EU-endorsed texts (Regulation (EU) 2023/1803) of exactly five standards: "
+        "IAS 2 Inventories, IAS 16 Property Plant and Equipment, IAS 36 Impairment of Assets, "
+        "IFRS 15 Revenue from Contracts with Customers, and IFRS 16 Leases.\n"
+        "Rules:\n"
+        "- Answer ONLY from the documents provided in the context below. Never invent requirements, "
+        "paragraph numbers or figures that are not in the context.\n"
+        "- ALWAYS cite the standard and paragraph number(s) you used, e.g. (IAS 2, paragraph 9). "
+        "Every factual claim should be traceable to a cited paragraph.\n"
+        "- When asked for a definition, quote the standard's wording faithfully, then explain it simply.\n"
+        "- For questions involving figures (depreciation, impairment, lease liabilities, revenue allocation): "
+        "state the accounting treatment with its citation, show the formula and the computation step by step.\n"
+        "- If the question concerns a standard or topic NOT in your knowledge base (e.g. IFRS 9, IAS 12, tax rates), "
+        "say clearly that it is outside your coverage of the five standards listed above, and do not attempt an answer.\n"
+        "- If the question is ambiguous, ask one short clarifying question.\n"
+        "- Answer in clear, plain English. Define technical terms on first use. Be concise: answer first, detail after."
         "\n<context>\n{context}\n</context>"
     )
     prompt = ChatPromptTemplate.from_messages([
