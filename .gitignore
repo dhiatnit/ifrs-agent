@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Environment variables — NEVER commit the API key
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated at runtime (rebuild with: python bot_review.py --index_only)
+index/
+
+# Source dump from EUR-Lex (12 MB) — see README for the download command
+data_src/
+
+# Scratch results (final evaluation results ARE committed under results/)
+debug_*.json
+*.tmp
+temp/
+tmp/
+
+# Jupyter checkpoints (notebooks themselves are committed)
+.ipynb_checkpoints/

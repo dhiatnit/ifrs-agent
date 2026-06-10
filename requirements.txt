@@ -1,0 +1,27 @@
+# Python 3.12/3.13 required (LangChain 0.3.x does not work on Python 3.14).
+# Exact versions known to work: see requirements-pinned.txt
+
+# Core LangChain (0.3.x generation — the 1.x line removed the legacy imports
+# used by bot_review.py)
+langchain>=0.3,<1
+langchain-core>=0.3,<0.4
+langchain-community>=0.3,<0.4
+langchain-google-genai>=2,<3
+langchain-text-splitters>=0.3,<0.4
+
+# Vector store
+faiss-cpu>=1.7.4
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Data processing
+pandas>=2.0,<3
+openpyxl>=3.1          # pandas Excel engine (needed by batch_query.py)
+
+# Data ingestion (prepare_ifrs_data.py)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+markdownify>=0.11.0
+
+typing-extensions>=4.5.0
