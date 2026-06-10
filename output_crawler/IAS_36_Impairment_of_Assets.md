@@ -64,8 +64,6 @@
 
 ## Fair value less costs of disposal
 
-25-27 | [Deleted]
-
 **28** Costs of disposal, other than those that have been recognised as liabilities, are deducted in measuring fair value less costs of disposal. Examples of such costs are legal costs, stamp duty and similar transaction taxes, costs of removing the asset, and direct incremental costs to bring an asset into condition for its sale. However, termination benefits (as defined in IAS 19) and costs associated with reducing or reorganising a business following the disposal of an asset are not direct incremental costs to dispose of the asset.
 
 **29** Sometimes, the disposal of an asset would require the buyer to assume a liability and only a single fair value less costs of disposal is available for both the asset and the liability. Paragraph 78 explains how to deal with such cases.
@@ -218,8 +216,6 @@
 
 **90** A cash-generating unit to which goodwill has been allocated shall be tested for impairment annually, and whenever there is an indication that the unit may be impaired, by comparing the carrying amount of the unit, including the goodwill, with the recoverable amount of the unit. If the recoverable amount of the unit exceeds the carrying amount of the unit, the unit and the goodwill allocated to that unit shall be regarded as not impaired. If the carrying amount of the unit exceeds the recoverable amount of the unit, the entity shall recognise the impairment loss in accordance with paragraph 104.
 
-91–95 | [Deleted]
-
 ## Timing of impairment tests
 
 **96** The annual impairment test for a cash-generating unit to which goodwill has been allocated may be performed at any time during an annual period, provided the test is performed at the same time every year. Different cash-generating units may be tested for impairment at different times. However, if some or all of the goodwill allocated to a cash-generating unit was acquired in a business combination during the current annual period, that unit shall be tested for impairment before the end of the current annual period.
@@ -322,8 +318,6 @@
 
 ## TRANSITIONAL PROVISIONS AND EFFECTIVE DATE
 
-**138** [Deleted]
-
 **139** An entity shall apply this Standard: (a) to goodwill and intangible assets acquired in business combinations for which the agreement date is on or after 31 March 2004; and (b) to all other assets prospectively from the beginning of the first annual period beginning on or after 31 March 2004.
 
 **140** Entities to which paragraph 139 applies are encouraged to apply the requirements of this standard before the effective dates specified in paragraph 139. However, if an entity applies this standard before those effective dates, it also shall apply IFRS 3 and IAS 38 (as revised in 2004) at the same time.
@@ -338,17 +332,11 @@
 
 **140E** Improvements to IFRSs issued in April 2009 amended paragraph 80(b). An entity shall apply that amendment prospectively for annual periods beginning on or after 1 January 2010. Earlier application is permitted. If an entity applies the amendment for an earlier period it shall disclose that fact.
 
-**140F** [Deleted]
-
-**140G** [Deleted]
-
 **140H** IFRS 10 and IFRS 11, issued in May 2011, amended paragraph 4, the heading above paragraph 12(h) and paragraph 12(h). An entity shall apply those amendments when it applies IFRS 10 and IFRS 11.
 
 **140I** IFRS 13, issued in May 2011, amended paragraphs 5, 6, 12, 20, 22, 28, 78, 105, 111, 130 and 134, deleted paragraphs 25–27 and added paragraph 53A. An entity shall apply those amendments when it applies IFRS 13.
 
 **140J** In May 2013 paragraphs 130 and 134 and the heading above paragraph 138 were amended. An entity shall apply those amendments retrospectively for annual periods beginning on or after 1 January 2014. Earlier application is permitted. An entity shall not apply those amendments in periods (including comparative periods) in which it does not also apply IFRS 13.
-
-**140K** [Deleted]
 
 **140L** IFRS 15 Revenue from Contracts with Customers , issued in May 2014, amended paragraph 2. An entity shall apply that amendment when it applies IFRS 15.
 

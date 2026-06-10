@@ -10,8 +10,6 @@
 
 **3** This Standard does not apply to: (a) property, plant and equipment classified as held for sale in accordance with IFRS 5 Non-current Assets Held for Sale and Discontinued Operations . (b) biological assets related to agricultural activity other than bearer plants (see IAS 41 Agriculture). This Standard applies to bearer plants but it does not apply to the produce on bearer plants. (c) the recognition and measurement of exploration and evaluation assets (see IFRS 6 Exploration for and Evaluation of Mineral Resources ). (d) mineral rights and mineral reserves such as oil, natural gas and similar non-regenerative resources. However, this standard applies to property, plant and equipment used to develop or maintain the assets described in (b)-(d).
 
-**4** [Deleted]
-
 **5** An entity using the cost model for investment property in accordance with IAS 40 Investment Property shall use the cost model in this standard for owned investment property.
 
 ## DEFINITIONS
@@ -74,8 +72,6 @@
 
 **26** The fair value of an asset is reliably measurable if (a) the variability in the range of reasonable fair value measurements is not significant for that asset or (b) the probabilities of the various estimates within the range can be reasonably assessed and used when measuring fair value. If an entity is able to measure reliably the fair value of either the asset received or the asset given up, then the fair value of the asset given up is used to measure the cost of the asset received unless the fair value of the asset received is more clearly evident.
 
-**27** [Deleted]
-
 **28** The carrying amount of an item of property, plant and equipment may be reduced by government grants in accordance with IAS 20 Accounting for Government Grants and Disclosure of Government Assistance .
 
 ## MEASUREMENT AFTER RECOGNITION
@@ -93,10 +89,6 @@
 ## Revaluation model
 
 **31** After recognition as an asset, an item of property, plant and equipment whose fair value can be measured reliably shall be carried at a revalued amount, being its fair value at the date of the revaluation less any subsequent accumulated depreciation and subsequent accumulated impairment losses. Revaluations shall be made with sufficient regularity to ensure that the carrying amount does not differ materially from that which would be determined using fair value at the end of the reporting period.
-
-**32** [Deleted]
-
-**33** [Deleted]
 
 **34** The frequency of revaluations depends upon the changes in fair values of the items of property, plant and equipment being revalued. When the fair value of a revalued asset differs materially from its carrying amount, a further revaluation is required. Some items of property, plant and equipment experience significant and volatile changes in fair value, thus necessitating annual revaluation. Such frequent revaluations are unnecessary for items of property, plant and equipment with only insignificant changes in fair value. Instead, it may be necessary to revalue the item only every three or five years.
 
@@ -167,8 +159,6 @@
 ## Impairment
 
 **63** To determine whether an item of property, plant and equipment is impaired, an entity applies IAS 36 Impairment of Assets . That standard explains how an entity reviews the carrying amount of its assets, how it determines the recoverable amount of an asset, and when it recognises, or reverses the recognition of, an impairment loss.
-
-**64** [Deleted]
 
 ## Compensation for impairment
 

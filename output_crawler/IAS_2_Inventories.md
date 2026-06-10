@@ -6,7 +6,7 @@
 
 ## SCOPE
 
-**2** This Standard applies to all inventories, except: (a) [deleted] (b) financial instruments (see IAS 32 Financial Instruments: Presentation and IFRS 9 Financial Instruments ); and (c) biological assets related to agricultural activity and agricultural produce at the point of harvest (see IAS 41 Agriculture ).
+**2** This Standard applies to all inventories, except:(b) financial instruments (see IAS 32 Financial Instruments: Presentation and IFRS 9 Financial Instruments ); and (c) biological assets related to agricultural activity and agricultural produce at the point of harvest (see IAS 41 Agriculture ).
 
 **3** This standard does not apply to the measurement of inventories held by: (a) producers of agricultural and forest products, agricultural produce after harvest, and minerals and mineral products, to the extent that they are measured at net realisable value in accordance with well-established practices in those industries. When such inventories are measured at net realisable value, changes in that value are recognised in profit or loss in the period of the change; (b) commodity broker-traders who measure their inventories at fair value less costs to sell. When such inventories are measured at fair value less costs to sell, changes in fair value less costs to sell are recognised in profit or loss in the period of the change.
 
@@ -51,8 +51,6 @@
 **17** IAS 23 Borrowing costs identifies limited circumstances where borrowing costs are included in the cost of inventories.
 
 **18** An entity may purchase inventories on deferred settlement terms. When the arrangement effectively contains a financing element, that element, for example a difference between the purchase price for normal credit terms and the amount paid, is recognised as interest expense over the period of the financing.
-
-**19** [Deleted]
 
 ## Cost of agricultural produce harvested from biological assets
 
@@ -110,13 +108,7 @@
 
 **40** An entity shall apply this standard for annual periods beginning on or after 1 January 2005. Earlier application is encouraged. If an entity applies this standard for a period beginning before 1 January 2005, it shall disclose that fact.
 
-**40A** [Deleted]
-
-**40B** [Deleted]
-
 **40C** IFRS 13, issued in May 2011, amended the definition of fair value in paragraph 6 and amended paragraph 7. An entity shall apply those amendments when it applies IFRS 13.
-
-**40D** [Deleted]
 
 **40E** IFRS 15 Revenue from Contracts with Customers , issued in May 2014, amended paragraphs 2, 8, 29 and 37 and deleted paragraph 19. An entity shall apply those amendments when it applies IFRS 15.
 
