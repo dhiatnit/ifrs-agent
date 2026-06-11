@@ -116,7 +116,17 @@ def get_vectorstore(force_recreate=False):
     vs = None
     for i, batch in enumerate(batches):
         print(f"Indicizzazione batch {i+1}/{len(batches)} ({len(batch)} doc)")
-        batch_vs = FAISS.from_documents(batch, embeddings)
+        # free-tier quota is per-minute: on 429, wait and retry the batch
+        for attempt in range(4):
+            try:
+                batch_vs = FAISS.from_documents(batch, embeddings)
+                break
+            except Exception as e:
+                if "429" in str(e) and attempt < 3:
+                    print(f"Rate limit (429): attendo 70s e riprovo (tentativo {attempt + 2}/4)...")
+                    time.sleep(70)
+                else:
+                    raise
         if vs is None:
             vs = batch_vs
         else:
