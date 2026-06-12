@@ -38,3 +38,6 @@ tmp/
 
 # Jupyter checkpoints (notebooks themselves are committed)
 .ipynb_checkpoints/
+
+# smoke-test outputs (full eval results under results/ ARE committed)
+results/smoke_*
