@@ -101,7 +101,7 @@ On Windows, run with UTF-8 mode if you see encoding errors:
 |---|---|---|
 | Ben Hassine Dhia Eddine | @dhiatnit | Core: environment, data pipeline, agent & tools, prompts |
 | _Teammate A_ | _@..._ | Data QA, Gradio UI, eval questions, slides |
-| _Teammate B_ | _@..._ | Data QA, demo notebook, eval questions, metrics & error analysis |
+| _Teammate B_ | papinidavide | Data QA, demo notebook, eval questions, metrics & error analysis |
 
 See `TEAM_PLAN.md` for the detailed work split and commit plan.
 
