@@ -14,6 +14,7 @@ Usage:
 """
 
 import json
+import os
 import sys
 import time
 from datetime import datetime
@@ -25,9 +26,12 @@ load_dotenv()
 from batch_query import load_questions_from_excel, save_results
 from agent import ask_agent
 
-PAUSE_BETWEEN_QUESTIONS = 20  # seconds; stays inside free-tier per-minute limits
-RETRIES_ON_QUOTA = 3
-QUOTA_WAIT = 65               # seconds to wait after a 429 before retrying
+# flash-lite free tier = 20 requests/MINUTE. The agent makes ~3-4 calls
+# per question, so we pace ~1 question / 30s (~8 calls/min) to stay well
+# under 20 and leave headroom for the occasional retry.
+PAUSE_BETWEEN_QUESTIONS = 30  # seconds
+RETRIES_ON_QUOTA = 5
+QUOTA_WAIT = 65               # seconds to wait after a 429 (lets the minute window reset)
 
 
 def ask_with_retry(question: str, verbose: bool = False) -> str:
@@ -62,29 +66,46 @@ def main():
     if limit:
         data = data[:limit]
 
-    print(f"Evaluating the AGENT on {len(data)} questions "
-          f"(~{PAUSE_BETWEEN_QUESTIONS}s pause between questions)...")
+    # Resume: reuse answers already saved (lets the run span several
+    # background windows without redoing work or wasting quota).
     results = []
+    done = {}
+    if os.path.exists(output_file):
+        with open(output_file, encoding="utf-8") as f:
+            prev = json.load(f).get("results", [])
+        for r in prev:
+            if not r["answer"].startswith("ERRORE:"):
+                done[r["query"]] = r
+        results = list(done.values())
+        if done:
+            print(f"Resuming: {len(done)} questions already answered, skipping them.", flush=True)
+
+    print(f"Evaluating the AGENT on {len(data)} questions "
+          f"(~{PAUSE_BETWEEN_QUESTIONS}s pause between questions)...", flush=True)
     for i, item in enumerate(data, 1):
-        print(f"[{i}/{len(data)}] {item['query'][:70]}")
+        if item["query"] in done:
+            print(f"[{i}/{len(data)}] (already done) {item['query'][:55]}", flush=True)
+            continue
+        print(f"[{i}/{len(data)}] {item['query'][:70]}", flush=True)
         try:
             answer = ask_with_retry(item["query"], verbose=verbose)
-            print("  OK")
+            print("  OK", flush=True)
         except Exception as exc:
             answer = f"ERRORE: {exc}"
-            print(f"  FAILED: {exc}")
+            print(f"  FAILED: {exc}", flush=True)
         results.append({
             "query": item["query"],
             "answer": answer,
             "true_answer": item["true_answer"],
             "timestamp": datetime.now().isoformat(),
         })
+        # save after EVERY question so a crash/timeout never loses progress
+        save_results(results, output_file)
         if i < len(data):
             time.sleep(PAUSE_BETWEEN_QUESTIONS)
 
-    save_results(results, output_file)
     ok = sum(1 for r in results if not r["answer"].startswith("ERRORE:"))
-    print(f"\nDone: {ok}/{len(results)} answered. Results in {output_file}")
+    print(f"\nDone: {ok}/{len(results)} answered. Results in {output_file}", flush=True)
 
 
 if __name__ == "__main__":

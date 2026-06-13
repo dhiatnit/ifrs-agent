@@ -1,0 +1,186 @@
+{
+  "timestamp": "20260613_141340",
+  "total_queries": 30,
+  "results": [
+    {
+      "query": "How are inventories measured under IAS 2?",
+      "answer": "Inventories are measured at the lower of cost and net realisable value (IAS 2, paragraph 9).\n\nCost includes all costs of purchase, costs of conversion, and other costs incurred to bring the inventories to their present location and condition (IAS 2, paragraph 10). Net realisable value is the estimated selling price in the ordinary course of business less the estimated costs of completion and the estimated costs necessary to make the sale (IAS 2, paragraph 28).",
+      "true_answer": "At the lower of cost and net realisable value (IAS 2, paragraph 9).",
+      "timestamp": "2026-06-13T12:50:44.292687"
+    },
+    {
+      "query": "What is net realisable value according to IAS 2?",
+      "answer": "Net realisable value is the estimated selling price in the ordinary course of business less the estimated costs of completion and the estimated costs necessary to make the sale. (IAS 2, paragraph 6)\n\nInventories are typically measured at the lower of cost and net realisable value. (IAS 2, paragraph 9) Net realisable value represents the net amount an entity expects to realize from the sale of inventory in its ordinary course of business. (IAS 2, paragraph 7)",
+      "true_answer": "The estimated selling price in the ordinary course of business less the estimated costs of completion and the estimated costs necessary to make the sale (IAS 2, paragraph 6).",
+      "timestamp": "2026-06-13T12:51:06.255624"
+    },
+    {
+      "query": "Which cost formulas does IAS 2 allow for inventories?",
+      "answer": "The IAS 2 standard allows the following cost formulas for inventories:\n\n*   **Specific identification:** This method is used for inventories that are not ordinarily interchangeable and are segregated for specific projects. It involves attributing specific costs to identified items of inventory.\n*   **First-in, first-out (FIFO):** This formula assumes that the first items of inventory purchased or produced are the first ones to be sold.\n*   **Weighted average cost:** This formula calculates the cost of each item based on the weighted average cost of similar items at the beginning of a period plus the cost of similar items purchased or produced during the period.\n\nAn entity must use the same cost formula for inventories of a similar nature and use. Different cost formulas may be justified for inventories with a different nature or use (IAS 2, paragraphs 23-25).\n\nThe standard also mentions that techniques like the standard cost method or the retail method may be used for convenience if their results approximate cost (IAS 2, paragraphs 21-22).",
+      "true_answer": "Specific identification for items not ordinarily interchangeable; otherwise FIFO (first-in, first-out) or weighted average cost. The same formula must be used for all inventories of similar nature and use (IAS 2, paragraphs 23-25).",
+      "timestamp": "2026-06-13T12:51:28.608112"
+    },
+    {
+      "query": "Does IAS 2 permit the LIFO cost formula?",
+      "answer": "No, IAS 2 does not permit the LIFO (Last-In, First-First) cost formula. It specifies that the cost of inventories shall be assigned using either the First-In, First-Out (FIFO) or the weighted average cost formula (IAS 2, paragraph 25).",
+      "true_answer": "No. IAS 2 only permits specific identification, FIFO or weighted average cost (IAS 2, paragraph 25). LIFO is not allowed.",
+      "timestamp": "2026-06-13T12:51:50.400124"
+    },
+    {
+      "query": "Which standard governs revenue from contracts with customers?",
+      "answer": "IFRS 15 governs revenue from contracts with customers. (IFRS 15, Title)",
+      "true_answer": "IFRS 15 Revenue from Contracts with Customers.",
+      "timestamp": "2026-06-13T12:52:10.987725"
+    },
+    {
+      "query": "What are the five steps of the IFRS 15 revenue recognition model?",
+      "answer": "IFRS 15 outlines a five-step model for revenue recognition:\n\n1.  **Identify the contract(s) with a customer:** This involves ensuring that the contract meets specific criteria, such as approval by parties, identification of rights and obligations, clear payment terms, commercial substance, and probable collectability of consideration. (IFRS 15, paragraph 9)\n2.  **Identify the performance obligations in the contract:** These are the distinct promises to transfer goods or services to the customer.\n3.  **Determine the transaction price:** This is the amount of consideration an entity expects to be entitled to in exchange for transferring promised goods or services.\n4.  **Allocate the transaction price to the performance obligations:** If there are multiple performance obligations, the transaction price must be allocated to each one based on their standalone selling prices.\n5.  **Recognise revenue when (or as) the entity satisfies a performance obligation:** Revenue is recognized either at a point in time or over time, depending on when control of the goods or services is transferred to the customer. (IFRS 15, paragraph 46)",
+      "true_answer": "1) Identify the contract with the customer; 2) identify the performance obligations; 3) determine the transaction price; 4) allocate the transaction price to the performance obligations; 5) recognise revenue when (or as) a performance obligation is satisfied (IFRS 15).",
+      "timestamp": "2026-06-13T12:52:33.604711"
+    },
+    {
+      "query": "What is a performance obligation under IFRS 15?",
+      "answer": "Under IFRS 15, a performance obligation is a promise in a contract with a customer to transfer goods or services that are distinct, or a series of distinct goods or services that are substantially the same and have the same pattern of transfer to the customer. (IFRS 15, paragraph 22).\n\nThese promised goods or services can be explicitly stated in the contract or implied by the entity's customary business practices, published policies, or specific statements that create a valid customer expectation. Activities undertaken solely to fulfill a contract, without transferring a good or service to the customer, are not considered performance obligations. (IFRS 15, paragraph 24-25).",
+      "true_answer": "A promise in a contract with a customer to transfer to the customer a good or service (or bundle) that is distinct, or a series of distinct goods or services that are substantially the same (IFRS 15, Appendix A).",
+      "timestamp": "2026-06-13T12:52:55.647004"
+    },
+    {
+      "query": "How is an item of property, plant and equipment initially measured under IAS 16?",
+      "answer": "An item of property, plant and equipment is initially measured at its cost. (IAS 16, paragraph 15).\n\nCost includes:\n*   The purchase price, less any trade discounts or rebates.\n*   Any costs directly attributable to bringing the asset to its intended location and condition for use.\n*   The initial estimate of costs to dismantle, remove, and restore the site, if incurred upon acquisition or as a consequence of using the asset. (IAS 16, paragraph 16).\n\nExamples of directly attributable costs include site preparation, delivery, installation, testing, and professional fees. (IAS 16, paragraph 17). Costs that are not included in the cost of an item of property, plant and equipment are those related to opening new facilities, introducing new products or services, conducting business in new locations, and general overheads. (IAS 16, paragraph 19).",
+      "true_answer": "An item of property, plant and equipment that qualifies for recognition as an asset shall be measured at its cost (IAS 16, paragraph 15).",
+      "timestamp": "2026-06-13T12:53:17.767251"
+    },
+    {
+      "query": "What elements make up the cost of an item of property, plant and equipment under IAS 16?",
+      "answer": "The cost of an item of property, plant and equipment includes:\n\n1.  **Purchase price:** This includes import duties and non-refundable purchase taxes, minus any trade discounts and rebates.\n2.  **Directly attributable costs:** These are costs necessary to bring the asset to its intended location and condition for use. Examples include:\n    *   Employee benefits for construction or acquisition.\n    *   Site preparation.\n    *   Delivery and handling.\n    *   Installation and assembly.\n    *   Testing costs.\n    *   Professional fees.\n3.  **Initial estimates of dismantling, removal, and site restoration costs:** These are obligations incurred when acquiring the asset or as a consequence of using it for purposes other than producing inventories.\n\nCosts that are not included in the cost of an item of property, plant and equipment are administration and other general overhead costs, costs of opening a new facility, costs of introducing a new product or service, and costs of doing business in a new location or with a new class of customer. (IAS 16, paragraphs 16-19, 20).",
+      "true_answer": "Its purchase price including import duties and non-refundable taxes after discounts and rebates; costs directly attributable to bringing the asset to the location and condition necessary; and the initial estimate of dismantling, removal and site restoration costs (IAS 16, paragraph 16).",
+      "timestamp": "2026-06-13T12:53:40.443452"
+    },
+    {
+      "query": "What are the two models for measuring property, plant and equipment after recognition under IAS 16?",
+      "answer": "Under IAS 16, after initial recognition, property, plant and equipment can be measured using either:\n\n1.  The **cost model**: The asset is carried at its cost less accumulated depreciation and accumulated impairment losses. (IAS 16, paragraph 30)\n2.  The **revaluation model**: The asset is carried at a revalued amount, which is the fair value at the date of revaluation less any subsequent accumulated depreciation and subsequent accumulated impairment losses. (IAS 16, paragraph 31)\n\nAn entity must choose one of these models as its accounting policy and apply it to an entire class of property, plant and equipment. (IAS 16, paragraph 29)",
+      "true_answer": "The cost model (cost less accumulated depreciation and impairment losses) and the revaluation model (fair value at revaluation date less subsequent depreciation and impairment) (IAS 16, paragraphs 29-31).",
+      "timestamp": "2026-06-13T12:54:02.485566"
+    },
+    {
+      "query": "What is depreciation according to IAS 16?",
+      "answer": "According to IAS 16, depreciation is the systematic allocation of the depreciable amount of an asset over its useful life (IAS 16, paragraph 50). The depreciable amount is determined after deducting the asset's residual value (IAS 16, paragraph 53). Depreciation begins when the asset is available for use and ceases when it is derecognised or classified as held for sale (IAS 16, paragraph 55). The depreciation charge for a period is typically recognized in profit or loss, unless it forms part of the cost of another asset (IAS 16, paragraph 48). IAS 16 also states that depreciation is recognized even if the fair value of the asset exceeds its carrying amount, provided the residual value does not exceed the carrying amount (IAS 16, paragraph 52).",
+      "true_answer": "The systematic allocation of the depreciable amount of an asset over its useful life (IAS 16, paragraph 6).",
+      "timestamp": "2026-06-13T12:54:26.711432"
+    },
+    {
+      "query": "When is an asset impaired under IAS 36?",
+      "answer": "An asset is considered impaired under IAS 36 when its carrying amount exceeds its recoverable amount. The recoverable amount is the higher of an asset's fair value less costs to sell and its value in use. Entities are required to assess at the end of each reporting period whether there are any indications that an asset may be impaired. If such indications exist, the entity must estimate the recoverable amount of the asset. Certain assets, such as intangible assets with indefinite useful lives and goodwill, must be tested for impairment annually, regardless of whether there are any indications of impairment (IAS 36, paragraphs 8-10).",
+      "true_answer": "An asset is impaired when its carrying amount exceeds its recoverable amount (IAS 36, paragraph 8).",
+      "timestamp": "2026-06-13T13:29:02.197520"
+    },
+    {
+      "query": "What is the recoverable amount of an asset under IAS 36?",
+      "answer": "The recoverable amount of an asset is the higher of its fair value less costs of disposal and its value in use. (IAS 36, paragraph 18).",
+      "true_answer": "The higher of the asset's fair value less costs of disposal and its value in use (IAS 36, paragraph 6).",
+      "timestamp": "2026-06-13T13:29:34.153992"
+    },
+    {
+      "query": "What is a cash-generating unit under IAS 36?",
+      "answer": "A cash-generating unit is the smallest identifiable group of assets that generates cash inflows largely independent of the cash inflows from other assets or groups of assets. (IAS 36, paragraph 6).",
+      "true_answer": "The smallest identifiable group of assets that generates cash inflows that are largely independent of the cash inflows from other assets or groups of assets (IAS 36, paragraph 6).",
+      "timestamp": "2026-06-13T13:30:06.204396"
+    },
+    {
+      "query": "How does a lessee initially measure the lease liability under IFRS 16?",
+      "answer": "At the commencement date, a lessee shall measure the lease liability at the present value of the lease payments that are not paid at that date. The lease payments are discounted using the interest rate implicit in the lease. If that rate cannot be readily determined, the lessee shall use the lessee's incremental borrowing rate (IFRS 16, paragraph 26).\n\nThe lease payments included in the measurement of the lease liability comprise:\n*   Fixed payments (less any lease incentives receivable).\n*   Variable lease payments that depend on an index or a rate, initially measured using the index or rate as at the commencement date.\n*   Amounts expected to be payable under residual value guarantees.\n*   The exercise price of a purchase option if the lessee is reasonably certain to exercise that option.\n*   Payments for terminating the lease if the lease term reflects the lessee exercising an option to terminate. (IFRS 16, paragraph 27)",
+      "true_answer": "At the present value of the lease payments that are not paid at the commencement date, discounted using the interest rate implicit in the lease or, if not readily determinable, the lessee's incremental borrowing rate (IFRS 16, paragraph 26).",
+      "timestamp": "2026-06-13T13:30:38.519841"
+    },
+    {
+      "query": "A machine costs 120000 euros, has a residual value of 20000 euros and a useful life of 8 years. What is the annual straight-line depreciation, and which standard governs it?",
+      "answer": "The annual straight-line depreciation is 12,500 euros. This is governed by IAS 16 Property, Plant and Equipment, which states that the depreciable amount of an asset shall be allocated on a systematic basis over its useful life (IAS 16, paragraph 50). The straight-line method is an acceptable systematic basis for depreciation (IAS 16, paragraph 62).",
+      "true_answer": "Annual depreciation = (120000 - 20000) / 8 = 12500 euros per year, under IAS 16.",
+      "timestamp": "2026-06-13T13:31:11.221396"
+    },
+    {
+      "query": "Inventory cost 50000 euros. Expected selling price is 52000 euros and costs to sell are 5000 euros. At what amount is the inventory measured under IAS 2?",
+      "answer": "The inventory is measured at 47,000 euros.\n\nIAS 2 states that inventories shall be measured at the lower of cost and net realisable value (IAS 2, paragraph 9).\nThe cost of the inventory is 50,000 euros.\nThe net realisable value is calculated as the estimated selling price less the estimated costs to sell: 52,000 euros - 5,000 euros = 47,000 euros.\nSince the net realisable value (47,000 euros) is lower than the cost (50,000 euros), the inventory is measured at 47,000 euros.",
+      "true_answer": "Net realisable value = 52000 - 5000 = 47000 euros, which is below cost, so the inventory is measured at 47000 euros (write-down of 3000 euros) under IAS 2.",
+      "timestamp": "2026-06-13T13:31:43.376541"
+    },
+    {
+      "query": "An asset has a carrying amount of 200000 euros, fair value less costs of disposal of 150000 euros and value in use of 170000 euros. What is the impairment loss under IAS 36?",
+      "answer": "The impairment loss is 30,000 euros.\n\nIAS 36 defines an impairment loss as the amount by which the carrying amount of an asset exceeds its recoverable amount (IAS 36, paragraph 6). The recoverable amount is the higher of the asset's fair value less costs of disposal and its value in use (IAS 36, paragraph 18).\n\nIn this case:\nCarrying amount = 200,000 euros\nFair value less costs of disposal = 150,000 euros\nValue in use = 170,000 euros\n\nThe recoverable amount is the higher of 150,000 euros and 170,000 euros, which is 170,000 euros.\n\nThe impairment loss is calculated as:\nCarrying amount - Recoverable amount = 200,000 euros - 170,000 euros = 30,000 euros.\n(IAS 36, paragraphs 6 and 18)",
+      "true_answer": "Recoverable amount = higher of 150000 and 170000 = 170000 euros. Impairment loss = 200000 - 170000 = 30000 euros (IAS 36).",
+      "timestamp": "2026-06-13T13:32:16.754867"
+    },
+    {
+      "query": "A lease has 5 annual payments of 10000 euros payable in arrears and the discount rate is 5 percent. What is the initial lease liability under IFRS 16?",
+      "answer": "The initial lease liability is calculated as the present value of the lease payments. The formula for the present value of an ordinary annuity is used, as the payments are made in arrears.\n\nThe calculation is as follows:\nPresent Value = P * [1 - (1 + r)^-n] / r\nWhere:\nP = Annual payment = 10,000 euros\nr = Discount rate = 5% or 0.05\nn = Number of payments = 5\n\nPresent Value = 10000 * [1 - (1 + 0.05)^-5] / 0.05\nPresent Value = 10000 * [1 - (1.05)^-5] / 0.05\nPresent Value = 10000 * [1 - 0.783526] / 0.05\nPresent Value = 10000 * 0.216474 / 0.05\nPresent Value = 10000 * 4.329477\nPresent Value = 43294.77 euros\n\nTherefore, the initial lease liability under IFRS 16 is 43,294.77 euros (IFRS 16, paragraph 26).",
+      "true_answer": "The present value of an annuity of 10000 for 5 years at 5% is approximately 43295 euros, recognised as the initial lease liability under IFRS 16.",
+      "timestamp": "2026-06-13T13:32:50.247056"
+    },
+    {
+      "query": "A contract has a total price of 100000 euros covering two performance obligations with stand-alone selling prices of 40000 and 80000 euros. How is the transaction price allocated under IFRS 15?",
+      "answer": "",
+      "true_answer": "On a relative stand-alone selling price basis: 100000 x 40000/120000 = 33333 euros to the first obligation and 100000 x 80000/120000 = 66667 euros to the second (IFRS 15).",
+      "timestamp": "2026-06-13T13:48:33.265306"
+    },
+    {
+      "query": "Equipment costs 250000 euros with a residual value of 10000 euros and a useful life of 6 years. What is the annual straight-line depreciation?",
+      "answer": "The annual straight-line depreciation is 40,000 euros. This is calculated by taking the cost of the equipment (250,000 euros) and subtracting its residual value (10,000 euros), then dividing the result by the useful life of the asset in years (6 years).\n\nFormula: (Cost - Residual Value) / Useful Life\nCalculation: (250,000 - 10,000) / 6 = 40,000 euros per year.\n\nThis is in accordance with IAS 16, which states that the depreciable amount of an asset shall be allocated on a systematic basis over its useful life (IAS 16, paragraph 50). The straight-line method results in a constant charge over the useful life of the asset (IAS 16, paragraph 62).",
+      "true_answer": "(250000 - 10000) / 6 = 40000 euros per year (IAS 16).",
+      "timestamp": "2026-06-13T13:49:06.522778"
+    },
+    {
+      "query": "A machine cost 90000 euros, residual value zero, total expected production 300000 units. This year it produced 45000 units. What is the depreciation charge under the units of production method?",
+      "answer": "The depreciation charge for the year, using the units of production method, is 13,500 euros.\n\nThe units of production method allocates the depreciable amount of an asset over its useful life based on its expected use or output. The formula is:\n\n(Cost - Residual Value) / Total Estimated Production * Units Produced This Year\n\nIn this case:\n(90,000 euros - 0 euros) / 300,000 units * 45,000 units = 13,500 euros.\n\nThis is supported by IAS 16, which states that the depreciation method used should reflect the pattern in which the asset's future economic benefits are expected to be consumed by the entity, and the units of production method is one such acceptable method (IAS 16, paragraph 62). The depreciable amount is the cost less residual value (IAS 16, paragraph 53).",
+      "true_answer": "90000 x 45000/300000 = 13500 euros (IAS 16, units of production method).",
+      "timestamp": "2026-06-13T13:49:40.604340"
+    },
+    {
+      "query": "A building has a carrying amount of 500000 euros. Its value in use is 460000 euros and its fair value less costs of disposal is 430000 euros. Is it impaired, and by how much?",
+      "answer": "The building is impaired. The impairment loss is 40,000 euros.\n\nThe recoverable amount of an asset is the higher of its fair value less costs of disposal and its value in use (IAS 36, paragraph 18). In this case, the value in use is 460,000 euros and the fair value less costs of disposal is 430,000 euros, making the recoverable amount 460,000 euros.\n\nAn asset is impaired if its carrying amount exceeds its recoverable amount (IAS 36, paragraph 6). The building's carrying amount is 500,000 euros, which is greater than its recoverable amount of 460,000 euros.\n\nThe impairment loss is the difference between the carrying amount and the recoverable amount: 500,000 euros - 460,000 euros = 40,000 euros (IAS 36, paragraph 112).",
+      "true_answer": "Recoverable amount = 460000 euros (higher of the two). Impairment loss = 500000 - 460000 = 40000 euros (IAS 36).",
+      "timestamp": "2026-06-13T13:50:15.646068"
+    },
+    {
+      "query": "Which standard applies to a retailer's merchandise held for resale?",
+      "answer": "The standard that applies to a retailer's merchandise held for resale is IAS 2 Inventories. This standard defines inventories as assets held for sale in the ordinary course of business, which includes merchandise purchased by a retailer for resale (IAS 2, paragraph 6 and 8). IAS 2 also provides guidance on how to measure the cost of inventories and when to write them down to net realisable value (IAS 2, paragraphs 9-22).",
+      "true_answer": "IAS 2 Inventories: merchandise purchased by a retailer and held for resale is inventory.",
+      "timestamp": "2026-06-13T13:50:47.486052"
+    },
+    {
+      "query": "A company signs a 10-year office lease. As lessee, what must it recognise at commencement and under which standard?",
+      "answer": "At the commencement date of the lease, the lessee must recognise a right-of-use asset and a lease liability. This is in accordance with IFRS 16, Leases (IAS 16, paragraph 22).",
+      "true_answer": "Under IFRS 16 the lessee recognises a right-of-use asset and a lease liability at the commencement date.",
+      "timestamp": "2026-06-13T13:51:19.285525"
+    },
+    {
+      "query": "Under which standard is goodwill tested for impairment, and how often?",
+      "answer": "Goodwill is tested for impairment annually under IAS 36, or more frequently if there is an indication that the asset may be impaired. (IAS 36, paragraph 10(b) and 90)",
+      "true_answer": "IAS 36: goodwill acquired in a business combination is tested for impairment annually, and whenever there is an indication of impairment.",
+      "timestamp": "2026-06-13T14:11:36.104675"
+    },
+    {
+      "query": "When is revenue recognised over time rather than at a point in time under IFRS 15?",
+      "answer": "Revenue is recognised over time rather than at a point in time under IFRS 15 if one of the following criteria is met:\n*   The customer simultaneously receives and consumes the benefits provided by the entity's performance as the entity performs.\n*   The entity's performance creates or enhances an asset that the customer controls as the asset is created or enhanced.\n*   The entity's performance does not create an asset with an alternative use to the entity, and the entity has an enforceable right to payment for performance completed to date.\n\nThe entity must be able to reasonably measure its progress towards the complete satisfaction of the performance obligation. If the outcome cannot be reasonably measured, revenue is recognised only to the extent of costs incurred until the outcome can be reasonably measured (IFRS 15, paragraphs 35-37, 44-45).",
+      "true_answer": "When one of the IFRS 15 paragraph 35 criteria is met: the customer simultaneously receives and consumes the benefits; the entity's performance creates or enhances an asset the customer controls; or the asset has no alternative use and the entity has an enforceable right to payment for performance completed to date.",
+      "timestamp": "2026-06-13T14:12:08.504814"
+    },
+    {
+      "query": "What does IFRS 9 say about expected credit losses?",
+      "answer": "I am sorry, but I can only provide information on the following IFRS/IAS standards: IAS 2 Inventories, IAS 16 Property Plant and Equipment, IAS 36 Impairment of Assets, IFRS 15 Revenue from Contracts with Customers, and IFRS 16 Leases. I cannot provide information on IFRS 9.",
+      "true_answer": "Out of scope: IFRS 9 is not in this assistant's knowledge base, which covers only IAS 2, IAS 16, IAS 36, IFRS 15 and IFRS 16. The assistant should say it cannot answer.",
+      "timestamp": "2026-06-13T14:12:39.131432"
+    },
+    {
+      "query": "How should deferred tax assets be recognised?",
+      "answer": "This question is outside my coverage. I can only answer questions about the following IFRS/IAS standards: IAS 2 Inventories, IAS 16 Property Plant and Equipment, IAS 36 Impairment of Assets, IFRS 15 Revenue from Contracts with Customers, IFRS 16 Leases.",
+      "true_answer": "Out of scope: deferred tax is governed by IAS 12, which is not in the knowledge base. The assistant should say it cannot answer.",
+      "timestamp": "2026-06-13T14:13:09.902472"
+    },
+    {
+      "query": "What is the current VAT rate in Italy?",
+      "answer": "I am sorry, but I can only provide information on the following IFRS/IAS standards: IAS 2 Inventories, IAS 16 Property Plant and Equipment, IAS 36 Impairment of Assets, IFRS 15 Revenue from Contracts with Customers, and IFRS 16 Leases. VAT regulations are outside my knowledge base.",
+      "true_answer": "Out of scope: VAT rates are not part of IFRS standards. The assistant should refuse and explain it only answers IFRS/IAS questions.",
+      "timestamp": "2026-06-13T14:13:40.565414"
+    }
+  ]
+}

@@ -25,9 +25,11 @@ from tools import ALL_TOOLS
 # The agent needs multi-step tool calling. Gemini 3.x models require
 # "thought signatures" to be round-tripped through the conversation,
 # which langchain-google-genai 2.x (the last version compatible with
-# LangChain 0.3) does not support — so the agent uses gemini-2.5-flash,
-# the newest model that works without them.
-AGENT_MODEL = "gemini-2.5-flash"
+# LangChain 0.3) does not support — so the agent uses a 2.5 model.
+# flash-lite over flash: the agent makes several calls per question, and
+# flash-lite's free-tier daily quota (~1000 req/day) is ~4x flash's,
+# which comfortably covers the 30-question evaluation with room to re-run.
+AGENT_MODEL = "gemini-2.5-flash-lite"
 
 SYSTEM_PROMPT = (
     "You are an AI agent specialised in IFRS/IAS international accounting standards. "
@@ -48,7 +50,12 @@ SYSTEM_PROMPT = (
 
 
 def build_agent(verbose: bool = True) -> AgentExecutor:
-    llm = ChatGoogleGenerativeAI(model=AGENT_MODEL, temperature=0.1)
+    # max_retries=1: the default (6) creates a "retry storm" — on a
+    # per-minute 429 it fires many rapid retries that themselves count
+    # against the 20 req/min free-tier limit, keeping us pinned at it.
+    # Let a 429 bubble up quickly to the controlled 65s wait in
+    # batch_query_agent.py instead, which lets the minute window reset.
+    llm = ChatGoogleGenerativeAI(model=AGENT_MODEL, temperature=0.1, max_retries=1)
     prompt = ChatPromptTemplate.from_messages([
         ("system", SYSTEM_PROMPT),
         MessagesPlaceholder("chat_history", optional=True),
