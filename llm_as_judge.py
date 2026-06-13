@@ -7,6 +7,7 @@ Confronta answer e true_answer utilizzando lo stesso modello LLM per determinare
 import sys
 import json
 import os
+import time
 from datetime import datetime
 from typing import Dict, List, Any
 from dotenv import load_dotenv
@@ -16,8 +17,12 @@ from langchain.prompts import ChatPromptTemplate
 # Carica le variabili d'ambiente
 load_dotenv()
 
-# Configurazione modello (stessa del bot)
-MODEL_NAME_LLM = "gemini-flash-latest"  # was gemini-2.0-flash: free tier now has limit 0 for it (2026-06)
+# Judge model. gemini-flash-latest (=gemini-3.5-flash) has a punishing
+# 5 requests/MINUTE free-tier limit; gemini-2.5-flash-lite allows 20/min,
+# so the 30-answer judging run is far more practical. (Was gemini-2.0-flash,
+# which now has zero free-tier quota.)
+MODEL_NAME_LLM = "gemini-2.5-flash-lite"
+PAUSE_BETWEEN_JUDGMENTS = 5  # seconds; keep well under the 20/min limit
 
 def load_evaluation_data(json_file: str) -> List[Dict[str, Any]]:
     """Carica i dati di valutazione dal file JSON."""
@@ -108,9 +113,10 @@ def initialize_llm():
     """Inizializza il modello LLM."""
     try:
         llm = ChatGoogleGenerativeAI(
-            model=MODEL_NAME_LLM, 
+            model=MODEL_NAME_LLM,
             temperature=0.1,
-            convert_system_message_to_human=False
+            convert_system_message_to_human=False,
+            max_retries=1,  # avoid retry storms against the per-minute cap
         )
         return llm
     except Exception as e:
@@ -200,7 +206,11 @@ def evaluate_with_llm_judge(data: List[Dict[str, Any]], llm, progress_callback=N
         
         # Esegui il giudizio
         judgment = judge_response_pair(llm, prompt_template, query, answer, true_answer)
-        
+
+        # Pace the calls to stay under the free-tier per-minute limit
+        if i < len(data) - 1:
+            time.sleep(PAUSE_BETWEEN_JUDGMENTS)
+
         # Combina i dati originali con il giudizio
         result = {
             "query": query,
