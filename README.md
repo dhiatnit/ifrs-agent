@@ -64,6 +64,24 @@ scripts `rageval.py` / `llm_as_judge.py`) is adapted from
 the RAG chatbot template by Prof. Andrea Belli — see `LICENSE`.
 Data swapped to IFRS standards, agent + tools added, evaluation reused.
 
+## AI usage
+
+We used **Claude (Anthropic)** as a coding/writing assistant, mainly for
+large, repetitive or boilerplate work — not for the accounting content or the
+design decisions:
+
+- **Boilerplate & plumbing:** scaffolding the EUR-Lex → Markdown extraction
+  script and the batch-evaluation runners, including the free-tier
+  rate-limit handling (pacing, retries, resume).
+- **Debugging:** environment/dependency issues (Python 3.14 vs LangChain 0.3,
+  a silent text-splitter bug) and the API quota / rate-limit failures.
+- **Drafting:** first drafts of this README, the error-analysis write-up, and
+  the slide-generation script.
+
+The team chose the standards and architecture, wrote and verified the
+evaluation questions and their correct answers, made the design decisions, and
+reviewed all generated code and text.
+
 ## Data and copyright
 
 Standard texts come from the **EU-endorsed IFRS full text**
