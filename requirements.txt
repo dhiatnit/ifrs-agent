@@ -26,3 +26,4 @@ markdownify>=0.11.0
 
 typing-extensions>=4.5.0
 gradio>=4.0
+streamlit>=1.30        # streamlit_app.py (Streamlit Community Cloud deploy)
