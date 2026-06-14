@@ -143,6 +143,24 @@ found.forEach((f, i) => {
   s.addText(f[1], { x: x + 0.25, y: y + 0.8, w: 5.3, h: 1.3, fontFace: BFONT, fontSize: 14.5, color: INK });
 });
 
+// 6b — DESIGN DECISIONS / ALTERNATIVES REJECTED
+s = pres.addSlide(); header(s, "Design decisions & alternatives rejected");
+s.addTable([
+  [ {text:"Decision",options:{bold:true,color:WHITE,fill:{color:NAVY}}},
+    {text:"We chose",options:{bold:true,color:WHITE,fill:{color:NAVY}}},
+    {text:"Rejected — why",options:{bold:true,color:WHITE,fill:{color:NAVY}}} ],
+  ["Architecture", "Agent + 2 tools", "Plain RAG — can't compute reliably; misses the tool-use track"],
+  ["Doing math", "calculator tool", "LLM mental math — miscalculates, not auditable"],
+  ["Data source", "EUR-Lex (Reg. 2023/1803)", "ifrs.org texts — copyrighted, not redistributable"],
+  ["LLM", "gemini-2.5-flash-lite", "gemini-3.x — breaks course LangChain; bigger — no free quota"],
+  ["Chunking", "by section heading", "fixed-size chunks — split paragraphs, blur citations"],
+  ["Vector store", "FAISS (local)", "hosted vector DB — extra setup, no benefit at this scale"],
+], { x: 0.7, y: 1.5, w: 11.9, h: 4.6, fontFace: BFONT, fontSize: 13, color: INK,
+     border: { pt: 0.5, color: ICE }, valign: "middle", colW: [2.4, 3.3, 6.2],
+     rowH: [0.5, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7] });
+s.addText("Same reasoning underlies the evaluation: agent vs plain-RAG baseline on the SAME model isolates the effect of tool use.",
+  { x: 0.7, y: 6.4, w: 11.9, h: 0.5, fontFace: BFONT, italic: true, fontSize: 12.5, color: TEAL });
+
 // 7 — METHODOLOGY
 s = pres.addSlide(); header(s, "Evaluation methodology");
 card(s, 0.7, 1.5, 11.9, 2.2, LIGHT);

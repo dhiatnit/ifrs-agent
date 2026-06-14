@@ -26,6 +26,39 @@ The agent has two tools: `search_standards` retrieves passages from a FAISS
 index over five standards (IAS 2, IAS 16, IAS 36, IFRS 15, IFRS 16), and
 `calculator` evaluates the arithmetic the LLM should not do by itself.
 
+## Problem framing
+
+Accounting standards are long, precise legal texts, and questions about them
+have two awkward properties: (1) the answer must be **traceable to a specific
+paragraph** — an unsourced or invented citation is worse than no answer; and
+(2) many questions need an **exact number** (depreciation, impairment, lease
+liability), where language models are unreliable. A generic chatbot fails on
+both counts. We therefore framed the task as: *ground every answer in the
+source text with a citation, compute figures deterministically, and refuse or
+flag what falls outside the covered material.* That framing is what pushes the
+design from "a chatbot" to "a retrieval-augmented agent with tools."
+
+## Design decisions & alternatives considered
+
+Each row is a choice we made and the alternative we rejected, with the reason.
+
+| Decision | We chose | Rejected — and why |
+|---|---|---|
+| Build vs adapt | Adapt the course `studentsbot` RAG template | From scratch — slower, riskier, and ignores the provided materials |
+| Data source | EUR-Lex EU-endorsed IFRS text (Reg. 2023/1803) | ifrs.org official texts — copyrighted, not redistributable |
+| Architecture | **Agent** with 2 tools (search + calculator) | **Plain RAG** — cannot do reliable arithmetic and doesn't meet the "tool use" track |
+| Doing math | A `calculator` tool (sandboxed eval) | Letting the LLM compute — LLMs miscalculate and can't be audited |
+| Vector store | **FAISS** (local, file-based) | Chroma / a hosted vector DB — extra service and setup with no benefit at this scale |
+| Chunking | By the standards' **section headings** | Fixed-size character chunks — would split paragraphs and blur citations |
+| Embeddings | `gemini-embedding-001` | `sentence-transformers` (local) — fine, but keeps the stack on one provider |
+| LLM | **`gemini-2.5-flash-lite`** | `gemini-3.x` — needs "thought signatures" that break the course-compatible LangChain; bigger models — no free quota headroom for a multi-call agent |
+| Evaluation | Reuse `rageval.py` + LLM-judge, **agent vs plain-RAG baseline on the same model** | Building new metrics — the provided scripts are trusted and the same-model baseline isolates the effect of tool use |
+
+(The "why" behind the model choice is also a finding in itself: free-tier
+**daily request limits** are the binding constraint when evaluating an *agent*,
+because an agent makes several model calls per question — see
+`results/error_analysis.md`.)
+
 ## Credits / foundation
 
 The RAG core (indexing, chat loop, batch querying and the evaluation
@@ -72,13 +105,15 @@ python prepare_ifrs_data.py
 
 ```bash
 python bot_review.py --index_only     # build the FAISS index (one-time)
-python bot_review.py --interactive    # chat with the bot
-python agent.py                       # chat with the AGENT (tools)  [WIP]
+python agent.py                       # chat with the AGENT (search + calculator)
+python bot_review.py --interactive    # chat with the plain-RAG baseline
+streamlit run streamlit_app.py        # web UI
 
 # batch evaluation
-python batch_query.py data/questions.xlsx results/answers.json --verbose
-python rageval.py results/answers.json results/rageval_detail.json
-python llm_as_judge.py results/answers.json -o results/judge_detail.json
+python batch_query_agent.py data/questions.xlsx results/agent_answers.json     # agent
+python batch_query.py       data/questions.xlsx results/baseline_answers.json  # baseline
+python rageval.py     results/agent_answers.json results/agent_rageval.json
+python llm_as_judge.py results/agent_answers.json -o results/agent_judge.json
 ```
 
 On Windows, run with UTF-8 mode if you see encoding errors:
