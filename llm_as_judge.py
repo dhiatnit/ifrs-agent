@@ -22,7 +22,7 @@ load_dotenv()
 # so the 30-answer judging run is far more practical. (Was gemini-2.0-flash,
 # which now has zero free-tier quota.)
 MODEL_NAME_LLM = "gemini-2.5-flash-lite"
-PAUSE_BETWEEN_JUDGMENTS = 5  # seconds; keep well under the 20/min limit
+PAUSE_BETWEEN_JUDGMENTS = 12  # seconds (~5/min): wide enough to avoid 429s entirely
 
 def load_evaluation_data(json_file: str) -> List[Dict[str, Any]]:
     """Carica i dati di valutazione dal file JSON."""
@@ -128,13 +128,22 @@ def judge_response_pair(llm, prompt_template, query: str, answer: str, true_answ
     try:
         # Crea la chain
         chain = prompt_template | llm
-        
-        # Esegui il giudizio
-        response = chain.invoke({
-            "query": query,
-            "answer": answer,
-            "true_answer": true_answer
-        })
+
+        # Esegui il giudizio, con attesa+retry sui 429 (limite per-minuto)
+        response = None
+        for attempt in range(5):
+            try:
+                response = chain.invoke({
+                    "query": query,
+                    "answer": answer,
+                    "true_answer": true_answer
+                })
+                break
+            except Exception as call_err:
+                if "429" in str(call_err) and attempt < 4:
+                    time.sleep(65)  # let the per-minute window reset
+                else:
+                    raise
         
         # Estrai il contenuto della risposta
         response_text = response.content.strip()

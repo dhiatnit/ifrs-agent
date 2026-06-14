@@ -1,0 +1,186 @@
+{
+  "timestamp": "20260614_123602",
+  "total_queries": 30,
+  "results": [
+    {
+      "query": "How are inventories measured under IAS 2?",
+      "answer": "Inventories are measured at the lower of cost and net realisable value (IAS 2, paragraph 9).",
+      "true_answer": "At the lower of cost and net realisable value (IAS 2, paragraph 9).",
+      "timestamp": "2026-06-14T12:27:24.598989"
+    },
+    {
+      "query": "What is net realisable value according to IAS 2?",
+      "answer": "Net realisable value is defined as \"the estimated selling price in the ordinary course of business less the estimated costs of completion and the estimated costs necessary to make the sale\" (IAS 2, paragraph 6).\n\nIn simpler terms, it's the amount of money you expect to get from selling your inventory, after you've accounted for all the costs involved in finishing it and selling it.",
+      "true_answer": "The estimated selling price in the ordinary course of business less the estimated costs of completion and the estimated costs necessary to make the sale (IAS 2, paragraph 6).",
+      "timestamp": "2026-06-14T12:27:26.179111"
+    },
+    {
+      "query": "Which cost formulas does IAS 2 allow for inventories?",
+      "answer": "IAS 2 allows the use of the first-in, first-out (FIFO) or weighted average cost formula for inventories, other than those that are not ordinarily interchangeable and goods or services produced and segregated for specific projects. For items that are not ordinarily interchangeable and goods or services produced and segregated for specific projects, the cost is assigned by using specific identification of their individual costs. (IAS 2, paragraphs 23, 25).",
+      "true_answer": "Specific identification for items not ordinarily interchangeable; otherwise FIFO (first-in, first-out) or weighted average cost. The same formula must be used for all inventories of similar nature and use (IAS 2, paragraphs 23-25).",
+      "timestamp": "2026-06-14T12:27:27.763032"
+    },
+    {
+      "query": "Does IAS 2 permit the LIFO cost formula?",
+      "answer": "No, IAS 2 does not permit the Last-In, First-Out (LIFO) cost formula. IAS 2 states that the cost of inventories shall be assigned using either the First-In, First-Out (FIFO) or the weighted average cost formula (IAS 2, paragraph 25).",
+      "true_answer": "No. IAS 2 only permits specific identification, FIFO or weighted average cost (IAS 2, paragraph 25). LIFO is not allowed.",
+      "timestamp": "2026-06-14T12:27:29.235294"
+    },
+    {
+      "query": "Which standard governs revenue from contracts with customers?",
+      "answer": "IFRS 15 — Revenue from Contracts with Customers governs revenue from contracts with customers.",
+      "true_answer": "IFRS 15 Revenue from Contracts with Customers.",
+      "timestamp": "2026-06-14T12:27:30.550409"
+    },
+    {
+      "query": "What are the five steps of the IFRS 15 revenue recognition model?",
+      "answer": "IFRS 15 outlines a five-step model for revenue recognition. While the provided text does not explicitly list these five steps as a numbered sequence, the principles are embedded within the standard. Based on the text, the core components of the model are:\n\n1.  **Identify the contract(s) with a customer:** An entity must assess if an agreement meets the criteria to be considered a contract within the scope of IFRS 15. This involves checking for approved contracts, identifiable rights and obligations, payment terms, commercial substance, and probable collectability of consideration (IFRS 15, paragraph 9).\n2.  **Identify the performance obligations in the contract:** The entity must identify distinct promises to transfer goods or services to the customer. These are referred to as performance obligations (IFRS 15, paragraphs 22-30 - *note: these paragraphs are not provided in the context, but the concept is implied by the discussion of satisfying performance obligations*).\n3.  **Determine the transaction price:** This involves calculating the amount of consideration an entity expects to be entitled to in exchange for transferring goods or services (IFRS 15, paragraph 126 - *note: this paragraph is referenced but not fully provided*). This can include fixed amounts, variable consideration, and non-cash consideration.\n4.  **Allocate the transaction price to the performance obligations:** If a contract has multiple performance obligations, the transaction price must be allocated to each distinct performance obligation based on their standalone selling prices (IFRS 15, paragraph 126 - *note: this paragraph is referenced but not fully provided*).\n5.  **Recognise revenue when (or as) the entity satisfies a performance obligation:** Revenue is recognised when control of the promised goods or services is transferred to the customer. This can occur at a point in time or over time, depending on whether the performance obligation is satisfied over time (IFRS 15, paragraphs 31-38). If satisfied over time, revenue is recognised by measuring progress towards complete satisfaction (IFRS 15, paragraphs 39-40).",
+      "true_answer": "1) Identify the contract with the customer; 2) identify the performance obligations; 3) determine the transaction price; 4) allocate the transaction price to the performance obligations; 5) recognise revenue when (or as) a performance obligation is satisfied (IFRS 15).",
+      "timestamp": "2026-06-14T12:27:32.836357"
+    },
+    {
+      "query": "What is a performance obligation under IFRS 15?",
+      "answer": "A performance obligation is a promise in a contract with a customer to transfer to the customer either:\n(a) a good or service (or a bundle of goods or services) that is distinct; or\n(b) a series of distinct goods or services that are substantially the same and that have the same pattern of transfer to the customer. (IFRS 15, paragraph 22)\n\nIn simpler terms, it's a commitment made by a company to its customer to provide a specific good or service. These promises are identified at the beginning of a contract. (IFRS 15, paragraph 22)",
+      "true_answer": "A promise in a contract with a customer to transfer to the customer a good or service (or bundle) that is distinct, or a series of distinct goods or services that are substantially the same (IFRS 15, Appendix A).",
+      "timestamp": "2026-06-14T12:27:34.495614"
+    },
+    {
+      "query": "How is an item of property, plant and equipment initially measured under IAS 16?",
+      "answer": "An item of property, plant and equipment is initially measured at its cost. (IAS 16, paragraph 15).\n\nThe cost of an item of property, plant and equipment includes:\n*   Its purchase price, including import duties and non-refundable purchase taxes, minus any trade discounts and rebates. (IAS 16, paragraph 16(a))\n*   Any costs directly attributable to bringing the asset to the location and condition necessary for it to be capable of operating as intended by management. (IAS 16, paragraph 16(b))\n*   The initial estimate of the costs of dismantling and removing the item and restoring the site, if the entity incurs this obligation when acquiring the item or as a consequence of using it for purposes other than producing inventories. (IAS 16, paragraph 16(c))\n\nExamples of directly attributable costs include costs of employee benefits, site preparation, initial delivery and handling, installation and assembly, testing, and professional fees. (IAS 16, paragraph 17)",
+      "true_answer": "An item of property, plant and equipment that qualifies for recognition as an asset shall be measured at its cost (IAS 16, paragraph 15).",
+      "timestamp": "2026-06-14T12:27:36.423029"
+    },
+    {
+      "query": "What elements make up the cost of an item of property, plant and equipment under IAS 16?",
+      "answer": "The cost of an item of property, plant and equipment comprises:\n*   Its purchase price, including import duties and non-refundable purchase taxes, after deducting trade discounts and rebates.\n*   Any costs directly attributable to bringing the asset to the location and condition necessary for it to be capable of operating in the manner intended by management.\n*   The initial estimate of the costs of dismantling and removing the item and restoring the site on which it is located, if the entity incurs this obligation when acquiring the item or as a consequence of using it for purposes other than producing inventories during a period.\n\n(IAS 16, paragraph 16)",
+      "true_answer": "Its purchase price including import duties and non-refundable taxes after discounts and rebates; costs directly attributable to bringing the asset to the location and condition necessary; and the initial estimate of dismantling, removal and site restoration costs (IAS 16, paragraph 16).",
+      "timestamp": "2026-06-14T12:27:38.155573"
+    },
+    {
+      "query": "What are the two models for measuring property, plant and equipment after recognition under IAS 16?",
+      "answer": "IAS 16 allows entities to choose between two models for measuring property, plant and equipment after recognition: the cost model and the revaluation model. (IAS 16, paragraph 29).\n\n1.  **Cost Model:** Under this model, an item of property, plant and equipment is carried at its cost less any accumulated depreciation and any accumulated impairment losses. (IAS 16, paragraph 30).\n2.  **Revaluation Model:** Under this model, an item of property, plant and equipment whose fair value can be measured reliably is carried at its revalued amount, which is its fair value at the date of revaluation less any subsequent accumulated depreciation and subsequent accumulated impairment losses. (IAS 16, paragraph 31).",
+      "true_answer": "The cost model (cost less accumulated depreciation and impairment losses) and the revaluation model (fair value at revaluation date less subsequent depreciation and impairment) (IAS 16, paragraphs 29-31).",
+      "timestamp": "2026-06-14T12:27:39.843430"
+    },
+    {
+      "query": "What is depreciation according to IAS 16?",
+      "answer": "Depreciation is the systematic allocation of the depreciable amount of an asset over its useful life (IAS 16, paragraph 6).\n\nIn simpler terms, depreciation is the process of spreading the cost of a tangible asset (like machinery or a building) over the period it is expected to be used. This reflects the consumption of the asset's economic benefits over time.",
+      "true_answer": "The systematic allocation of the depreciable amount of an asset over its useful life (IAS 16, paragraph 6).",
+      "timestamp": "2026-06-14T12:27:55.764659"
+    },
+    {
+      "query": "When is an asset impaired under IAS 36?",
+      "answer": "An asset is impaired when its carrying amount exceeds its recoverable amount (IAS 36, paragraph 8).\n\nThe carrying amount of an asset is the amount at which it is recognised in the financial statements after deducting any accumulated depreciation (amortisation) and accumulated impairment losses (IAS 16, paragraph 6).\n\nThe recoverable amount of an asset is the higher of its fair value less costs of disposal and its value in use (IAS 16, paragraph 6).",
+      "true_answer": "An asset is impaired when its carrying amount exceeds its recoverable amount (IAS 36, paragraph 8).",
+      "timestamp": "2026-06-14T12:27:57.340938"
+    },
+    {
+      "query": "What is the recoverable amount of an asset under IAS 36?",
+      "answer": "The recoverable amount of an asset is the higher of its fair value less costs of disposal and its value in use. (IAS 36, paragraph 6)\n\n*   **Fair value less costs of disposal** is the price that would be received to sell an asset in an orderly transaction between market participants at the measurement date, minus the costs of disposal. Costs of disposal are the incremental costs directly attributable to disposing of an asset, excluding finance costs and income tax expense. (IAS 36, paragraph 6)\n*   **Value in use** is the present value of the future cash flows expected to be derived from an asset. (IAS 36, paragraph 6)",
+      "true_answer": "The higher of the asset's fair value less costs of disposal and its value in use (IAS 36, paragraph 6).",
+      "timestamp": "2026-06-14T12:27:59.137325"
+    },
+    {
+      "query": "What is a cash-generating unit under IAS 36?",
+      "answer": "A cash-generating unit is defined as \"the smallest identifiable group of assets that generates cash inflows that are largely independent of the cash inflows from other assets or groups of assets\" (IAS 36, paragraph 6).\n\nIn simpler terms, it's the smallest collection of assets that can produce cash on its own, without its cash generation being heavily reliant on other assets or groups of assets within the company.",
+      "true_answer": "The smallest identifiable group of assets that generates cash inflows that are largely independent of the cash inflows from other assets or groups of assets (IAS 36, paragraph 6).",
+      "timestamp": "2026-06-14T12:28:00.889077"
+    },
+    {
+      "query": "How does a lessee initially measure the lease liability under IFRS 16?",
+      "answer": "A lessee initially measures the lease liability at the present value of the lease payments that are not paid at the commencement date. (IFRS 16, paragraph 26).\n\nThe lease payments included in this measurement comprise:\n*   Fixed payments (including in-substance fixed payments), less any lease incentives receivable.\n*   Variable lease payments that depend on an index or a rate, initially measured using the index or rate as at the commencement date.\n*   Amounts expected to be payable under residual value guarantees.\n*   The exercise price of a purchase option if the lessee is reasonably certain to exercise that option.\n*   Payments of penalties for terminating the lease, if the lease term reflects the lessee exercising an option to terminate the lease. (IFRS 16, paragraph 27).\n\nThe discount rate used is the interest rate implicit in the lease, if readily determinable. Otherwise, the lessee uses its incremental borrowing rate. (IFRS 16, paragraph 26).",
+      "true_answer": "At the present value of the lease payments that are not paid at the commencement date, discounted using the interest rate implicit in the lease or, if not readily determinable, the lessee's incremental borrowing rate (IFRS 16, paragraph 26).",
+      "timestamp": "2026-06-14T12:28:02.793233"
+    },
+    {
+      "query": "A machine costs 120000 euros, has a residual value of 20000 euros and a useful life of 8 years. What is the annual straight-line depreciation, and which standard governs it?",
+      "answer": "The annual straight-line depreciation is 12,500 euros. This is governed by IAS 16 Property, Plant and Equipment.\n\nHere's the calculation:\n\n1.  **Determine the depreciable amount:** This is the cost of the asset less its residual value.\n    *   Depreciable amount = Cost - Residual Value\n    *   Depreciable amount = 120,000 euros - 20,000 euros = 100,000 euros (IAS 16, paragraph 53)\n\n2.  **Calculate the annual depreciation:** Using the straight-line method, the depreciable amount is allocated evenly over the useful life.\n    *   Annual Depreciation = Depreciable Amount / Useful Life\n    *   Annual Depreciation = 100,000 euros / 8 years = 12,500 euros per year (IAS 16, paragraph 62)\n\nThe standard that governs depreciation is IAS 16 Property, Plant and Equipment. Specifically, the definition of \"Depreciable amount\" is found in paragraph 6, and the explanation of depreciation methods, including the straight-line method, is in paragraph 62. The requirement to allocate the depreciable amount over the useful life is in paragraph 50.",
+      "true_answer": "Annual depreciation = (120000 - 20000) / 8 = 12500 euros per year, under IAS 16.",
+      "timestamp": "2026-06-14T12:28:05.013759"
+    },
+    {
+      "query": "Inventory cost 50000 euros. Expected selling price is 52000 euros and costs to sell are 5000 euros. At what amount is the inventory measured under IAS 2?",
+      "answer": "Under IAS 2, inventories are measured at the lower of cost and net realisable value (NRV). (IAS 2, paragraph 9).\n\nThe cost of the inventory is 50,000 euros. (IAS 2, paragraph 9).\n\nNet realisable value (NRV) is defined as the estimated selling price in the ordinary course of business less the estimated costs of completion and the estimated costs necessary to make the sale. (IAS 2, paragraph 6).\n\nIn this case:\n*   Estimated selling price = 52,000 euros\n*   Estimated costs to sell = 5,000 euros\n\nTherefore, the NRV is calculated as:\nNRV = Estimated selling price - Estimated costs to sell\nNRV = 52,000 euros - 5,000 euros\nNRV = 47,000 euros\n\nThe inventory is measured at the lower of cost (50,000 euros) and NRV (47,000 euros).\n\nThe inventory is measured at **47,000 euros**.",
+      "true_answer": "Net realisable value = 52000 - 5000 = 47000 euros, which is below cost, so the inventory is measured at 47000 euros (write-down of 3000 euros) under IAS 2.",
+      "timestamp": "2026-06-14T12:28:07.103412"
+    },
+    {
+      "query": "An asset has a carrying amount of 200000 euros, fair value less costs of disposal of 150000 euros and value in use of 170000 euros. What is the impairment loss under IAS 36?",
+      "answer": "The impairment loss is 30,000 euros.\n\nHere's the breakdown according to IAS 36:\n\n1.  **Determine the Recoverable Amount:** The recoverable amount is the higher of fair value less costs of disposal and value in use.\n    *   Fair value less costs of disposal = 150,000 euros\n    *   Value in use = 170,000 euros\n    *   Recoverable amount = Higher of (150,000, 170,000) = 170,000 euros (IAS 36, paragraph 18)\n\n2.  **Calculate the Impairment Loss:** An impairment loss is recognised if the carrying amount of an asset exceeds its recoverable amount. The impairment loss is the amount by which the carrying amount exceeds the recoverable amount.\n    *   Carrying amount = 200,000 euros\n    *   Recoverable amount = 170,000 euros\n    *   Impairment loss = Carrying amount - Recoverable amount\n    *   Impairment loss = 200,000 euros - 170,000 euros = 30,000 euros (IAS 36, paragraph 6, definition of impairment loss and paragraph 59)",
+      "true_answer": "Recoverable amount = higher of 150000 and 170000 = 170000 euros. Impairment loss = 200000 - 170000 = 30000 euros (IAS 36).",
+      "timestamp": "2026-06-14T12:28:09.400273"
+    },
+    {
+      "query": "A lease has 5 annual payments of 10000 euros payable in arrears and the discount rate is 5 percent. What is the initial lease liability under IFRS 16?",
+      "answer": "The initial measurement of the lease liability is the present value of the lease payments that are not paid at the commencement date, discounted using the interest rate implicit in the lease or the lessee's incremental borrowing rate. (IFRS 16, paragraph 26).\n\nIn this case, the lease payments are 10,000 euros annually for 5 years, payable in arrears, and the discount rate is 5%.\n\nThe lease liability is calculated as the present value of an ordinary annuity:\n\nFormula:\nPV = P * [1 - (1 + r)^-n] / r\n\nWhere:\nPV = Present Value (Lease Liability)\nP = Periodic Payment (10,000 euros)\nr = Discount Rate (5% or 0.05)\nn = Number of Periods (5 years)\n\nCalculation:\nPV = 10,000 * [1 - (1 + 0.05)^-5] / 0.05\nPV = 10,000 * [1 - (1.05)^-5] / 0.05\nPV = 10,000 * [1 - 0.783526] / 0.05\nPV = 10,000 * [0.216474] / 0.05\nPV = 10,000 * 4.32948\nPV = 43,294.80 euros\n\nThe initial lease liability is 43,294.80 euros. (IFRS 16, paragraphs 26 and 27).",
+      "true_answer": "The present value of an annuity of 10000 for 5 years at 5% is approximately 43295 euros, recognised as the initial lease liability under IFRS 16.",
+      "timestamp": "2026-06-14T12:28:11.833851"
+    },
+    {
+      "query": "A contract has a total price of 100000 euros covering two performance obligations with stand-alone selling prices of 40000 and 80000 euros. How is the transaction price allocated under IFRS 15?",
+      "answer": "The transaction price is allocated to each performance obligation on a relative stand-alone selling price basis. (IFRS 15, paragraph 74).\n\nHere's how the allocation is done:\n\n1.  **Calculate the total stand-alone selling prices:**\n    40,000 euros + 80,000 euros = 120,000 euros\n\n2.  **Determine the proportion of each stand-alone selling price to the total:**\n    *   Performance Obligation 1: (40,000 euros / 120,000 euros) = 0.3333 or 33.33%\n    *   Performance Obligation 2: (80,000 euros / 120,000 euros) = 0.6667 or 66.67%\n\n3.  **Allocate the transaction price (100,000 euros) based on these proportions:**\n    *   Performance Obligation 1: 100,000 euros \\* 0.3333 = 33,330 euros\n    *   Performance Obligation 2: 100,000 euros \\* 0.6667 = 66,670 euros\n\nTherefore, the transaction price of 100,000 euros is allocated as follows:\n*   33,330 euros to the first performance obligation.\n*   66,670 euros to the second performance obligation.\n\nThis allocation ensures that the amount allocated to each performance obligation depicts the amount of consideration to which the entity expects to be entitled in exchange for transferring the promised goods or services to the customer (IFRS 15, paragraph 73).",
+      "true_answer": "On a relative stand-alone selling price basis: 100000 x 40000/120000 = 33333 euros to the first obligation and 100000 x 80000/120000 = 66667 euros to the second (IFRS 15).",
+      "timestamp": "2026-06-14T12:28:14.415821"
+    },
+    {
+      "query": "Equipment costs 250000 euros with a residual value of 10000 euros and a useful life of 6 years. What is the annual straight-line depreciation?",
+      "answer": "Errore durante l'elaborazione della query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 42.393696059s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 42\n}\n]",
+      "true_answer": "(250000 - 10000) / 6 = 40000 euros per year (IAS 16).",
+      "timestamp": "2026-06-14T12:29:17.955895"
+    },
+    {
+      "query": "A machine cost 90000 euros, residual value zero, total expected production 300000 units. This year it produced 45000 units. What is the depreciation charge under the units of production method?",
+      "answer": "The depreciation charge for the year is 13,500 euros.\n\nHere's the calculation:\n\n1.  **Determine the depreciable amount:**\n    *   Cost of the asset: 90,000 euros\n    *   Residual value: 0 euros\n    *   Depreciable amount = Cost - Residual Value = 90,000 - 0 = 90,000 euros (IAS 16, paragraph 53)\n\n2.  **Calculate the depreciation rate per unit:**\n    *   Depreciable amount: 90,000 euros\n    *   Total expected production: 300,000 units\n    *   Depreciation rate per unit = Depreciable Amount / Total Expected Production = 90,000 euros / 300,000 units = 0.30 euros per unit (IAS 16, paragraph 62)\n\n3.  **Calculate the depreciation charge for the year:**\n    *   Depreciation rate per unit: 0.30 euros\n    *   Units produced this year: 45,000 units\n    *   Depreciation charge = Depreciation rate per unit \\* Units produced this year = 0.30 euros/unit \\* 45,000 units = 13,500 euros (IAS 16, paragraph 62)\n\nThis calculation uses the units of production method, which is appropriate when the asset's consumption of future economic benefits is based on its output or usage (IAS 16, paragraph 62). The depreciation charge is recognised in profit or loss unless it is included in the carrying amount of another asset (IAS 16, paragraph 48).",
+      "true_answer": "90000 x 45000/300000 = 13500 euros (IAS 16, units of production method).",
+      "timestamp": "2026-06-14T12:29:20.089353"
+    },
+    {
+      "query": "A building has a carrying amount of 500000 euros. Its value in use is 460000 euros and its fair value less costs of disposal is 430000 euros. Is it impaired, and by how much?",
+      "answer": "Yes, the building is impaired.\n\nThe carrying amount of the building is 500,000 euros.\nThe recoverable amount is the higher of its fair value less costs of disposal (430,000 euros) and its value in use (460,000 euros). Therefore, the recoverable amount is 460,000 euros (IAS 36, paragraph 6).\n\nSince the carrying amount (500,000 euros) exceeds the recoverable amount (460,000 euros), an impairment loss must be recognised (IAS 36, paragraph 59).\n\nThe impairment loss is calculated as:\nCarrying amount - Recoverable amount\n500,000 euros - 460,000 euros = 40,000 euros\n\nThe impairment loss is 40,000 euros. This loss is recognised immediately in profit or loss, as the building is not stated to be a revalued asset (IAS 36, paragraph 60).",
+      "true_answer": "Recoverable amount = 460000 euros (higher of the two). Impairment loss = 500000 - 460000 = 40000 euros (IAS 36).",
+      "timestamp": "2026-06-14T12:29:39.405456"
+    },
+    {
+      "query": "Which standard applies to a retailer's merchandise held for resale?",
+      "answer": "Errore durante l'elaborazione della query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 17.290202469s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 17\n}\n]",
+      "true_answer": "IAS 2 Inventories: merchandise purchased by a retailer and held for resale is inventory.",
+      "timestamp": "2026-06-14T12:30:43.069541"
+    },
+    {
+      "query": "A company signs a 10-year office lease. As lessee, what must it recognise at commencement and under which standard?",
+      "answer": "Errore durante l'elaborazione della query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 13.730893678s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 13\n}\n]",
+      "true_answer": "Under IFRS 16 the lessee recognises a right-of-use asset and a lease liability at the commencement date.",
+      "timestamp": "2026-06-14T12:31:46.630720"
+    },
+    {
+      "query": "Under which standard is goodwill tested for impairment, and how often?",
+      "answer": "Errore durante l'elaborazione della query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 9.803058302s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 9\n}\n]",
+      "true_answer": "IAS 36: goodwill acquired in a business combination is tested for impairment annually, and whenever there is an indication of impairment.",
+      "timestamp": "2026-06-14T12:32:50.543643"
+    },
+    {
+      "query": "When is revenue recognised over time rather than at a point in time under IFRS 15?",
+      "answer": "An entity recognises revenue over time if one of the following criteria is met:\n*   The customer simultaneously receives and consumes the benefits provided by the entity's performance as the entity performs.\n*   The entity's performance creates or enhances an asset that the customer controls as the asset is created or enhanced.\n*   The entity's performance does not create an asset with an alternative use to the entity, and the entity has an enforceable right to payment for performance completed to date.\n\n(IFRS 15, paragraph 35)",
+      "true_answer": "When one of the IFRS 15 paragraph 35 criteria is met: the customer simultaneously receives and consumes the benefits; the entity's performance creates or enhances an asset the customer controls; or the asset has no alternative use and the entity has an enforceable right to payment for performance completed to date.",
+      "timestamp": "2026-06-14T12:33:22.883324"
+    },
+    {
+      "query": "What does IFRS 9 say about expected credit losses?",
+      "answer": "The question about expected credit losses relates to IFRS 9, which is not among the five standards I have access to (IAS 2, IAS 16, IAS 36, IFRS 15, and IFRS 16). Therefore, I cannot provide an answer to this question.",
+      "true_answer": "Out of scope: IFRS 9 is not in this assistant's knowledge base, which covers only IAS 2, IAS 16, IAS 36, IFRS 15 and IFRS 16. The assistant should say it cannot answer.",
+      "timestamp": "2026-06-14T12:33:54.870173"
+    },
+    {
+      "query": "How should deferred tax assets be recognised?",
+      "answer": "Errore durante l'elaborazione della query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 1.950976151s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 1\n}\n]",
+      "true_answer": "Out of scope: deferred tax is governed by IAS 12, which is not in the knowledge base. The assistant should say it cannot answer.",
+      "timestamp": "2026-06-14T12:34:58.397653"
+    },
+    {
+      "query": "What is the current VAT rate in Italy?",
+      "answer": "Errore durante l'elaborazione della query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 58.207047143s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 58\n}\n]",
+      "true_answer": "Out of scope: VAT rates are not part of IFRS standards. The assistant should refuse and explain it only answers IFRS/IAS questions.",
+      "timestamp": "2026-06-14T12:36:02.143187"
+    }
+  ]
+}

@@ -41,3 +41,7 @@ tmp/
 
 # smoke-test outputs (full eval results under results/ ARE committed)
 results/smoke_*
+
+# slide build artifacts (keep the .pptx and the build script)
+slides/*.pdf
+slides/slide-*.jpg

@@ -1,0 +1,1569 @@
+{
+  "evaluation_timestamp": "2026-06-14T12:36:15.743068",
+  "aggregate_metrics": {
+    "total_responses": 30,
+    "similarity": {
+      "mean": 0.2620411955918064,
+      "min": 0.00612691466083151,
+      "max": 0.8344370860927153,
+      "std": 0.21399684741138514
+    },
+    "keyword_precision": {
+      "mean": 0.29894672780314974,
+      "min": 0.0,
+      "max": 0.8571428571428571
+    },
+    "keyword_recall": {
+      "mean": 0.6715871440337496,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "keyword_f1": {
+      "mean": 0.3966476731777716,
+      "min": 0.0,
+      "max": 0.923076923076923
+    },
+    "rouge_metrics": {
+      "rouge_1_f1": {
+        "mean": 0.3219584713694804,
+        "min": 0.0,
+        "max": 0.896551724137931
+      },
+      "rouge_2_f1": {
+        "mean": 0.252546980045987,
+        "min": 0.0,
+        "max": 0.888888888888889
+      },
+      "rouge_l_f1": {
+        "mean": 0.29669731886166156,
+        "min": 0.0,
+        "max": 0.896551724137931
+      }
+    },
+    "bleu_metrics": {
+      "mean": 0.1619165625908789,
+      "min": 0.0,
+      "max": 0.7916963878457504
+    },
+    "quality_distribution": {
+      "excellent (≥0.8)": {
+        "count": 1,
+        "percentage": 3.3333333333333335
+      },
+      "good (0.6-0.8)": {
+        "count": 3,
+        "percentage": 10.0
+      },
+      "fair (0.4-0.6)": {
+        "count": 4,
+        "percentage": 13.333333333333334
+      },
+      "poor (<0.4)": {
+        "count": 22,
+        "percentage": 73.33333333333333
+      }
+    }
+  },
+  "detailed_evaluations": [
+    {
+      "query": "How are inventories measured under IAS 2?",
+      "answer": "Inventories are measured at the lower of cost and net realisable value (IAS 2, paragraph 9).",
+      "true_answer": "At the lower of cost and net realisable value (IAS 2, paragraph 9).",
+      "similarity_score": 0.8344370860927153,
+      "keyword_metrics": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571428571428571,
+        "overlap_count": 9,
+        "answer_keywords": 12,
+        "true_keywords": 9
+      },
+      "length_metrics": {
+        "char_answer": 92,
+        "char_true": 67,
+        "char_ratio": 1.373134328358209,
+        "words_answer": 16,
+        "words_true": 13,
+        "words_ratio": 1.2307692307692308
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.8125,
+          "recall": 1.0,
+          "f1": 0.896551724137931
+        },
+        "rouge_2": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.888888888888889
+        },
+        "rouge_l": {
+          "precision": 0.8125,
+          "recall": 1.0,
+          "f1": 0.896551724137931
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.7916963878457504,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.8125,
+          0.8,
+          0.7857142857142857,
+          0.7692307692307693
+        ]
+      },
+      "timestamp": "2026-06-14T12:27:24.598989"
+    },
+    {
+      "query": "What is net realisable value according to IAS 2?",
+      "answer": "Net realisable value is defined as \"the estimated selling price in the ordinary course of business less the estimated costs of completion and the estimated costs necessary to make the sale\" (IAS 2, paragraph 6).\n\nIn simpler terms, it's the amount of money you expect to get from selling your inventory, after you've accounted for all the costs involved in finishing it and selling it.",
+      "true_answer": "The estimated selling price in the ordinary course of business less the estimated costs of completion and the estimated costs necessary to make the sale (IAS 2, paragraph 6).",
+      "similarity_score": 0.625,
+      "keyword_metrics": {
+        "precision": 0.4444444444444444,
+        "recall": 1.0,
+        "f1": 0.6153846153846153,
+        "overlap_count": 16,
+        "answer_keywords": 36,
+        "true_keywords": 16
+      },
+      "length_metrics": {
+        "char_answer": 384,
+        "char_true": 174,
+        "char_ratio": 2.206896551724138,
+        "words_answer": 65,
+        "words_true": 29,
+        "words_ratio": 2.2413793103448274
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.43283582089552236,
+          "recall": 1.0,
+          "f1": 0.6041666666666666
+        },
+        "rouge_2": {
+          "precision": 0.42424242424242425,
+          "recall": 1.0,
+          "f1": 0.5957446808510638
+        },
+        "rouge_l": {
+          "precision": 0.43283582089552236,
+          "recall": 1.0,
+          "f1": 0.6041666666666666
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.4195611509668621,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.43283582089552236,
+          0.42424242424242425,
+          0.4153846153846154,
+          0.40625
+        ]
+      },
+      "timestamp": "2026-06-14T12:27:26.179111"
+    },
+    {
+      "query": "Which cost formulas does IAS 2 allow for inventories?",
+      "answer": "IAS 2 allows the use of the first-in, first-out (FIFO) or weighted average cost formula for inventories, other than those that are not ordinarily interchangeable and goods or services produced and segregated for specific projects. For items that are not ordinarily interchangeable and goods or services produced and segregated for specific projects, the cost is assigned by using specific identification of their individual costs. (IAS 2, paragraphs 23, 25).",
+      "true_answer": "Specific identification for items not ordinarily interchangeable; otherwise FIFO (first-in, first-out) or weighted average cost. The same formula must be used for all inventories of similar nature and use (IAS 2, paragraphs 23-25).",
+      "similarity_score": 0.19161676646706588,
+      "keyword_metrics": {
+        "precision": 0.5555555555555556,
+        "recall": 0.7407407407407407,
+        "f1": 0.634920634920635,
+        "overlap_count": 20,
+        "answer_keywords": 36,
+        "true_keywords": 27
+      },
+      "length_metrics": {
+        "char_answer": 458,
+        "char_true": 231,
+        "char_ratio": 1.9826839826839826,
+        "words_answer": 69,
+        "words_true": 33,
+        "words_ratio": 2.090909090909091
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.39436619718309857,
+          "recall": 0.7777777777777778,
+          "f1": 0.5233644859813084
+        },
+        "rouge_2": {
+          "precision": 0.2,
+          "recall": 0.4,
+          "f1": 0.26666666666666666
+        },
+        "rouge_l": {
+          "precision": 0.23943661971830985,
+          "recall": 0.4722222222222222,
+          "f1": 0.3177570093457944
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.15229316531202555,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.39436619718309857,
+          0.2,
+          0.11594202898550725,
+          0.058823529411764705
+        ]
+      },
+      "timestamp": "2026-06-14T12:27:27.763032"
+    },
+    {
+      "query": "Does IAS 2 permit the LIFO cost formula?",
+      "answer": "No, IAS 2 does not permit the Last-In, First-Out (LIFO) cost formula. IAS 2 states that the cost of inventories shall be assigned using either the First-In, First-Out (FIFO) or the weighted average cost formula (IAS 2, paragraph 25).",
+      "true_answer": "No. IAS 2 only permits specific identification, FIFO or weighted average cost (IAS 2, paragraph 25). LIFO is not allowed.",
+      "similarity_score": 0.47761194029850745,
+      "keyword_metrics": {
+        "precision": 0.36363636363636365,
+        "recall": 0.6153846153846154,
+        "f1": 0.4571428571428572,
+        "overlap_count": 8,
+        "answer_keywords": 22,
+        "true_keywords": 13
+      },
+      "length_metrics": {
+        "char_answer": 233,
+        "char_true": 121,
+        "char_ratio": 1.9256198347107438,
+        "words_answer": 39,
+        "words_true": 20,
+        "words_ratio": 1.95
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.32558139534883723,
+          "recall": 0.7,
+          "f1": 0.44444444444444453
+        },
+        "rouge_2": {
+          "precision": 0.19047619047619047,
+          "recall": 0.42105263157894735,
+          "f1": 0.26229508196721313
+        },
+        "rouge_l": {
+          "precision": 0.27906976744186046,
+          "recall": 0.6,
+          "f1": 0.380952380952381
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.11089937663626413,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.32558139534883723,
+          0.19047619047619047,
+          0.0975609756097561,
+          0.025
+        ]
+      },
+      "timestamp": "2026-06-14T12:27:29.235294"
+    },
+    {
+      "query": "Which standard governs revenue from contracts with customers?",
+      "answer": "IFRS 15 — Revenue from Contracts with Customers governs revenue from contracts with customers.",
+      "true_answer": "IFRS 15 Revenue from Contracts with Customers.",
+      "similarity_score": 0.6617647058823529,
+      "keyword_metrics": {
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1": 0.923076923076923,
+        "overlap_count": 6,
+        "answer_keywords": 7,
+        "true_keywords": 6
+      },
+      "length_metrics": {
+        "char_answer": 94,
+        "char_true": 46,
+        "char_ratio": 2.0434782608695654,
+        "words_answer": 14,
+        "words_true": 7,
+        "words_ratio": 2.0
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.5384615384615384,
+          "recall": 1.0,
+          "f1": 0.7000000000000001
+        },
+        "rouge_2": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666
+        },
+        "rouge_l": {
+          "precision": 0.5384615384615384,
+          "recall": 1.0,
+          "f1": 0.7000000000000001
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.4703709593866897,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.5384615384615384,
+          0.5,
+          0.45454545454545453,
+          0.4
+        ]
+      },
+      "timestamp": "2026-06-14T12:27:30.550409"
+    },
+    {
+      "query": "What are the five steps of the IFRS 15 revenue recognition model?",
+      "answer": "IFRS 15 outlines a five-step model for revenue recognition. While the provided text does not explicitly list these five steps as a numbered sequence, the principles are embedded within the standard. Based on the text, the core components of the model are:\n\n1.  **Identify the contract(s) with a customer:** An entity must assess if an agreement meets the criteria to be considered a contract within the scope of IFRS 15. This involves checking for approved contracts, identifiable rights and obligations, payment terms, commercial substance, and probable collectability of consideration (IFRS 15, paragraph 9).\n2.  **Identify the performance obligations in the contract:** The entity must identify distinct promises to transfer goods or services to the customer. These are referred to as performance obligations (IFRS 15, paragraphs 22-30 - *note: these paragraphs are not provided in the context, but the concept is implied by the discussion of satisfying performance obligations*).\n3.  **Determine the transaction price:** This involves calculating the amount of consideration an entity expects to be entitled to in exchange for transferring goods or services (IFRS 15, paragraph 126 - *note: this paragraph is referenced but not fully provided*). This can include fixed amounts, variable consideration, and non-cash consideration.\n4.  **Allocate the transaction price to the performance obligations:** If a contract has multiple performance obligations, the transaction price must be allocated to each distinct performance obligation based on their standalone selling prices (IFRS 15, paragraph 126 - *note: this paragraph is referenced but not fully provided*).\n5.  **Recognise revenue when (or as) the entity satisfies a performance obligation:** Revenue is recognised when control of the promised goods or services is transferred to the customer. This can occur at a point in time or over time, depending on whether the performance obligation is satisfied over time (IFRS 15, paragraphs 31-38). If satisfied over time, revenue is recognised by measuring progress towards complete satisfaction (IFRS 15, paragraphs 39-40).",
+      "true_answer": "1) Identify the contract with the customer; 2) identify the performance obligations; 3) determine the transaction price; 4) allocate the transaction price to the performance obligations; 5) recognise revenue when (or as) a performance obligation is satisfied (IFRS 15).",
+      "similarity_score": 0.00612691466083151,
+      "keyword_metrics": {
+        "precision": 0.14166666666666666,
+        "recall": 1.0,
+        "f1": 0.24817518248175183,
+        "overlap_count": 17,
+        "answer_keywords": 120,
+        "true_keywords": 17
+      },
+      "length_metrics": {
+        "char_answer": 2127,
+        "char_true": 269,
+        "char_ratio": 7.907063197026022,
+        "words_answer": 315,
+        "words_true": 39,
+        "words_ratio": 8.076923076923077
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.12264150943396226,
+          "recall": 1.0,
+          "f1": 0.21848739495798317
+        },
+        "rouge_2": {
+          "precision": 0.10094637223974763,
+          "recall": 0.8421052631578947,
+          "f1": 0.18028169014084508
+        },
+        "rouge_l": {
+          "precision": 0.11949685534591195,
+          "recall": 0.9743589743589743,
+          "f1": 0.21288515406162464
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.08440101752798516,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.12264150943396226,
+          0.10094637223974763,
+          0.0759493670886076,
+          0.05396825396825397
+        ]
+      },
+      "timestamp": "2026-06-14T12:27:32.836357"
+    },
+    {
+      "query": "What is a performance obligation under IFRS 15?",
+      "answer": "A performance obligation is a promise in a contract with a customer to transfer to the customer either:\n(a) a good or service (or a bundle of goods or services) that is distinct; or\n(b) a series of distinct goods or services that are substantially the same and that have the same pattern of transfer to the customer. (IFRS 15, paragraph 22)\n\nIn simpler terms, it's a commitment made by a company to its customer to provide a specific good or service. These promises are identified at the beginning of a contract. (IFRS 15, paragraph 22)",
+      "true_answer": "A promise in a contract with a customer to transfer to the customer a good or service (or bundle) that is distinct, or a series of distinct goods or services that are substantially the same (IFRS 15, Appendix A).",
+      "similarity_score": 0.24376731301939059,
+      "keyword_metrics": {
+        "precision": 0.4864864864864865,
+        "recall": 0.9473684210526315,
+        "f1": 0.6428571428571428,
+        "overlap_count": 18,
+        "answer_keywords": 37,
+        "true_keywords": 19
+      },
+      "length_metrics": {
+        "char_answer": 536,
+        "char_true": 212,
+        "char_ratio": 2.5283018867924527,
+        "words_answer": 96,
+        "words_true": 39,
+        "words_ratio": 2.4615384615384617
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.3917525773195876,
+          "recall": 0.9743589743589743,
+          "f1": 0.5588235294117646
+        },
+        "rouge_2": {
+          "precision": 0.3333333333333333,
+          "recall": 0.8421052631578947,
+          "f1": 0.4776119402985075
+        },
+        "rouge_l": {
+          "precision": 0.3917525773195876,
+          "recall": 0.9743589743589743,
+          "f1": 0.5588235294117646
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.30241880599184134,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.3917525773195876,
+          0.3333333333333333,
+          0.2736842105263158,
+          0.23404255319148937
+        ]
+      },
+      "timestamp": "2026-06-14T12:27:34.495614"
+    },
+    {
+      "query": "How is an item of property, plant and equipment initially measured under IAS 16?",
+      "answer": "An item of property, plant and equipment is initially measured at its cost. (IAS 16, paragraph 15).\n\nThe cost of an item of property, plant and equipment includes:\n*   Its purchase price, including import duties and non-refundable purchase taxes, minus any trade discounts and rebates. (IAS 16, paragraph 16(a))\n*   Any costs directly attributable to bringing the asset to the location and condition necessary for it to be capable of operating as intended by management. (IAS 16, paragraph 16(b))\n*   The initial estimate of the costs of dismantling and removing the item and restoring the site, if the entity incurs this obligation when acquiring the item or as a consequence of using it for purposes other than producing inventories. (IAS 16, paragraph 16(c))\n\nExamples of directly attributable costs include costs of employee benefits, site preparation, initial delivery and handling, installation and assembly, testing, and professional fees. (IAS 16, paragraph 17)",
+      "true_answer": "An item of property, plant and equipment that qualifies for recognition as an asset shall be measured at its cost (IAS 16, paragraph 15).",
+      "similarity_score": 0.17300380228136883,
+      "keyword_metrics": {
+        "precision": 0.17142857142857143,
+        "recall": 0.75,
+        "f1": 0.2790697674418604,
+        "overlap_count": 12,
+        "answer_keywords": 70,
+        "true_keywords": 16
+      },
+      "length_metrics": {
+        "char_answer": 969,
+        "char_true": 137,
+        "char_ratio": 7.072992700729927,
+        "words_answer": 150,
+        "words_true": 24,
+        "words_ratio": 6.25
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.13245033112582782,
+          "recall": 0.8333333333333334,
+          "f1": 0.22857142857142856
+        },
+        "rouge_2": {
+          "precision": 0.08666666666666667,
+          "recall": 0.5652173913043478,
+          "f1": 0.15028901734104047
+        },
+        "rouge_l": {
+          "precision": 0.09933774834437085,
+          "recall": 0.625,
+          "f1": 0.17142857142857143
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.08472724559144106,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.13245033112582782,
+          0.08666666666666667,
+          0.0738255033557047,
+          0.060810810810810814
+        ]
+      },
+      "timestamp": "2026-06-14T12:27:36.423029"
+    },
+    {
+      "query": "What elements make up the cost of an item of property, plant and equipment under IAS 16?",
+      "answer": "The cost of an item of property, plant and equipment comprises:\n*   Its purchase price, including import duties and non-refundable purchase taxes, after deducting trade discounts and rebates.\n*   Any costs directly attributable to bringing the asset to the location and condition necessary for it to be capable of operating in the manner intended by management.\n*   The initial estimate of the costs of dismantling and removing the item and restoring the site on which it is located, if the entity incurs this obligation when acquiring the item or as a consequence of using it for purposes other than producing inventories during a period.\n\n(IAS 16, paragraph 16)",
+      "true_answer": "Its purchase price including import duties and non-refundable taxes after discounts and rebates; costs directly attributable to bringing the asset to the location and condition necessary; and the initial estimate of dismantling, removal and site restoration costs (IAS 16, paragraph 16).",
+      "similarity_score": 0.06746463547334058,
+      "keyword_metrics": {
+        "precision": 0.45161290322580644,
+        "recall": 0.9333333333333333,
+        "f1": 0.608695652173913,
+        "overlap_count": 28,
+        "answer_keywords": 62,
+        "true_keywords": 30
+      },
+      "length_metrics": {
+        "char_answer": 663,
+        "char_true": 287,
+        "char_ratio": 2.3101045296167246,
+        "words_answer": 108,
+        "words_true": 41,
+        "words_ratio": 2.6341463414634148
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.37735849056603776,
+          "recall": 0.9523809523809523,
+          "f1": 0.5405405405405405
+        },
+        "rouge_2": {
+          "precision": 0.2857142857142857,
+          "recall": 0.7317073170731707,
+          "f1": 0.41095890410958896
+        },
+        "rouge_l": {
+          "precision": 0.3584905660377358,
+          "recall": 0.9047619047619048,
+          "f1": 0.5135135135135135
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.2540703376264085,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.37735849056603776,
+          0.2857142857142857,
+          0.22115384615384615,
+          0.17475728155339806
+        ]
+      },
+      "timestamp": "2026-06-14T12:27:38.155573"
+    },
+    {
+      "query": "What are the two models for measuring property, plant and equipment after recognition under IAS 16?",
+      "answer": "IAS 16 allows entities to choose between two models for measuring property, plant and equipment after recognition: the cost model and the revaluation model. (IAS 16, paragraph 29).\n\n1.  **Cost Model:** Under this model, an item of property, plant and equipment is carried at its cost less any accumulated depreciation and any accumulated impairment losses. (IAS 16, paragraph 30).\n2.  **Revaluation Model:** Under this model, an item of property, plant and equipment whose fair value can be measured reliably is carried at its revalued amount, which is its fair value at the date of revaluation less any subsequent accumulated depreciation and subsequent accumulated impairment losses. (IAS 16, paragraph 31).",
+      "true_answer": "The cost model (cost less accumulated depreciation and impairment losses) and the revaluation model (fair value at revaluation date less subsequent depreciation and impairment) (IAS 16, paragraphs 29-31).",
+      "similarity_score": 0.4216589861751152,
+      "keyword_metrics": {
+        "precision": 0.35714285714285715,
+        "recall": 0.9375,
+        "f1": 0.5172413793103449,
+        "overlap_count": 15,
+        "answer_keywords": 42,
+        "true_keywords": 16
+      },
+      "length_metrics": {
+        "char_answer": 709,
+        "char_true": 204,
+        "char_ratio": 3.4754901960784315,
+        "words_answer": 109,
+        "words_true": 28,
+        "words_ratio": 3.892857142857143
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.25688073394495414,
+          "recall": 0.9655172413793104,
+          "f1": 0.40579710144927544
+        },
+        "rouge_2": {
+          "precision": 0.12037037037037036,
+          "recall": 0.4642857142857143,
+          "f1": 0.1911764705882353
+        },
+        "rouge_l": {
+          "precision": 0.22018348623853212,
+          "recall": 0.8275862068965517,
+          "f1": 0.34782608695652184
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.06076211368215109,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.25688073394495414,
+          0.12037037037037036,
+          0.04672897196261682,
+          0.009433962264150943
+        ]
+      },
+      "timestamp": "2026-06-14T12:27:39.843430"
+    },
+    {
+      "query": "What is depreciation according to IAS 16?",
+      "answer": "Depreciation is the systematic allocation of the depreciable amount of an asset over its useful life (IAS 16, paragraph 6).\n\nIn simpler terms, depreciation is the process of spreading the cost of a tangible asset (like machinery or a building) over the period it is expected to be used. This reflects the consumption of the asset's economic benefits over time.",
+      "true_answer": "The systematic allocation of the depreciable amount of an asset over its useful life (IAS 16, paragraph 6).",
+      "similarity_score": 0.45474613686534215,
+      "keyword_metrics": {
+        "precision": 0.3870967741935484,
+        "recall": 1.0,
+        "f1": 0.5581395348837209,
+        "overlap_count": 12,
+        "answer_keywords": 31,
+        "true_keywords": 12
+      },
+      "length_metrics": {
+        "char_answer": 360,
+        "char_true": 107,
+        "char_ratio": 3.364485981308411,
+        "words_answer": 60,
+        "words_true": 18,
+        "words_ratio": 3.3333333333333335
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.29508196721311475,
+          "recall": 1.0,
+          "f1": 0.4556962025316456
+        },
+        "rouge_2": {
+          "precision": 0.2833333333333333,
+          "recall": 1.0,
+          "f1": 0.4415584415584416
+        },
+        "rouge_l": {
+          "precision": 0.29508196721311475,
+          "recall": 1.0,
+          "f1": 0.4556962025316456
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.27672149442069044,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.29508196721311475,
+          0.2833333333333333,
+          0.2711864406779661,
+          0.25862068965517243
+        ]
+      },
+      "timestamp": "2026-06-14T12:27:55.764659"
+    },
+    {
+      "query": "When is an asset impaired under IAS 36?",
+      "answer": "An asset is impaired when its carrying amount exceeds its recoverable amount (IAS 36, paragraph 8).\n\nThe carrying amount of an asset is the amount at which it is recognised in the financial statements after deducting any accumulated depreciation (amortisation) and accumulated impairment losses (IAS 16, paragraph 6).\n\nThe recoverable amount of an asset is the higher of its fair value less costs of disposal and its value in use (IAS 16, paragraph 6).",
+      "true_answer": "An asset is impaired when its carrying amount exceeds its recoverable amount (IAS 36, paragraph 8).",
+      "similarity_score": 0.3578154425612053,
+      "keyword_metrics": {
+        "precision": 0.3225806451612903,
+        "recall": 1.0,
+        "f1": 0.4878048780487805,
+        "overlap_count": 10,
+        "answer_keywords": 31,
+        "true_keywords": 10
+      },
+      "length_metrics": {
+        "char_answer": 452,
+        "char_true": 99,
+        "char_ratio": 4.565656565656566,
+        "words_answer": 74,
+        "words_true": 16,
+        "words_ratio": 4.625
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.21621621621621623,
+          "recall": 1.0,
+          "f1": 0.35555555555555557
+        },
+        "rouge_2": {
+          "precision": 0.2054794520547945,
+          "recall": 1.0,
+          "f1": 0.3409090909090909
+        },
+        "rouge_l": {
+          "precision": 0.21621621621621623,
+          "recall": 1.0,
+          "f1": 0.35555555555555557
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.19942715842577943,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.21621621621621623,
+          0.2054794520547945,
+          0.19444444444444445,
+          0.18309859154929578
+        ]
+      },
+      "timestamp": "2026-06-14T12:27:57.340938"
+    },
+    {
+      "query": "What is the recoverable amount of an asset under IAS 36?",
+      "answer": "The recoverable amount of an asset is the higher of its fair value less costs of disposal and its value in use. (IAS 36, paragraph 6)\n\n*   **Fair value less costs of disposal** is the price that would be received to sell an asset in an orderly transaction between market participants at the measurement date, minus the costs of disposal. Costs of disposal are the incremental costs directly attributable to disposing of an asset, excluding finance costs and income tax expense. (IAS 36, paragraph 6)\n*   **Value in use** is the present value of the future cash flows expected to be derived from an asset. (IAS 36, paragraph 6)",
+      "true_answer": "The higher of the asset's fair value less costs of disposal and its value in use (IAS 36, paragraph 6).",
+      "similarity_score": 0.2597402597402597,
+      "keyword_metrics": {
+        "precision": 0.28888888888888886,
+        "recall": 1.0,
+        "f1": 0.4482758620689655,
+        "overlap_count": 13,
+        "answer_keywords": 45,
+        "true_keywords": 13
+      },
+      "length_metrics": {
+        "char_answer": 626,
+        "char_true": 103,
+        "char_ratio": 6.077669902912621,
+        "words_answer": 109,
+        "words_true": 20,
+        "words_ratio": 5.45
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.18691588785046728,
+          "recall": 0.9523809523809523,
+          "f1": 0.3125
+        },
+        "rouge_2": {
+          "precision": 0.16037735849056603,
+          "recall": 0.85,
+          "f1": 0.2698412698412698
+        },
+        "rouge_l": {
+          "precision": 0.16822429906542055,
+          "recall": 0.8571428571428571,
+          "f1": 0.28125
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.14654431640446716,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.18691588785046728,
+          0.16037735849056603,
+          0.13333333333333333,
+          0.11538461538461539
+        ]
+      },
+      "timestamp": "2026-06-14T12:27:59.137325"
+    },
+    {
+      "query": "What is a cash-generating unit under IAS 36?",
+      "answer": "A cash-generating unit is defined as \"the smallest identifiable group of assets that generates cash inflows that are largely independent of the cash inflows from other assets or groups of assets\" (IAS 36, paragraph 6).\n\nIn simpler terms, it's the smallest collection of assets that can produce cash on its own, without its cash generation being heavily reliant on other assets or groups of assets within the company.",
+      "true_answer": "The smallest identifiable group of assets that generates cash inflows that are largely independent of the cash inflows from other assets or groups of assets (IAS 36, paragraph 6).",
+      "similarity_score": 0.6024096385542169,
+      "keyword_metrics": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "overlap_count": 17,
+        "answer_keywords": 34,
+        "true_keywords": 17
+      },
+      "length_metrics": {
+        "char_answer": 416,
+        "char_true": 179,
+        "char_ratio": 2.3240223463687153,
+        "words_answer": 68,
+        "words_true": 29,
+        "words_ratio": 2.3448275862068964
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.4142857142857143,
+          "recall": 1.0,
+          "f1": 0.5858585858585859
+        },
+        "rouge_2": {
+          "precision": 0.4057971014492754,
+          "recall": 1.0,
+          "f1": 0.577319587628866
+        },
+        "rouge_l": {
+          "precision": 0.4142857142857143,
+          "recall": 1.0,
+          "f1": 0.5858585858585859
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.40118120066494894,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.4142857142857143,
+          0.4057971014492754,
+          0.39705882352941174,
+          0.3880597014925373
+        ]
+      },
+      "timestamp": "2026-06-14T12:28:00.889077"
+    },
+    {
+      "query": "How does a lessee initially measure the lease liability under IFRS 16?",
+      "answer": "A lessee initially measures the lease liability at the present value of the lease payments that are not paid at the commencement date. (IFRS 16, paragraph 26).\n\nThe lease payments included in this measurement comprise:\n*   Fixed payments (including in-substance fixed payments), less any lease incentives receivable.\n*   Variable lease payments that depend on an index or a rate, initially measured using the index or rate as at the commencement date.\n*   Amounts expected to be payable under residual value guarantees.\n*   The exercise price of a purchase option if the lessee is reasonably certain to exercise that option.\n*   Payments of penalties for terminating the lease, if the lease term reflects the lessee exercising an option to terminate the lease. (IFRS 16, paragraph 27).\n\nThe discount rate used is the interest rate implicit in the lease, if readily determinable. Otherwise, the lessee uses its incremental borrowing rate. (IFRS 16, paragraph 26).",
+      "true_answer": "At the present value of the lease payments that are not paid at the commencement date, discounted using the interest rate implicit in the lease or, if not readily determinable, the lessee's incremental borrowing rate (IFRS 16, paragraph 26).",
+      "similarity_score": 0.0506108202443281,
+      "keyword_metrics": {
+        "precision": 0.34375,
+        "recall": 0.9565217391304348,
+        "f1": 0.5057471264367817,
+        "overlap_count": 22,
+        "answer_keywords": 64,
+        "true_keywords": 23
+      },
+      "length_metrics": {
+        "char_answer": 962,
+        "char_true": 241,
+        "char_ratio": 3.991701244813278,
+        "words_answer": 152,
+        "words_true": 39,
+        "words_ratio": 3.8974358974358974
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.25,
+          "recall": 0.925,
+          "f1": 0.39361702127659576
+        },
+        "rouge_2": {
+          "precision": 0.20408163265306123,
+          "recall": 0.7692307692307693,
+          "f1": 0.3225806451612903
+        },
+        "rouge_l": {
+          "precision": 0.24324324324324326,
+          "recall": 0.9,
+          "f1": 0.3829787234042553
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.18668670983419067,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.25,
+          0.20408163265306123,
+          0.1643835616438356,
+          0.14482758620689656
+        ]
+      },
+      "timestamp": "2026-06-14T12:28:02.793233"
+    },
+    {
+      "query": "A machine costs 120000 euros, has a residual value of 20000 euros and a useful life of 8 years. What is the annual straight-line depreciation, and which standard governs it?",
+      "answer": "The annual straight-line depreciation is 12,500 euros. This is governed by IAS 16 Property, Plant and Equipment.\n\nHere's the calculation:\n\n1.  **Determine the depreciable amount:** This is the cost of the asset less its residual value.\n    *   Depreciable amount = Cost - Residual Value\n    *   Depreciable amount = 120,000 euros - 20,000 euros = 100,000 euros (IAS 16, paragraph 53)\n\n2.  **Calculate the annual depreciation:** Using the straight-line method, the depreciable amount is allocated evenly over the useful life.\n    *   Annual Depreciation = Depreciable Amount / Useful Life\n    *   Annual Depreciation = 100,000 euros / 8 years = 12,500 euros per year (IAS 16, paragraph 62)\n\nThe standard that governs depreciation is IAS 16 Property, Plant and Equipment. Specifically, the definition of \"Depreciable amount\" is found in paragraph 6, and the explanation of depreciation methods, including the straight-line method, is in paragraph 62. The requirement to allocate the depreciable amount over the useful life is in paragraph 50.",
+      "true_answer": "Annual depreciation = (120000 - 20000) / 8 = 12500 euros per year, under IAS 16.",
+      "similarity_score": 0.12019704433497537,
+      "keyword_metrics": {
+        "precision": 0.1,
+        "recall": 0.5555555555555556,
+        "f1": 0.16949152542372883,
+        "overlap_count": 5,
+        "answer_keywords": 50,
+        "true_keywords": 9
+      },
+      "length_metrics": {
+        "char_answer": 1040,
+        "char_true": 80,
+        "char_ratio": 13.0,
+        "words_answer": 158,
+        "words_true": 16,
+        "words_ratio": 9.875
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.05194805194805195,
+          "recall": 0.6666666666666666,
+          "f1": 0.0963855421686747
+        },
+        "rouge_2": {
+          "precision": 0.026143790849673203,
+          "recall": 0.36363636363636365,
+          "f1": 0.04878048780487805
+        },
+        "rouge_l": {
+          "precision": 0.05194805194805195,
+          "recall": 0.6666666666666666,
+          "f1": 0.0963855421686747
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.0,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.05194805194805195,
+          0.026143790849673203,
+          0.006578947368421052,
+          0.0
+        ]
+      },
+      "timestamp": "2026-06-14T12:28:05.013759"
+    },
+    {
+      "query": "Inventory cost 50000 euros. Expected selling price is 52000 euros and costs to sell are 5000 euros. At what amount is the inventory measured under IAS 2?",
+      "answer": "Under IAS 2, inventories are measured at the lower of cost and net realisable value (NRV). (IAS 2, paragraph 9).\n\nThe cost of the inventory is 50,000 euros. (IAS 2, paragraph 9).\n\nNet realisable value (NRV) is defined as the estimated selling price in the ordinary course of business less the estimated costs of completion and the estimated costs necessary to make the sale. (IAS 2, paragraph 6).\n\nIn this case:\n*   Estimated selling price = 52,000 euros\n*   Estimated costs to sell = 5,000 euros\n\nTherefore, the NRV is calculated as:\nNRV = Estimated selling price - Estimated costs to sell\nNRV = 52,000 euros - 5,000 euros\nNRV = 47,000 euros\n\nThe inventory is measured at the lower of cost (50,000 euros) and NRV (47,000 euros).\n\nThe inventory is measured at **47,000 euros**.",
+      "true_answer": "Net realisable value = 52000 - 5000 = 47000 euros, which is below cost, so the inventory is measured at 47000 euros (write-down of 3000 euros) under IAS 2.",
+      "similarity_score": 0.2186046511627907,
+      "keyword_metrics": {
+        "precision": 0.2857142857142857,
+        "recall": 0.5555555555555556,
+        "f1": 0.3773584905660377,
+        "overlap_count": 10,
+        "answer_keywords": 35,
+        "true_keywords": 18
+      },
+      "length_metrics": {
+        "char_answer": 777,
+        "char_true": 155,
+        "char_ratio": 5.012903225806451,
+        "words_answer": 135,
+        "words_true": 29,
+        "words_ratio": 4.655172413793103
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.1259259259259259,
+          "recall": 0.6296296296296297,
+          "f1": 0.20987654320987656
+        },
+        "rouge_2": {
+          "precision": 0.05970149253731343,
+          "recall": 0.3076923076923077,
+          "f1": 0.09999999999999999
+        },
+        "rouge_l": {
+          "precision": 0.08888888888888889,
+          "recall": 0.4444444444444444,
+          "f1": 0.14814814814814814
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.04549028862511169,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.1259259259259259,
+          0.05970149253731343,
+          0.03759398496240601,
+          0.015151515151515152
+        ]
+      },
+      "timestamp": "2026-06-14T12:28:07.103412"
+    },
+    {
+      "query": "An asset has a carrying amount of 200000 euros, fair value less costs of disposal of 150000 euros and value in use of 170000 euros. What is the impairment loss under IAS 36?",
+      "answer": "The impairment loss is 30,000 euros.\n\nHere's the breakdown according to IAS 36:\n\n1.  **Determine the Recoverable Amount:** The recoverable amount is the higher of fair value less costs of disposal and value in use.\n    *   Fair value less costs of disposal = 150,000 euros\n    *   Value in use = 170,000 euros\n    *   Recoverable amount = Higher of (150,000, 170,000) = 170,000 euros (IAS 36, paragraph 18)\n\n2.  **Calculate the Impairment Loss:** An impairment loss is recognised if the carrying amount of an asset exceeds its recoverable amount. The impairment loss is the amount by which the carrying amount exceeds the recoverable amount.\n    *   Carrying amount = 200,000 euros\n    *   Recoverable amount = 170,000 euros\n    *   Impairment loss = Carrying amount - Recoverable amount\n    *   Impairment loss = 200,000 euros - 170,000 euros = 30,000 euros (IAS 36, paragraph 6, definition of impairment loss and paragraph 59)",
+      "true_answer": "Recoverable amount = higher of 150000 and 170000 = 170000 euros. Impairment loss = 200000 - 170000 = 30000 euros (IAS 36).",
+      "similarity_score": 0.21166306695464362,
+      "keyword_metrics": {
+        "precision": 0.25,
+        "recall": 0.6666666666666666,
+        "f1": 0.36363636363636365,
+        "overlap_count": 8,
+        "answer_keywords": 32,
+        "true_keywords": 12
+      },
+      "length_metrics": {
+        "char_answer": 928,
+        "char_true": 122,
+        "char_ratio": 7.60655737704918,
+        "words_answer": 147,
+        "words_true": 22,
+        "words_ratio": 6.681818181818182
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.07801418439716312,
+          "recall": 0.6470588235294118,
+          "f1": 0.13924050632911392
+        },
+        "rouge_2": {
+          "precision": 0.05,
+          "recall": 0.4375,
+          "f1": 0.08974358974358976
+        },
+        "rouge_l": {
+          "precision": 0.07801418439716312,
+          "recall": 0.6470588235294118,
+          "f1": 0.13924050632911392
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.030031527361981246,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.07801418439716312,
+          0.05,
+          0.02877697841726619,
+          0.007246376811594203
+        ]
+      },
+      "timestamp": "2026-06-14T12:28:09.400273"
+    },
+    {
+      "query": "A lease has 5 annual payments of 10000 euros payable in arrears and the discount rate is 5 percent. What is the initial lease liability under IFRS 16?",
+      "answer": "The initial measurement of the lease liability is the present value of the lease payments that are not paid at the commencement date, discounted using the interest rate implicit in the lease or the lessee's incremental borrowing rate. (IFRS 16, paragraph 26).\n\nIn this case, the lease payments are 10,000 euros annually for 5 years, payable in arrears, and the discount rate is 5%.\n\nThe lease liability is calculated as the present value of an ordinary annuity:\n\nFormula:\nPV = P * [1 - (1 + r)^-n] / r\n\nWhere:\nPV = Present Value (Lease Liability)\nP = Periodic Payment (10,000 euros)\nr = Discount Rate (5% or 0.05)\nn = Number of Periods (5 years)\n\nCalculation:\nPV = 10,000 * [1 - (1 + 0.05)^-5] / 0.05\nPV = 10,000 * [1 - (1.05)^-5] / 0.05\nPV = 10,000 * [1 - 0.783526] / 0.05\nPV = 10,000 * [0.216474] / 0.05\nPV = 10,000 * 4.32948\nPV = 43,294.80 euros\n\nThe initial lease liability is 43,294.80 euros. (IFRS 16, paragraphs 26 and 27).",
+      "true_answer": "The present value of an annuity of 10000 for 5 years at 5% is approximately 43295 euros, recognised as the initial lease liability under IFRS 16.",
+      "similarity_score": 0.22661122661122662,
+      "keyword_metrics": {
+        "precision": 0.22,
+        "recall": 0.6875,
+        "f1": 0.3333333333333333,
+        "overlap_count": 11,
+        "answer_keywords": 50,
+        "true_keywords": 16
+      },
+      "length_metrics": {
+        "char_answer": 930,
+        "char_true": 145,
+        "char_ratio": 6.413793103448276,
+        "words_answer": 175,
+        "words_true": 26,
+        "words_ratio": 6.730769230769231
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.12209302325581395,
+          "recall": 0.8076923076923077,
+          "f1": 0.2121212121212121
+        },
+        "rouge_2": {
+          "precision": 0.06432748538011696,
+          "recall": 0.44,
+          "f1": 0.11224489795918366
+        },
+        "rouge_l": {
+          "precision": 0.09883720930232558,
+          "recall": 0.6538461538461539,
+          "f1": 0.1717171717171717
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.0470983915032094,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.12209302325581395,
+          0.06432748538011696,
+          0.03529411764705882,
+          0.01775147928994083
+        ]
+      },
+      "timestamp": "2026-06-14T12:28:11.833851"
+    },
+    {
+      "query": "A contract has a total price of 100000 euros covering two performance obligations with stand-alone selling prices of 40000 and 80000 euros. How is the transaction price allocated under IFRS 15?",
+      "answer": "The transaction price is allocated to each performance obligation on a relative stand-alone selling price basis. (IFRS 15, paragraph 74).\n\nHere's how the allocation is done:\n\n1.  **Calculate the total stand-alone selling prices:**\n    40,000 euros + 80,000 euros = 120,000 euros\n\n2.  **Determine the proportion of each stand-alone selling price to the total:**\n    *   Performance Obligation 1: (40,000 euros / 120,000 euros) = 0.3333 or 33.33%\n    *   Performance Obligation 2: (80,000 euros / 120,000 euros) = 0.6667 or 66.67%\n\n3.  **Allocate the transaction price (100,000 euros) based on these proportions:**\n    *   Performance Obligation 1: 100,000 euros \\* 0.3333 = 33,330 euros\n    *   Performance Obligation 2: 100,000 euros \\* 0.6667 = 66,670 euros\n\nTherefore, the transaction price of 100,000 euros is allocated as follows:\n*   33,330 euros to the first performance obligation.\n*   66,670 euros to the second performance obligation.\n\nThis allocation ensures that the amount allocated to each performance obligation depicts the amount of consideration to which the entity expects to be entitled in exchange for transferring the promised goods or services to the customer (IFRS 15, paragraph 73).",
+      "true_answer": "On a relative stand-alone selling price basis: 100000 x 40000/120000 = 33333 euros to the first obligation and 100000 x 80000/120000 = 66667 euros to the second (IFRS 15).",
+      "similarity_score": 0.21297037630104082,
+      "keyword_metrics": {
+        "precision": 0.21428571428571427,
+        "recall": 0.631578947368421,
+        "f1": 0.32,
+        "overlap_count": 12,
+        "answer_keywords": 56,
+        "true_keywords": 19
+      },
+      "length_metrics": {
+        "char_answer": 1205,
+        "char_true": 171,
+        "char_ratio": 7.046783625730995,
+        "words_answer": 179,
+        "words_true": 29,
+        "words_ratio": 6.172413793103448
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.10106382978723404,
+          "recall": 0.6333333333333333,
+          "f1": 0.17431192660550457
+        },
+        "rouge_2": {
+          "precision": 0.0748663101604278,
+          "recall": 0.4827586206896552,
+          "f1": 0.1296296296296296
+        },
+        "rouge_l": {
+          "precision": 0.10106382978723404,
+          "recall": 0.6333333333333333,
+          "f1": 0.17431192660550457
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.06263598148403006,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.10106382978723404,
+          0.0748663101604278,
+          0.053763440860215055,
+          0.03783783783783784
+        ]
+      },
+      "timestamp": "2026-06-14T12:28:14.415821"
+    },
+    {
+      "query": "Equipment costs 250000 euros with a residual value of 10000 euros and a useful life of 6 years. What is the annual straight-line depreciation?",
+      "answer": "Errore durante l'elaborazione della query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 42.393696059s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 42\n}\n]",
+      "true_answer": "(250000 - 10000) / 6 = 40000 euros per year (IAS 16).",
+      "similarity_score": 0.0389908256880734,
+      "keyword_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "overlap_count": 0,
+        "answer_keywords": 62,
+        "true_keywords": 6
+      },
+      "length_metrics": {
+        "char_answer": 943,
+        "char_true": 53,
+        "char_ratio": 17.79245283018868,
+        "words_answer": 92,
+        "words_true": 12,
+        "words_ratio": 7.666666666666667
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "rouge_2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "rouge_l": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.0,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "timestamp": "2026-06-14T12:29:17.955895"
+    },
+    {
+      "query": "A machine cost 90000 euros, residual value zero, total expected production 300000 units. This year it produced 45000 units. What is the depreciation charge under the units of production method?",
+      "answer": "The depreciation charge for the year is 13,500 euros.\n\nHere's the calculation:\n\n1.  **Determine the depreciable amount:**\n    *   Cost of the asset: 90,000 euros\n    *   Residual value: 0 euros\n    *   Depreciable amount = Cost - Residual Value = 90,000 - 0 = 90,000 euros (IAS 16, paragraph 53)\n\n2.  **Calculate the depreciation rate per unit:**\n    *   Depreciable amount: 90,000 euros\n    *   Total expected production: 300,000 units\n    *   Depreciation rate per unit = Depreciable Amount / Total Expected Production = 90,000 euros / 300,000 units = 0.30 euros per unit (IAS 16, paragraph 62)\n\n3.  **Calculate the depreciation charge for the year:**\n    *   Depreciation rate per unit: 0.30 euros\n    *   Units produced this year: 45,000 units\n    *   Depreciation charge = Depreciation rate per unit \\* Units produced this year = 0.30 euros/unit \\* 45,000 units = 13,500 euros (IAS 16, paragraph 62)\n\nThis calculation uses the units of production method, which is appropriate when the asset's consumption of future economic benefits is based on its output or usage (IAS 16, paragraph 62). The depreciation charge is recognised in profit or loss unless it is included in the carrying amount of another asset (IAS 16, paragraph 48).",
+      "true_answer": "90000 x 45000/300000 = 13500 euros (IAS 16, units of production method).",
+      "similarity_score": 0.10829694323144105,
+      "keyword_metrics": {
+        "precision": 0.10204081632653061,
+        "recall": 0.5555555555555556,
+        "f1": 0.1724137931034483,
+        "overlap_count": 5,
+        "answer_keywords": 49,
+        "true_keywords": 9
+      },
+      "length_metrics": {
+        "char_answer": 1235,
+        "char_true": 72,
+        "char_ratio": 17.15277777777778,
+        "words_answer": 195,
+        "words_true": 12,
+        "words_ratio": 16.25
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.03723404255319149,
+          "recall": 0.5833333333333334,
+          "f1": 0.06999999999999999
+        },
+        "rouge_2": {
+          "precision": 0.026737967914438502,
+          "recall": 0.45454545454545453,
+          "f1": 0.050505050505050504
+        },
+        "rouge_l": {
+          "precision": 0.03723404255319149,
+          "recall": 0.5833333333333334,
+          "f1": 0.06999999999999999
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.017164307749386553,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.03723404255319149,
+          0.026737967914438502,
+          0.016129032258064516,
+          0.005405405405405406
+        ]
+      },
+      "timestamp": "2026-06-14T12:29:20.089353"
+    },
+    {
+      "query": "A building has a carrying amount of 500000 euros. Its value in use is 460000 euros and its fair value less costs of disposal is 430000 euros. Is it impaired, and by how much?",
+      "answer": "Yes, the building is impaired.\n\nThe carrying amount of the building is 500,000 euros.\nThe recoverable amount is the higher of its fair value less costs of disposal (430,000 euros) and its value in use (460,000 euros). Therefore, the recoverable amount is 460,000 euros (IAS 36, paragraph 6).\n\nSince the carrying amount (500,000 euros) exceeds the recoverable amount (460,000 euros), an impairment loss must be recognised (IAS 36, paragraph 59).\n\nThe impairment loss is calculated as:\nCarrying amount - Recoverable amount\n500,000 euros - 460,000 euros = 40,000 euros\n\nThe impairment loss is 40,000 euros. This loss is recognised immediately in profit or loss, as the building is not stated to be a revalued asset (IAS 36, paragraph 60).",
+      "true_answer": "Recoverable amount = 460000 euros (higher of the two). Impairment loss = 500000 - 460000 = 40000 euros (IAS 36).",
+      "similarity_score": 0.17380352644836272,
+      "keyword_metrics": {
+        "precision": 0.21052631578947367,
+        "recall": 0.6666666666666666,
+        "f1": 0.32,
+        "overlap_count": 8,
+        "answer_keywords": 38,
+        "true_keywords": 12
+      },
+      "length_metrics": {
+        "char_answer": 735,
+        "char_true": 112,
+        "char_ratio": 6.5625,
+        "words_answer": 119,
+        "words_true": 20,
+        "words_ratio": 5.95
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.0873015873015873,
+          "recall": 0.6875,
+          "f1": 0.15492957746478872
+        },
+        "rouge_2": {
+          "precision": 0.048,
+          "recall": 0.4,
+          "f1": 0.08571428571428572
+        },
+        "rouge_l": {
+          "precision": 0.07936507936507936,
+          "recall": 0.625,
+          "f1": 0.14084507042253522
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.0,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.0873015873015873,
+          0.048,
+          0.008064516129032258,
+          0.0
+        ]
+      },
+      "timestamp": "2026-06-14T12:29:39.405456"
+    },
+    {
+      "query": "Which standard applies to a retailer's merchandise held for resale?",
+      "answer": "Errore durante l'elaborazione della query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 17.290202469s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 17\n}\n]",
+      "true_answer": "IAS 2 Inventories: merchandise purchased by a retailer and held for resale is inventory.",
+      "similarity_score": 0.10480349344978165,
+      "keyword_metrics": {
+        "precision": 0.03225806451612903,
+        "recall": 0.2,
+        "f1": 0.05555555555555555,
+        "overlap_count": 2,
+        "answer_keywords": 62,
+        "true_keywords": 10
+      },
+      "length_metrics": {
+        "char_answer": 943,
+        "char_true": 88,
+        "char_ratio": 10.715909090909092,
+        "words_answer": 92,
+        "words_true": 14,
+        "words_ratio": 6.571428571428571
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.02608695652173913,
+          "recall": 0.21428571428571427,
+          "f1": 0.046511627906976744
+        },
+        "rouge_2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "rouge_l": {
+          "precision": 0.017391304347826087,
+          "recall": 0.14285714285714285,
+          "f1": 0.031007751937984496
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.0,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.02608695652173913,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "timestamp": "2026-06-14T12:30:43.069541"
+    },
+    {
+      "query": "A company signs a 10-year office lease. As lessee, what must it recognise at commencement and under which standard?",
+      "answer": "Errore durante l'elaborazione della query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 13.730893678s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 13\n}\n]",
+      "true_answer": "Under IFRS 16 the lessee recognises a right-of-use asset and a lease liability at the commencement date.",
+      "similarity_score": 0.11361200428724544,
+      "keyword_metrics": {
+        "precision": 0.016129032258064516,
+        "recall": 0.07692307692307693,
+        "f1": 0.026666666666666665,
+        "overlap_count": 1,
+        "answer_keywords": 62,
+        "true_keywords": 13
+      },
+      "length_metrics": {
+        "char_answer": 943,
+        "char_true": 104,
+        "char_ratio": 9.067307692307692,
+        "words_answer": 92,
+        "words_true": 17,
+        "words_ratio": 5.411764705882353
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.008695652173913044,
+          "recall": 0.05263157894736842,
+          "f1": 0.014925373134328358
+        },
+        "rouge_2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "rouge_l": {
+          "precision": 0.008695652173913044,
+          "recall": 0.05263157894736842,
+          "f1": 0.014925373134328358
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.0,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.008695652173913044,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "timestamp": "2026-06-14T12:31:46.630720"
+    },
+    {
+      "query": "Under which standard is goodwill tested for impairment, and how often?",
+      "answer": "Errore durante l'elaborazione della query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 9.803058302s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 9\n}\n]",
+      "true_answer": "IAS 36: goodwill acquired in a business combination is tested for impairment annually, and whenever there is an indication of impairment.",
+      "similarity_score": 0.11226611226611227,
+      "keyword_metrics": {
+        "precision": 0.03225806451612903,
+        "recall": 0.15384615384615385,
+        "f1": 0.05333333333333333,
+        "overlap_count": 2,
+        "answer_keywords": 62,
+        "true_keywords": 13
+      },
+      "length_metrics": {
+        "char_answer": 941,
+        "char_true": 137,
+        "char_ratio": 6.868613138686132,
+        "words_answer": 92,
+        "words_true": 21,
+        "words_ratio": 4.380952380952381
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.02608695652173913,
+          "recall": 0.14285714285714285,
+          "f1": 0.044117647058823525
+        },
+        "rouge_2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "rouge_l": {
+          "precision": 0.008695652173913044,
+          "recall": 0.047619047619047616,
+          "f1": 0.014705882352941178
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.0,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.02608695652173913,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "timestamp": "2026-06-14T12:32:50.543643"
+    },
+    {
+      "query": "When is revenue recognised over time rather than at a point in time under IFRS 15?",
+      "answer": "An entity recognises revenue over time if one of the following criteria is met:\n*   The customer simultaneously receives and consumes the benefits provided by the entity's performance as the entity performs.\n*   The entity's performance creates or enhances an asset that the customer controls as the asset is created or enhanced.\n*   The entity's performance does not create an asset with an alternative use to the entity, and the entity has an enforceable right to payment for performance completed to date.\n\n(IFRS 15, paragraph 35)",
+      "true_answer": "When one of the IFRS 15 paragraph 35 criteria is met: the customer simultaneously receives and consumes the benefits; the entity's performance creates or enhances an asset the customer controls; or the asset has no alternative use and the entity has an enforceable right to payment for performance completed to date.",
+      "similarity_score": 0.055825242718446605,
+      "keyword_metrics": {
+        "precision": 0.6585365853658537,
+        "recall": 0.9642857142857143,
+        "f1": 0.782608695652174,
+        "overlap_count": 27,
+        "answer_keywords": 41,
+        "true_keywords": 28
+      },
+      "length_metrics": {
+        "char_answer": 533,
+        "char_true": 316,
+        "char_ratio": 1.6867088607594938,
+        "words_answer": 86,
+        "words_true": 51,
+        "words_ratio": 1.6862745098039216
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.5697674418604651,
+          "recall": 0.9423076923076923,
+          "f1": 0.7101449275362319
+        },
+        "rouge_2": {
+          "precision": 0.47058823529411764,
+          "recall": 0.7843137254901961,
+          "f1": 0.5882352941176471
+        },
+        "rouge_l": {
+          "precision": 0.5232558139534884,
+          "recall": 0.8653846153846154,
+          "f1": 0.6521739130434783
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.42293746760518874,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.5697674418604651,
+          0.47058823529411764,
+          0.38095238095238093,
+          0.3132530120481928
+        ]
+      },
+      "timestamp": "2026-06-14T12:33:22.883324"
+    },
+    {
+      "query": "What does IFRS 9 say about expected credit losses?",
+      "answer": "The question about expected credit losses relates to IFRS 9, which is not among the five standards I have access to (IAS 2, IAS 16, IAS 36, IFRS 15, and IFRS 16). Therefore, I cannot provide an answer to this question.",
+      "true_answer": "Out of scope: IFRS 9 is not in this assistant's knowledge base, which covers only IAS 2, IAS 16, IAS 36, IFRS 15 and IFRS 16. The assistant should say it cannot answer.",
+      "similarity_score": 0.5474254742547425,
+      "keyword_metrics": {
+        "precision": 0.4090909090909091,
+        "recall": 0.5,
+        "f1": 0.45,
+        "overlap_count": 9,
+        "answer_keywords": 22,
+        "true_keywords": 18
+      },
+      "length_metrics": {
+        "char_answer": 218,
+        "char_true": 168,
+        "char_ratio": 1.2976190476190477,
+        "words_answer": 41,
+        "words_true": 33,
+        "words_ratio": 1.2424242424242424
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.4878048780487805,
+          "recall": 0.5882352941176471,
+          "f1": 0.5333333333333332
+        },
+        "rouge_2": {
+          "precision": 0.3,
+          "recall": 0.36363636363636365,
+          "f1": 0.32876712328767127
+        },
+        "rouge_l": {
+          "precision": 0.4146341463414634,
+          "recall": 0.5,
+          "f1": 0.45333333333333337
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.29037747307996287,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.4878048780487805,
+          0.3,
+          0.23076923076923078,
+          0.21052631578947367
+        ]
+      },
+      "timestamp": "2026-06-14T12:33:54.870173"
+    },
+    {
+      "query": "How should deferred tax assets be recognised?",
+      "answer": "Errore durante l'elaborazione della query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 1.950976151s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 1\n}\n]",
+      "true_answer": "Out of scope: deferred tax is governed by IAS 12, which is not in the knowledge base. The assistant should say it cannot answer.",
+      "similarity_score": 0.07983193277310924,
+      "keyword_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "overlap_count": 0,
+        "answer_keywords": 62,
+        "true_keywords": 16
+      },
+      "length_metrics": {
+        "char_answer": 941,
+        "char_true": 128,
+        "char_ratio": 7.3515625,
+        "words_answer": 92,
+        "words_true": 24,
+        "words_ratio": 3.8333333333333335
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.008695652173913044,
+          "recall": 0.041666666666666664,
+          "f1": 0.014388489208633094
+        },
+        "rouge_2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "rouge_l": {
+          "precision": 0.008695652173913044,
+          "recall": 0.041666666666666664,
+          "f1": 0.014388489208633094
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.0,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.008695652173913044,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "timestamp": "2026-06-14T12:34:58.397653"
+    },
+    {
+      "query": "What is the current VAT rate in Italy?",
+      "answer": "Errore durante l'elaborazione della query: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite\nPlease retry in 58.207047143s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash-lite\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 58\n}\n]",
+      "true_answer": "Out of scope: VAT rates are not part of IFRS standards. The assistant should refuse and explain it only answers IFRS/IAS questions.",
+      "similarity_score": 0.10855949895615867,
+      "keyword_metrics": {
+        "precision": 0.016129032258064516,
+        "recall": 0.05263157894736842,
+        "f1": 0.024691358024691357,
+        "overlap_count": 1,
+        "answer_keywords": 62,
+        "true_keywords": 19
+      },
+      "length_metrics": {
+        "char_answer": 943,
+        "char_true": 131,
+        "char_ratio": 7.198473282442748,
+        "words_answer": 92,
+        "words_true": 22,
+        "words_ratio": 4.181818181818182
+      },
+      "rouge_metrics": {
+        "rouge_1": {
+          "precision": 0.008695652173913044,
+          "recall": 0.043478260869565216,
+          "f1": 0.014492753623188408
+        },
+        "rouge_2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "rouge_l": {
+          "precision": 0.008695652173913044,
+          "recall": 0.043478260869565216,
+          "f1": 0.014492753623188408
+        }
+      },
+      "bleu_metrics": {
+        "bleu": 0.0,
+        "brevity_penalty": 1.0,
+        "precision_scores": [
+          0.008695652173913044,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "timestamp": "2026-06-14T12:36:02.143187"
+    }
+  ]
+}

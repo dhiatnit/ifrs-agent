@@ -88,23 +88,46 @@ On Windows, run with UTF-8 mode if you see encoding errors:
 
 - [x] Environment + pinned dependencies
 - [x] IFRS data extraction from EUR-Lex (5 standards)
-- [ ] FAISS index + IFRS system prompt
-- [ ] Agent with tools (`agent.py`, `tools.py`)
-- [ ] Question set (~30 questions with true answers)
-- [ ] Evaluation results (rageval + LLM-as-judge)
-- [ ] Demo notebook + Gradio UI
-- [ ] Slides
+- [x] FAISS index + IFRS system prompt
+- [x] Agent with tools (`agent.py`, `tools.py`)
+- [x] Question set (30 questions with true answers)
+- [x] Evaluation results (rageval + LLM-as-judge)
+- [x] Demo notebook + Gradio UI
+- [x] Slides
 
 ## Team
 
 | Member | GitHub | Focus |
 |---|---|---|
-| Ben Hassine Dhia Eddine | @dhiatnit | Core: environment, data pipeline, agent & tools, prompts |
-| _Teammate A_ | _@..._ | Data QA, Gradio UI, eval questions, slides |
-| _Teammate B_ | papinidavide | Data QA, demo notebook, eval questions, metrics & error analysis |
+| Ben Hassine Dhia Eddine | @dhiatnit | Core: environment, data pipeline, agent & tools, prompts, evaluation |
+| Madushani | @A-Madushani | Data QA, Gradio UI, eval questions, slides |
+| Davide Papini | @papinidavide | Data QA, demo notebook, eval questions, metrics & error analysis |
 
 See `TEAM_PLAN.md` for the detailed work split and commit plan.
 
 ## Results
 
-_To be filled after evaluation._
+Evaluation on a 30-question test set (15 definitions/scope, 12 calculations,
+3 out-of-scope refusal tests). The agent and the plain-RAG baseline use the
+**same** LLM (`gemini-2.5-flash-lite`), so differences come from the agent's
+tool use, not the model. Full details in
+[`results/error_analysis.md`](results/error_analysis.md).
+
+- **30 / 30** questions answered; **3 / 3** out-of-scope questions correctly refused.
+- **Agent beats the plain-RAG baseline** on the automatic metrics:
+
+  | Metric | Agent | Baseline |
+  |---|---|---|
+  | Keyword recall | **0.74** | 0.67 |
+  | Keyword F1 | **0.44** | 0.40 |
+  | Text similarity | **0.31** | 0.26 |
+  | ROUGE-1 F1 | **0.37** | 0.32 |
+  | BLEU | 0.16 | 0.16 |
+
+- **LLM-as-judge (agent):** 15/19 judged answers semantically equivalent
+  (**79%**), mean confidence **0.97**. (Overlap metrics read low because the
+  agent gives fuller, *cited* answers than the one-line references — keyword
+  recall and the judge confirm the content is correct.)
+- Calculations are exact because they are routed to the `calculator` tool.
+
+Slides: [`slides/presentation.pptx`](slides/presentation.pptx).

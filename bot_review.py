@@ -17,7 +17,7 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 # === CONFIG ===
 MARKDOWN_DIR = "output_crawler"
 VECTORSTORE_PATH = "index"
-MODEL_NAME_LLM = "gemini-flash-latest"  # was gemini-2.0-flash: free tier now has limit 0 for it (2026-06)
+MODEL_NAME_LLM = "gemini-2.5-flash-lite"  # was gemini-2.0-flash (free-tier limit 0), then flash-latest (5/min); flash-lite gives 20/min and matches the agent's model for a clean baseline-vs-agent comparison
 MODEL_NAME_EMBEDDINGS = "models/gemini-embedding-001"  # was models/embedding-001, retired by Google (404 as of 2026-06)
 BATCH_SIZE = 50   # smaller embedding batches: free-tier tokens-per-minute limit
 BATCH_WAIT = 45   # seconds between batches, lets the per-minute quota refresh
