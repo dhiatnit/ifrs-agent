@@ -135,8 +135,6 @@ On Windows, run with UTF-8 mode if you see encoding errors:
 | Madushani | @A-Madushani | Data QA, Gradio UI, eval questions, slides |
 | Davide Papini | @papinidavide | Data QA, demo notebook, eval questions, metrics & error analysis |
 
-See `TEAM_PLAN.md` for the detailed work split and commit plan.
-
 ## Results
 
 Evaluation on a 30-question test set (15 definitions/scope, 12 calculations,
