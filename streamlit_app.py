@@ -76,4 +76,4 @@ with st.sidebar:
         "- When is an asset impaired under IAS 36?\n"
         "- What is the current VAT rate in Italy? *(should be refused)*"
     )
-    st.caption("Built on Prof. Belli's studentsbot. Agent: gemini-2.5-flash-lite.")
+    st.caption("IFRS/IAS agent — RAG over EU-endorsed standards with tool use.")
