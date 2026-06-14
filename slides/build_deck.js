@@ -118,7 +118,7 @@ s.addText("EU-endorsed, free, machine-readable", { x: 1.0, y: 1.75, w: 5.4, h: 0
 s.addText([
   { text: "Source: Regulation (EU) 2023/1803 via EUR-Lex (12 MB, all 40 standards)", options: { bullet: true, breakLine: true } },
   { text: "Why not ifrs.org: those texts are copyrighted; the EU versions are reusable with attribution", options: { bullet: true, breakLine: true } },
-  { text: "Extracted, cleaned by the team, and cut into 167 section-aligned chunks", options: { bullet: true } },
+  { text: "Extracted from the 12 MB EU text, cleaned by the team (data QA), then automatically split into 167 section-aligned chunks", options: { bullet: true } },
 ], { x: 1.0, y: 2.4, w: 5.4, h: 3.7, fontFace: BFONT, fontSize: 14.5, color: INK, paraSpaceAfter: 12 });
 const stds = ["IAS 2 — Inventories", "IAS 16 — Property, Plant & Equipment", "IAS 36 — Impairment of Assets", "IFRS 15 — Revenue from Contracts", "IFRS 16 — Leases"];
 stds.forEach((t, i) => {
