@@ -54,10 +54,7 @@ Each row is a choice we made and the alternative we rejected, with the reason.
 | LLM | **`gemini-2.5-flash-lite`** | `gemini-3.x` — needs "thought signatures" that break the course-compatible LangChain; bigger models — no free quota headroom for a multi-call agent |
 | Evaluation | Reuse `rageval.py` + LLM-judge, **agent vs plain-RAG baseline on the same model** | Building new metrics — the provided scripts are trusted and the same-model baseline isolates the effect of tool use |
 
-(The "why" behind the model choice is also a finding in itself: free-tier
-**daily request limits** are the binding constraint when evaluating an *agent*,
-because an agent makes several model calls per question — see
-`results/error_analysis.md`.)
+
 
 ## Credits / foundation
 
@@ -165,4 +162,3 @@ tool use, not the model. Full details in
   recall and the judge confirm the content is correct.)
 - Calculations are exact because they are routed to the `calculator` tool.
 
-Slides: [`slides/presentation.pptx`](slides/presentation.pptx).
